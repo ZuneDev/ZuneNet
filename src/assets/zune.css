@@ -1,0 +1,8328 @@
+/* generated on 11/29/2011 9:52:15 AM */
+.artistOverviewImages {
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 458px;
+    height: 265px;
+}
+
+img.artistOverviewImage {
+    margin: 0 -5px 0 0;
+    border: none;
+    padding: 0;
+    display: none;
+    height: 265px;
+}
+
+.artistOverviewThumbs {
+    position: absolute;
+    white-space: nowrap;
+    right: 0;
+    top: 210px;
+    height: 40px;
+    width: 325px;
+    background-color: #000;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    z-index: 20;
+}
+
+a.overviewThumb {
+    float: left;
+    display: block;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+a.overviewThumb:hover {
+    background-color: #333;
+}
+
+.artistOverviewThumbnail img {
+    width: 30px;
+    height: 30px;
+}
+
+#_artistMostActive h2 {
+    display: none;
+}
+
+#_mostActive {
+    padding-top: 40px;
+}
+
+.BlackZwrapper .mostActiveBlock {
+    float: right;
+    width: 320px;
+}
+
+.BlackZwrapper .mostActiveBlock .Pivot {
+    background-color: #333;
+}
+
+.BlackZwrapper .mostActiveBlock h2 {
+    display: none;
+}
+
+.BlackZwrapper #_artistImages {
+    width: 458px;
+    float: left;
+}
+
+.BlackZwrapper .mostActiveBlock .TransparentWrapper .Pivot {
+    background-color: Transparent;
+}
+
+.BlackZwrapper .Pivot {
+    background-color: Transparent;
+}
+
+.BlackZwrapper .Pivot a {
+    color: #FFF;
+}
+
+.relatedArtistTitle {
+    margin-bottom: 10px;
+}
+
+.mostActiveBlock .SongsPlayAll {
+    width: 200px;
+    margin-left: 2px;
+}
+
+.mostActiveBlock .SongsPlayAll span.playallLabel {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EC008C;
+    float: left;
+    margin-left: 3px;
+}
+
+.mostActiveBlock div.ButtonWrap {
+    float: left;
+}
+
+.bingImageBrowseWrapper {
+    margin-bottom: 20px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.bingImageListItem {
+    display: inline-block;
+    width: 196px;
+    height: 170px;
+    vertical-align: top;
+    text-align: center;
+    float: left;
+}
+
+.bingImageListItem a {
+    display: inline-block;
+    padding: 0;
+}
+
+.bingImgWide {
+    width: 135px;
+}
+
+.bingImgTall {
+    height: 135px;
+}
+
+.bingImg {
+    background: white none repeat scroll 0 0;
+    margin: 1px;
+    padding: 4px;
+    visibility: hidden;
+}
+
+.bingVideoListItem {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    float: left;
+    font-size: 11px;
+    height: 174px;
+}
+
+.bingVideoListItemLastCol {
+    margin-right: 0;
+}
+
+a.bingVideoListItemLink {
+    height: 120px;
+    width: 160px;
+    background: #000 none repeat scroll 0 0;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.bingVideoThumbnailImg {
+    width: 160px;
+    visibility: hidden;
+}
+
+.bingTM {
+    font-size: 6px;
+    vertical-align: top;
+    margin-left: 2px;
+}
+
+.bingVideoDetailLink {
+    display: block;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: auto;
+    width: 160px;
+    max-height: 26px;
+}
+
+.bingVideoDetailData {
+    display: block;
+    color: #555;
+}
+
+.bingVideoDetailDataBold {
+    font-weight: bold;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.floatChart {
+    float: left;
+    width: 390px;
+}
+
+a.delUserComment, a.DeleteFollowButtonRight {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+a.delUserComment:hover, a.DeleteFollowButtonRight:hover {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+}
+
+#_ArtistActivityBlock .FanClubArtistLastCol {
+    margin-right: 0;
+}
+
+.FanClubArtist {
+    position: relative;
+    float: left;
+    margin: 0 10px 20px 0;
+    width: 150px;
+    overflow: hidden;
+    font-size: 11px;
+}
+
+.FanClubArtist a {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.FanClubArtist div {
+    float: left;
+    width: 100%;
+}
+
+.FanClubArtist a.artistName {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ec008c;
+}
+
+.FanClubArtist a.button {
+    color: #555;
+    float: none;
+}
+
+#myFavoriteFanClubs, #myOtherFanClubs {
+    margin-bottom: 10px;
+}
+
+.ArtistImageFC img {
+    height: 110px;
+    width: 150px;
+}
+
+a.ArtistImageFC {
+    float: left;
+}
+
+.FanClubFilter {
+    height: 28px;
+    line-height: 28px;
+    background-color: #eee;
+}
+
+.FanClubFilter a {
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.FanClubArtist .joinDate {
+    display: none;
+}
+
+.FanClubArtist .star {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.FanClubBtnGroup {
+    float: right;
+    font-size: 12px;
+}
+
+.LxSmallArtistImage {
+    float: left;
+    margin: 0 10px;
+    display: inline;
+}
+
+.LxSmallArtistImage img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.LxSmallArtistTitle {
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+    color: #555;
+    margin: 8px 10px 0 0;
+}
+
+.LxSmallArtistTitle a {
+    color: #555;
+}
+
+.LxSmallArtistPlays {
+    float: left;
+    color: #929292;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 9px;
+}
+
+.LxMatchingArtists {
+    float: left;
+    width: 384px;
+    border-top: 1px solid #BABABA;
+    padding: 5px 0;
+}
+
+.LxLastBorder {
+    border-bottom: 1px solid #BABABA;
+}
+
+.LxMatchingArtistsHead {
+    color: #555;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    margin: 13px 0 12px;
+    text-align: left;
+    width: 200px;
+}
+
+.LxSmallArtistPopupFrag {
+    background-color: #FFF;
+    height: 270px;
+    width: 410px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 20%;
+}
+
+.LxSmallClose {
+    float: right;
+    margin-top: 11px;
+}
+
+.LxSmallArtistListing {
+    float: left;
+    height: 208px;
+    margin-right: 48px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 410px;
+}
+
+.LxSmallArtistImage {
+    float: left;
+    margin: 0 10px;
+    display: inline;
+}
+
+.LxSmallArtistImage img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.LxSmallArtistTitle {
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+    color: #555;
+    margin: 8px 10px 0 0;
+}
+
+.LxSmallArtistTitle a {
+    color: #555;
+}
+
+.LxSmallArtistPlays {
+    float: left;
+    color: #929292;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 9px;
+}
+
+.LxMatchingArtists {
+    float: left;
+    width: 384px;
+    border-top: 1px solid #BABABA;
+    padding: 5px 0;
+}
+
+.LxLastBorder {
+    border-bottom: 1px solid #BABABA;
+}
+
+.LxMatchingArtistsHead {
+    color: #555;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    margin: 13px 0 12px;
+    text-align: left;
+    width: 200px;
+}
+
+.LxSmallArtistPopupFrag {
+    background-color: #FFF;
+    height: 270px;
+    width: 410px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 20%;
+}
+
+.LxSmallClose {
+    float: right;
+    margin-top: 11px;
+}
+
+.LxSmallArtistListing {
+    float: left;
+    height: 208px;
+    margin-right: 48px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 410px;
+}
+
+.noFanClubResults {
+    color: #ec008c;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.LxFanClubListing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.FollowingWrapper .LxFanClubListing {
+    width: 800px;
+}
+
+.PodcastLearnMoreWrapper {
+    padding-top: 24px;
+}
+
+.learnMorePodcast {
+    font-size: 12px;
+    border-top: 1px solid #eee;
+    padding: 5px 10px;
+}
+
+.LearnMorePodcastHeader {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.learnMorePodcast p {
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.learnMorePodcast p.KnowPodcastHeader {
+    margin-bottom: 8px;
+}
+
+.learnMorePodcast a {
+    color: #ec008c !important;
+}
+
+.learnMorePodcast a.btn {
+    color: #fff !important;
+}
+
+.learnMorePodcast a:hover {
+    color: #7B006D !important;
+}
+
+.seriesBrowser {
+    width: 760px;
+}
+
+.seriesFirstCol {
+    clear: left;
+}
+
+.seriesItem {
+    float: left;
+    width: 150px;
+    height: 220px;
+    margin-right: 2px;
+}
+
+.seriesMedia {
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+
+img.seriesImage {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.seriesDescription {
+    clear: both;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    font-size: 75%;
+}
+
+div.seriesLink {
+    white-space: nowrap;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.seriesAuthor {
+    clear: both;
+    white-space: nowrap;
+}
+
+.ReviewThumbUp a, .ReviewThumbDown a {
+    width: 12px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.ReviewThumbUp a.disabled, .ReviewThumbUp a.enabled {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_likeit_onstate.gif) no-repeat;
+}
+
+.ReviewThumbUp a.enabled:hover, .ReviewThumbUp a.selected {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+}
+
+.ReviewThumbDown a.disabled, .ReviewThumbDown a.enabled {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_onstate.gif) no-repeat;
+}
+
+.ReviewThumbDown a.enabled:hover, .ReviewThumbDown a.selected {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+}
+
+.iFrameWrapper {
+    display: none;
+}
+
+.loadingMsg {
+    width: 630px;
+    height: 60px;
+}
+
+.dialog .ArtistFeedsInstructions {
+    margin-bottom: 30px;
+}
+
+.dialog .LxEditFeedsSubHeader {
+    width: 630px;
+    margin-left: 0;
+    background: #fff;
+    border-color: #eee;
+}
+
+.dialog .LxFeedRow {
+    width: 100%;
+    margin-left: 0;
+    border-color: #eee;
+}
+
+.dialog .LxFeedUriLabelDiv {
+    float: left;
+    width: 269px;
+    padding-top: 8px;
+}
+
+.dialog .LxFeedUriLabelDiv input {
+    margin-top: 0;
+}
+
+.dialog #fraggedControl .ButtonWrapper {
+    clear: both;
+}
+
+.dialog #fraggedControl .ButtonWrapper a {
+    float: right;
+}
+
+body.page_Silverlight_AudioPlayer {
+    background-color: #000;
+}
+
+div.LxVideoPopupHeader {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+a.LxCloseVideoPopup {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent url(http://www.zune.net/xweb/lx/pic/ico_circ_remove_white.png) no-repeat scroll right center;
+    display: inline-block;
+    height: 16px;
+    padding-right: 21px;
+    padding-top: 3px;
+}
+
+.LxPopup div.lxPopupTrim {
+    width: auto;
+}
+
+.dialog #wwWrapper {
+    margin-left: 0;
+}
+
+.dialog .sendMessageTitle {
+    margin-left: 0;
+    color: #333;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.dialog .sendMessageTitle cufontext {
+}
+
+.dialog #wwWrapper input[type="text"], .dialog #wwWrapper textarea {
+    background-color: #fff;
+    border: 1px solid #eee;
+    width: 628px;
+}
+
+.dialogWrapper #wwInput {
+    background-color: unset;
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    padding: unset;
+    width: 628px;
+    clear: both;
+}
+
+.dialog #wwContent {
+    border: none;
+    clear: both;
+}
+
+.dialog #wordwheelContainer .wwShowAll {
+    display: block;
+    text-align: left;
+    width: auto;
+    clear: none;
+}
+
+.dialog .wordwheelLabel {
+    text-align: left;
+    width: 100%;
+    margin-right: 0;
+    color: #000;
+}
+
+.dialog #sendMsgDiv #message {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #000;
+    font-size: 12px;
+    height: 49px;
+    overflow: auto;
+    padding: 5px;
+    width: 618px;
+}
+
+.dialog #buttonContainer {
+    width: 100%;
+}
+
+.dialog #ww {
+    font-size: 12px;
+    font-weight: normal;
+    overflow: visible;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    color: #555;
+}
+
+.dialog #sendMsgDiv #wwContent #wwInput {
+}
+
+.dialog #ww .wwDivSelectAll {
+    text-align: left;
+}
+
+.dialog #ww ul {
+    background: none;
+    border: 1px solid #eee;
+    padding: 5px 5px 0;
+}
+
+.dialog #ww li {
+    padding: 0 0 8px 0;
+}
+
+.dialog #ww li img {
+    padding-left: 0;
+}
+
+.dialog #ww li.selected {
+    background: none;
+}
+
+.dialog #ww li span {
+    padding-left: 0;
+}
+
+.dialog #wwSelections .item {
+    border: 0;
+    float: left;
+    margin: 0;
+    position: static;
+    white-space: nowrap;
+    height: auto;
+}
+
+.dialog #wwSelections {
+    position: static;
+    width: 330px;
+    clear: none;
+    background: none;
+    max-height: 88px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.dialog #wwSelections img {
+    width: auto;
+    height: auto;
+}
+
+.dialog #wwSelections span img {
+    width: 32px;
+    height: 32px;
+}
+
+.dialog #wwSelections span.zunetag {
+    line-height: 32px;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: inherit;
+}
+
+#wwSelections .item span {
+}
+
+#wwSelections .wwRemoveItem {
+    cursor: pointer;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    position: static;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+
+.dialogWrapper {
+    width: 630px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.dialogWrapper .closeIcon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.dialogWrapper .ButtonWrapper {
+    clear: both;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    margin-right: -5px;
+    float: left;
+    width: 100%;
+}
+
+.dialogWrapper .ButtonWrapper a {
+    text-transform: lowercase;
+    float: right;
+    font-size: 11px;
+}
+
+.dialogWrapper .ButtonWrapper .btn.popupButton {
+    background-position: right -68px;
+    color: #333 !important;
+}
+
+.dialogWrapper .ButtonWrapper .btn.popupButton .btntip {
+    background-position: 0 -68px;
+    margin-left: -10px;
+}
+
+.dialogWrapper,.dialogWrapper button,.dialogWrapper input {
+    font-size: 12px;
+    color: #000;
+}
+
+.dialog {
+    width: 630px;
+    background-color: #FFF;
+    padding: 34px;
+    float: left;
+}
+
+.dialog h2, .frameWrapper h2 {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.dialogHeader {
+    display: block;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.dialogBody {
+    color: #555;
+}
+
+.dialogBody input, .dialogBody textarea {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.dialogWrapper label, .dialogWrapper .headerColor {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    clear: both;
+}
+
+.wordCountShell {
+    clear: both;
+}
+
+.wwShowAll {
+    font-weight: bold;
+    color: #ec008c;
+    font-size: 10px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.dialogWrapper h3 {
+    clear: both;
+    margin-bottom: 6px;
+    zoom:1;}
+
+.dialogWrapper input, .dialogWrapper textarea {
+    clear: both;
+    margin-top: 8px;
+    width: 99%;
+}
+
+.dialogWrapper .popUpDetails {
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+    overflow: hidden;
+    position: relative;
+    color: #555;
+}
+
+.dialogWrapper .popUpDetails div.wordwheelLabel, .dialogWrapper .popUpDetails div.LxMediaBarTrackDetailsAlbumDetails {
+    color: #555;
+}
+
+.dialogWrapper .popUpDetails img {
+    float: left;
+    margin-right: 10px;
+}
+
+.dialogWrapper .popUpMessageWrapper {
+    width: 359px;
+    float: left;
+}
+
+.dialog #sendMsgDiv .popUpMessageWrapper #wwInput {
+    width: 357px;
+}
+
+.dialog #sendMsgDiv .popUpMessageWrapper #message {
+    width: 347px;
+}
+
+.dialogWrapper #wordwheelContainer, .dialogWrapper #messageContainer {
+    float: left;
+    width: 100%;
+}
+
+.dialogWrapper #messageContainer {
+    clear: both;
+    margin-top: 20px;
+}
+
+.popupShield {
+    background-color: #000;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+
+.dialogBusyMessage {
+    padding: 5px 25px 5px 15px;
+    text-align: left;
+}
+
+.imageViewDialogWrapper {
+    text-align: center;
+}
+
+#wwInput {
+    margin-top: 0;
+}
+
+#wwSelections {
+    float: left;
+}
+
+.wwRemoveItem {
+}
+
+.wwRemoveItem img {
+    position: relative;
+    top: 5px;
+    left: 0;
+    cursor: pointer;
+}
+
+#wwSelections .item, ul.friendsList li {
+    display: block;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    clear: both;
+    padding-bottom: 8px;
+    width: 300px;
+    font-size: 12px;
+}
+
+#wwSelections img, ul.friendsList img {
+    float: left;
+    margin-right: 5px;
+}
+
+.wwDivSelectAll {
+    padding: 5px 0;
+}
+
+.wwDivSelectAll a {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul.friendsList {
+    width: 350px;
+    border: 1px solid #eee;
+    height: 80px;
+    overflow: auto;
+    padding: 5px 5px 0 5px;
+}
+
+ul.friendsList span.zunetag {
+    cursor: pointer;
+}
+
+.LxSendSongTitle {
+    font-weight: bold;
+    zoom:1;}
+
+.LxSendArtistLink {
+}
+
+.frameWrapper {
+    width: 570px;
+    height: 390px;
+    padding: 30px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.frameWrapper .ErrorWrapper {
+    width: 570px;
+    padding-left: 15px;
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    line-height: 30px;
+    font-size: 12px;
+    color: #555;
+    background-color: #FDE5F3;
+}
+
+.frameWrapper h3 {
+    clear: both;
+    margin-bottom: 6px;
+    zoom:1;}
+
+.frameWrapper input {
+    margin: 0;
+}
+
+.frameWrapper .ButtonWrapper {
+    clear: both;
+    padding-top: 8px;
+    float: left;
+    width: 100%;
+}
+
+.frameWrapper img {
+    float: left;
+    margin-right: 10px;
+}
+
+.frameWrapper .ButtonWrapper {
+    width: 570px;
+    text-align: right;
+}
+
+.frameWrapper .ButtonWrapper a {
+    float: none;
+    zoom:1;}
+
+.frameWrapper .ButtonWrapper a span {
+    float: left;
+}
+
+.frameWrapper .ButtonWrapper a span.btntip, .frameWrapper .ButtonWrapper a span.buybtntip {
+}
+
+.frameWrapper .HasPurchasedText {
+    background-color: #FDE5F3;
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    clear: both;
+    color: #555;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    width: 570px;
+}
+
+.dialog.sendBG {
+    width: 100%;
+    padding: 0;
+}
+
+.dialog.sendBG .dialogWrapper {
+    width: 100%;
+}
+
+.dialog.sendBG .dialogWrapper .closeIcon {
+    display: none;
+}
+
+.sendBG .LxSendWrapper form {
+    margin-left: 160px;
+}
+
+.sendBG .dialogWrapper .popUpMessageWrapper {
+    width: 100%;
+}
+
+.sendBG.dialog #sendMsgDiv .popUpMessageWrapper #message {
+    width: 777px;
+}
+
+.sendBG.dialog #sendMsgDiv #wwContent #wwInput {
+    width: 784px;
+}
+
+.sendBG #wwSelections .wwRemoveItem {
+}
+
+div.LxPopupImageBody {
+    overflow: auto;
+    height: 302px;
+}
+
+div.backgroundUpload {
+    width: 240px;
+    margin-right: 38px;
+    clear: both;
+}
+
+div.userImageBorder {
+    margin-top: 12px;
+    background-color: #444;
+    border: 1px solid #D1D1D1;
+}
+
+div.backgroundImageBody {
+    width: 302px;
+    border: 1px solid #D1D1D1;
+}
+
+div.tileUpload {
+    width: 240px;
+    margin-right: 40px;
+    clear: both;
+}
+
+div.tileUpload input, div.backgroundUpload input {
+    margin: 0 0 20px 0;
+}
+
+div.tileImageBody {
+    width: 300px;
+    border: 1px solid #D1D1D1;
+}
+
+.userImageShell {
+    float: left;
+    text-align: left;
+    padding: 3px;
+}
+
+.userImageShell img.bgImage {
+    width: 134px;
+    height: 49px;
+}
+
+.userImageShell img.tileImage {
+    width: 64px;
+    height: 64px;
+}
+
+.MovieDetailsWrapper .podcastImgParent {
+    width: 300px;
+    min-height: 300px;
+    margin-right: 10px;
+    float: left;
+}
+
+.MovieDetailsWrapper .podcastImgParent .podcastImage {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.blockPodcastEpisodes {
+    margin: 0;
+    width: 470px;
+}
+
+.blockPodcastEpisodes .RowLineNoFilter {
+    margin: 0 0 8px 0;
+}
+
+ul.podcastEpisode {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 8px;
+}
+
+ul.podcastEpisode li {
+    display: block;
+    float: left;
+}
+
+ul.podcastEpisode li.BodyCopy {
+    line-height: 16px;
+}
+
+.podcastSummary {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.podcastSummary li {
+    font-size: 11px !important;
+    margin-left: 45px;
+}
+
+.podcastSummary .summary {
+    width: 410px;
+}
+
+.lxPurchaseMusicVideoLinkButton a {
+    color: #ec008c;
+    font-size: 11px;
+}
+
+.lxPurchaseTvEpisodeLinkButton a {
+    font-size: 11px;
+}
+
+.UserBackgroundWrapper {
+    float: left;
+    display: block;
+    width: 490px;
+    height: 240px;
+    overflow: hidden;
+}
+
+#_userBackground {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    width: 490px;
+    height: 240px;
+}
+
+.UserBackgroundWrapper img {
+    position: absolute;
+    display: block;
+    width: 490px;
+    height: 240px;
+    z-index: 100;
+    margin-top: 37px;
+}
+
+.UserBackgroundWrapper .SilverlightHero {
+    float: none;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: 1000;
+}
+
+.nonPivot {
+    float: left;
+    margin: 7px 0 0 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.StatWrapper {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.OneStat {
+    float: left;
+    margin-left: 20px;
+}
+
+.OneStatValue {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.OneStatLabel {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.LxInputValidator {
+    color: #ec008c;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.PlayAll {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.AlbumTracks .simplePurchaseButtonWrapper {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.AlbumTracks .simplePurchaseButtonWrapper a {
+    cursor: pointer;
+}
+
+.MediumArtistWrapper li.jsExpandoToggler {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    width: 80px;
+}
+
+.ActivityWrapper .GeneralMetaData {
+    font-size: 11px;
+}
+
+.ReviewValidator {
+    color: #ec008c;
+    font-size: 12px;
+}
+
+.ReviewSongModule {
+    overflow: hidden;
+}
+
+.ReviewSongModule li {
+    display: block;
+    float: left;
+}
+
+.ReviewSongModule .playBtns {
+    width: auto;
+}
+
+.ReviewSongModule .BodyCopy {
+    width: 85%;
+}
+
+.MediumReview .TextBlock {
+}
+
+.VenueLocation {
+    color: #ec008c;
+}
+
+.MovieMetaDataTitle {
+    color: #555;
+    float: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 3px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+body {
+    margin: 0;
+    text-decoration: none;
+    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+table, tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+body.Zpage {
+    margin-top: 0;
+}
+
+object:focus {
+    outline: none;
+}
+
+form {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0 0 0 7px;
+    text-transform: lowercase;
+    width: 750px;
+    padding-bottom: 10px;
+}
+
+h1.h1alternate {
+    float: left;
+    font-size: 50px;
+    margin-left: 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 0 13px 0;
+    text-transform: lowercase;
+    float: left;
+}
+
+h3 {
+    color: #333;
+    font-size: 14px;
+    margin: -2px 0 0 0;
+}
+
+h4 {
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #555;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #ec008c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7B006D;
+    text-decoration: none;
+}
+
+a.LxExternalLink {
+    background: transparent url(http://www.zune.net/xweb/zune/images/pink_glyph.gif) no-repeat scroll right center;
+    display: inline-block;
+    padding-right: 17px;
+}
+
+.PinkLinkV2 a {
+    font-weight: bold;
+}
+
+.GreyLinkV2 a {
+    color: #8e8e8e;
+}
+
+.GreyLinkV2 a:hover {
+    color: #ec008c;
+}
+
+.ZPrivacy {
+    color: #ec008c;
+    font-style: italic;
+    font-size: 11px;
+    clear: both;
+    line-height: 18px;
+}
+
+.ZPrivacy a, .ZPrivacy a:hover {
+    font-weight: bold;
+}
+
+.ZErrorMessage {
+    padding: 10px;
+    background-color: #eee;
+    color: #ec008c;
+    font-style: italic;
+    font-size: 11px;
+    clear: both;
+}
+
+.ZErrorMessage div {
+    width: 80%;
+    line-height: 1.3;
+}
+
+.playicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_p.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.playicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_p_hover.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.playgrayicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_g.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.playgrayicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_g_hover.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.addicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_add.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.addicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_add_hover.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.totopicon a {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/tempToTop.png) no-repeat;
+    width: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.NoPlayButton {
+    float: left;
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.NoAddButton {
+    color: #ccc;
+}
+
+.BlackZwrapper .playgrayicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_play_bgdark.png) no-repeat;
+}
+
+.BlackZwrapper .playgrayicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_play_bgdark_hover.png) no-repeat;
+}
+
+.BlackZwrapper .addicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_add_bgdark.png) no-repeat;
+}
+
+.BlackZwrapper .addicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_add_bgdark_hover.png) no-repeat;
+}
+
+#_artistMostActive .playicon a {
+    background: url(http://www.zune.net/xweb/lx/pic/artisttop/ico16_play_p.png) no-repeat;
+}
+
+#_artistMostActive .playicon a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/artisttop/ico16_play_p_hover.png) no-repeat;
+}
+
+.Clear {
+    clear: both;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.ForceNewLine {
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.hide, .Hide {
+    display: none;
+}
+
+.FloatL, .left {
+    float: left;
+}
+
+.FloatR, .right {
+    float: right;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.ToUpper {
+    text-transform: uppercase;
+}
+
+.ToLower {
+    text-transform: lowercase;
+}
+
+.BodyCopy {
+    color: #555;
+    font-size: 12px;
+}
+
+.LegalCopy {
+    color: #999;
+    font-size: 11px;
+}
+
+.TextBlock {
+    float: left;
+    line-height: 1.5;
+    margin: 6px 65px 0 0;
+}
+
+.EmptyState, .GenreBrowseEmptyState {
+    padding: 5px 0pt 0pt 10px;
+    border-top: 1px solid #eee;
+    clear: both;
+    font-size: 12px;
+}
+
+.GenreBrowseEmptyState {
+    padding: 0 0 10px 10px;
+    border-bottom: 1px solid #eee;
+    border-top: none;
+}
+
+.ucase {
+    text-transform: uppercase;
+}
+
+.Inline {
+    clear: none;
+    display: inline;
+}
+
+.MainContentWide {
+    width: 960px;
+    clear: both;
+}
+
+.MainContent {
+    float: left;
+    width: 790px;
+}
+
+.WideColumn {
+    float: left;
+    width: 630px;
+    margin-right: 10px;
+}
+
+.MediumColumn {
+    float: left;
+    width: 480px;
+}
+
+.HalfWideViewColumn {
+    float: left;
+    width: 390px;
+}
+
+.RightDefaultColumnMargin {
+    margin-right: 10px;
+}
+
+.NarrowColumn {
+    float: left;
+    width: 320px;
+}
+
+.NarrowerColumn {
+    float: left;
+    width: 310px;
+}
+
+.LeftDefaultColumnMargin {
+    margin-left: 10px;
+}
+
+.Zwrapper {
+    margin: 0 auto;
+    color: #555;
+    clear: both;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.BlackZwrapper {
+    background: #161616 url('http://www.zune.net/xweb/lx/pic/bgrd_161616.jpg') no-repeat 28% 100%;
+    color: #fff;
+    float: left;
+    min-height: 400px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.BlackZWrapperInner {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.BlackZwrapper h3 {
+    color: #fff;
+}
+
+.BlackZwrapper .ButtonWrapper {
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+}
+
+.HomePageBlackZwrapper /*move to home page specific*/
+{
+    background: transparent url('http://www.zune.net/xweb/lx/pic/bgrd_161616_solid.gif') repeat-x 0 0;
+}
+
+.BlackZWrapperArtistOverview /* move to artist overview page specific */
+{
+    margin-bottom: 40px;
+}
+
+.musicHero {
+    border: 0;
+    height: 260px;
+    width: 800px;
+    margin-bottom: 40px;
+}
+
+.NarrowViewWrapper.MarginRight {
+    margin-right: 10px;
+}
+
+.HomePageZwrapper .MainContentWide {
+    padding-bottom: 100px;
+    float: left;
+}
+
+.WideViewWrapper, .MediumViewWrapper, .NarrowViewWrapper, .MediumWideViewWrapper {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.WideViewWrapper {
+    width: 790px;
+}
+
+.MediumWideViewWrapper {
+    width: 630px;
+}
+
+.MediumViewWrapper {
+    width: 470px;
+}
+
+.NarrowViewWrapper {
+    margin-right: 0;
+    float: left;
+}
+
+.NarrowerColumn .NarrowViewWrapper {
+    width: 100%;
+    clear: both;
+}
+
+.NarrowColumn .NarrowViewWrapper {
+    width: 100%;
+    clear: both;
+}
+
+.NarrowViewWrapper h2 {
+    margin-left: 1px;
+    float: left;
+}
+
+.NoBottomMargin.WideViewWrapper, .NoBottomMargin.MediumViewWrapper, .NoBottomMargin.MediumWideViewWrapper, .NoBottomMargin {
+    margin-bottom: 0;
+    width: auto;
+}
+
+.NarrowColumn .NoBottomMargin ul.MediaList {
+    width: 320px;
+}
+
+.PaddingBottom {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    padding-bottom: 17px;
+}
+
+.TourDatesMediaListWrapper .PaddingBottom {
+    padding: 0;
+}
+
+.BrowseWrapper {
+    float: left;
+    margin-bottom: 28px;
+    width: 100%;
+}
+
+.BrowseWrapper.MultiRowBrowseWrapper li.BrowseUnit {
+    margin-bottom: 20px;
+}
+
+.BrowseWrapper h2 {
+    float: none;
+    clear: both;
+    height: 42px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.BrowseWrapper .Pivot {
+    margin-bottom: 10px;
+}
+
+.BrowseWrapper li.BrowseUnit {
+    float: left;
+    margin: 0 10px 20px 0;
+    font-size: 11px;
+    color: #555;
+    width: 150px;
+}
+
+.BrowseWrapper li.BrowseUnitLastCol {
+    margin-right: 0;
+}
+
+.BrowseWrapper li.BrowseUnit a.Name {
+    color: #8E8E8E;
+    font-size: 11px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.BrowseWrapper li.BrowseUnitLastRow {
+    margin-right: 0;
+}
+
+.BrowseWrapper li.BrowseUnit a {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    white-space: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 13px;
+}
+
+.BrowseWrapper li.BrowseUnit a.BrowseImage {
+    margin-bottom: 7px;
+    height: auto;
+}
+
+.BrowseWrapper li.BrowseUnit p {
+    margin: 0;
+    padding: 0;
+    height: 13px;
+    overflow: hidden;
+}
+
+.MovieBrowseWrapper li.BrowseUnit a.BrowseImage img {
+    width: 150px;
+    height: 225px;
+}
+
+.MovieTrailerBrowse li.BrowseUnit p {
+    display: none;
+}
+
+.NewReleaseWrapper .MovieBrowseWrapper {
+    margin-bottom: 10px;
+}
+
+.TVBrowseWrapper li.BrowseUnit .GreyLinkV2 a {
+    color: #8E8E8E;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.TVBrowseWrapper li.BrowseUnit a.BrowseImage img {
+    width: 150px;
+    height: 150px;
+}
+
+.PodcastBrowseWrapper, .PodcastGenreBrowseWrapper {
+    clear: both;
+}
+
+.PodcastBrowseWrapper li.BrowseUnit a.BrowseImage img, .PodcastGenreBrowseWrapper li.BrowseUnit a.BrowseImage img {
+    width: 150px;
+    height: 150px;
+}
+
+.PodcastWhatsHotWrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.ArtistBrowseWrapper {
+    clear: both;
+}
+
+.ArtistBrowseWrapper li.BrowseUnit a.BrowseImage {
+    width: 150px;
+    height: 84px;
+    margin-bottom: 10px;
+}
+
+.ArtistBrowseWrapper li.BrowseUnit a.BrowseImage img {
+    width: 100%;
+}
+
+.AlbumBrowseWrapper li.BrowseUnit a.BrowseImage img {
+    width: 150px;
+    height: 150px;
+}
+
+.MediaDetailsWrapper {
+    width: 100%;
+    margin-bottom: 16px;
+    float: left;
+}
+
+.MediaDetailsWrapper .Image {
+    float: left;
+}
+
+.MediaDetailsWrapper .Specifics {
+    border-top: 1px solid #eee;
+    float: left;
+    padding: 8px 0 0 0;
+}
+
+.MediaDetailsWrapper .Specifics .Column {
+    width: 50%;
+    float: left;
+}
+
+.MediaDetailsWrapper .Specifics p {
+    margin: 0 0 8px 10px;
+    padding: 0;
+    font-size: 11px;
+    color: #555;
+    clear: both;
+}
+
+.MediaDetailsWrapper .Specifics p.EpisodeTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.MediaDetailsWrapper .Specifics p.HDIcon {
+    clear: both;
+    margin-bottom: 16px;
+}
+
+.MediaDetailsWrapper p.Info {
+    float: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #555 !important;
+}
+
+.MediaDetailsWrapper p.Info strong {
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+.MediaDetailsWrapper .Specifics p a {
+    font-size: 11px;
+}
+
+.MediaDetailsWrapper .Specifics p.Info strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.MediaDetailsWrapper .Specifics p img {
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+.MediaDetailsWrapper .Specifics .ButtonWrapper {
+    float: left;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.MediaDetailsWrapper .Specifics .ButtonWrapper li {
+    float: left;
+}
+
+.MediaDetailsWrapper .Specifics .Description {
+    margin-left: 10px;
+    padding-top: 8px;
+    clear: both;
+    font-size: 12px;
+    color: #555;
+}
+
+#PlaylistDetailHeader {
+    width: 780px;
+    position: relative;
+}
+
+#PlaylistDetailHeader p.Content {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+#PlaylistDetailHeader .MediaDetailsWrapper .Image {
+    width: 150px;
+    height: 112px;
+}
+
+#PlaylistDetailHeader .MediaDetailsWrapper .Image img {
+    width: 100%;
+    height: 100%;
+}
+
+#PlaylistDetailHeader .MediaDetailsWrapper .Specifics {
+    margin-left: 160px;
+    padding-top: 5px;
+    float: none;
+}
+
+#PlaylistDetailHeader .MediaDetailsWrapper h5 {
+    width: 420px;
+    margin: 0;
+}
+
+#PlaylistDetailHeader p {
+    margin: 0;
+    line-height: 14px;
+    color: #8E8E8E;
+    clear: none;
+}
+
+#PlaylistDetailHeader .MediaDetailsWrapper p.Date {
+    text-transform: uppercase;
+}
+
+#PlaylistDetailHeader .NewButtonWrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#PlaylistDetailHeader .NewButtonWrapper .Text:first-letter {
+    text-transform: uppercase;
+}
+
+.BrowseWrapper li.BrowseUnit a.cropPlaylistsGenreImage {
+    width: 150px;
+    height: 112px;
+    margin-bottom: 10px;
+}
+
+.cropPlaylistsGenreImage img {
+    width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+.TVDetailsWrapper .Image {
+    width: 300px;
+    height: 300px;
+}
+
+.TVDetailsWrapper .Specifics {
+    width: 480px;
+}
+
+.MovieDetailsWrapper .Image {
+    width: 200px;
+    height: 300px;
+}
+
+.MovieDetailsWrapper .Specifics {
+    width: 580px;
+}
+
+.MovieDetailsWrapper .Specifics .BodyCopy p {
+    font-size: 12px;
+}
+
+.MovieDetailsWrapper .Specifics .BodyCopy p strong {
+    font-size: 11px;
+}
+
+.PodcastDetailsWrapper .PodcastImageWrapper {
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+
+.PodcastDetailsWrapper .PodcastImageWrapper .Image {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    float: none;
+}
+
+.PodcastDetailsWrapper .Specifics {
+    width: 480px;
+}
+
+.PodcastDetailsWrapper .Specifics .Description {
+    margin-bottom: 16px;
+}
+
+.MediaListWraper h2 {
+    float: none;
+    clear: both;
+    height: 42px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.MediaListWraper a {
+    color: #EC008C;
+}
+
+.MediaListWraper span.GreyLinkV2 a {
+    color: #8e8e8e;
+}
+
+.MediaListWraper a.Name {
+    color: #8E8E8E;
+    font-size: 11px;
+}
+
+.MediaListWraper a:hover {
+    color: #7B006D;
+}
+
+.MediaListWraper a.SeeAll {
+    color: #EC008C;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    top: 0;
+}
+
+.MediaListWraperNoPivot a.SeeAll {
+    top: 22px;
+}
+
+.MediaListWraper a.SeeAll:hover {
+    color: #7B006D;
+}
+
+.MediaListWraper div.SongsPlayAll {
+    height: 24px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.MediaListWraper div.SongsPlayAll span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #EC008C;
+    float: left;
+}
+
+.MediaListWraper div.SongsPlayAll a {
+    float: left;
+}
+
+.MediaListWraper div.UserComments {
+    margin-left: 40px;
+}
+
+.MediaListWraper div.UserComments div.EditWrapper h3 {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.MediaListWraper div.UserComments div.EditWrapper textarea {
+    background-color: #EEE;
+    border: none;
+    height: 42px;
+    margin-top: 8px;
+    width: 535px;
+    font-style: italic;
+}
+
+.MediaListWraper div.UserComments input.Title {
+    color: #999;
+    background-color: #EEE;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-style: italic;
+    border: none;
+}
+
+.MediumViewWrapper div.UserComments input.Title {
+    width: 420px;
+}
+
+.MediumViewWrapper .ButtonWrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.MediumWideViewWrapper div.UserComments input.Title {
+    width: 570px;
+}
+
+.MediumWideViewWrapper .ButtonWrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.MediaListWraper div.UserComments span.Validator {
+    display: none;
+}
+
+.MediaListWraper div.UserComments .LxInputValidator {
+    display: none;
+}
+
+.MediaListWraper div.UserComments .LxWikiIframeContainer {
+    float: none;
+}
+
+ul.MediaList {
+    clear: both;
+    font-size: 11px;
+    color: #555;
+    overflow: hidden;
+    width: 100%;
+}
+
+ul.MediaList li {
+    position: relative;
+    line-height: 15px;
+    min-height: 60px;
+    padding: 8px 0 10px 70px;
+    border-top: solid 1px #EEE;
+}
+
+ul.MediaList a {
+    cursor: pointer;
+}
+
+ul.MediaList li a.Img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border: none;
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+
+ul.MediaList li a.Img img {
+    height: 100%;
+    width: 100%;
+}
+
+ul.MediaList div.ButtonWrap {
+    position: absolute;
+    top: 10px;
+    left: 0 !important;
+    left: -42px;
+}
+
+ul.MediaList div.ButtonWrap a {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+ul.MediaList li a.Name {
+    color: #8E8E8E;
+}
+
+ul.MediaList li a.Name:hover {
+    color: #EC008C;
+}
+
+ul.MediaList li p {
+    margin: 0;
+    padding: 0;
+}
+
+ul.MediaList li p.Link {
+    margin-top: 10px;
+}
+
+ul.MediaList li p.Link a {
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+ul.MediaList li p.Info {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+ul.MediaList li p.Info span {
+    margin-right: 2px;
+}
+
+ul.MediaList li p.Info a {
+    margin-right: 5px;
+}
+
+ul.MediaList li p.Content {
+    font-size: 12px;
+    color: #555;
+    line-height: 18px;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+ul.MediaList a.Title {
+    text-transform: uppercase;
+}
+
+ul.MediaList a.DeleteButton {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    cursor: pointer;
+}
+
+ul.MediaList a.DeleteButton:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+}
+
+.WideCommentsWrapper ul.MediaList a.DeleteButton {
+    top: 10px;
+}
+
+ul.MediaList li.MoreAlbums {
+    padding-left: 85px;
+    float: left;
+    border-top: solid 1px #EEE;
+    border-bottom: none;
+    width: 150px;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+ul.MediaList li.MoreAlbums a.Img {
+    width: 75px;
+    height: 75px;
+}
+
+ul.MediaList li.ArtistNews {
+    height: auto;
+    padding-left: 40px;
+}
+
+ul.MediaList li.ArtistNews a.More {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2px;
+}
+
+ul.MediaList li.ArtistNews a.Title {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.MediaList li.ArtistNews p.Info span {
+    margin-right: 8px;
+}
+
+ul.MediaList li.ArtistNews a.Img {
+    height: 30px;
+    width: 30px;
+}
+
+ul.MediaList li.FavoriteSongs {
+    padding-left: 40px;
+    min-height: 0;
+    text-transform: none;
+}
+
+ul.MediaList li.FavoriteSongs {
+    margin-left: 10px;
+}
+
+ul.MediaList li.FavoriteSongs .GeneralMetaData {
+    width: 195px;
+}
+
+ul.MediaList li.FavoriteSongs .altContent {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+ul.MediaList li.FavoriteSongs a.DeleteButton {
+    right: 10px;
+}
+
+ul.MediaList li.MostPlayedSongs {
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+ul.MediaList li.MostPlayedSongs div.ButtonWrap {
+    top: 5px;
+}
+
+ul.MediaList li.NarrowMostPlayedSongs {
+    margin-left: 8px;
+    min-height: 18px;
+}
+
+ul.MediaList li.MostPlayedAlbums a.Title, ul.MediaList li.MostPlayedArtists a.Title, ul.MediaList li.NarrowMostPlayedSongs a.Title, ul.MediaList li.MostPlayedSongs a.Title, ul.MediaList li.TopSongs a.Title, ul.MediaList li.TourDates a.Title {
+    text-transform: none;
+}
+
+ul.MediaList li.MostPlayedAlbums a.Title, ul.MediaList li.MostPlayedArtists a.Title, ul.MediaList li.NarrowMostPlayedSongs a.Title, ul.MediaList li.MostPlayedSongs a.Title, ul.MediaList li.TopSongs a.Title, ul.MediaList li.TourDates a.Title, ul.MediaList li.FavoriteSongs a.Title {
+    text-transform: none;
+}
+
+ul.MediaList li.TopMovies {
+    height: 90px;
+}
+
+ul.MediaList li.TopMovies a.Img {
+    height: 90px;
+}
+
+ul.MediaList li.TopSongs {
+    height: 32px;
+    padding: 5px 80px 5px 40px;
+}
+
+ul.MediaList li.TopSongs a.Title {
+    color: #8E8E8E;
+    padding-right: 50px;
+}
+
+ul.MediaList li.TopSongs a.Title:hover {
+    color: #EC008C;
+}
+
+.TourDatesMediaListWrapper ul.MediaList {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+ul.MediaList li.TourDates {
+    text-transform: lowercase;
+    border-top: 0;
+    font-size: 12px;
+    min-height: 0;
+    padding: 0 0 10px 60px;
+}
+
+ul.MediaList li.TourDates a.Img {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    cursor: default;
+    color: #555;
+    width: 50px;
+    padding: 10px 0;
+    background: #eee;
+    height: auto;
+    top: 0;
+}
+
+ul.MediaList li.TourDates a.Img span {
+    font-size: 10px;
+    position: relative;
+    top: 3px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+ul.MediaList li.TourDates p {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+ul.MediaList li.TourDates p.Location {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+}
+
+ul.MediaList li.ArtistVideo {
+    min-height: 45px;
+}
+
+ul.MediaList li.ArtistVideo a.Img {
+    height: 45px;
+    cursor: default;
+}
+
+ul.MediaList li.ArtistVideo a.Title {
+    cursor: default;
+}
+
+ul.MediaList li.TopListener {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    width: 100%;
+    float: left;
+    list-style-image: none;
+    border-top: none;
+    padding-left: 0;
+    min-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ul.MediaList li.TopListener ul {
+    list-style-position: outside;
+    padding-bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.MediaList li.TopListener li {
+    list-style-position: outside;
+    padding-bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+    border-top: none;
+}
+
+ul.MediaList li.TopListener A.Title {
+    text-transform: none;
+}
+
+ul.MediaList li.RowData {
+    margin: 0 10px 9px 0;
+}
+
+ul.MediaList li.TopListener li.PlaysRight {
+    margin: 6px 10px 0 0;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+ul.MediaList li.TopListener li.MultiLineFeedDataNoPlayer {
+    margin: 5px 0 0;
+}
+
+ul.MediaList li.TopListener a.Img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin: 8px 10px 0 0;
+    float: left;
+    top: 0;
+}
+
+ul.MediaList li.TopEpisodes {
+    height: 60px;
+}
+
+ul.MediaList li.Comments {
+    height: auto;
+    padding: 10px 40px 10px 50px;
+}
+
+li.Comments div.SongModule div.ButtonWrap {
+    top: 0;
+}
+
+ul.MediaList li.Comments a.Img {
+    left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+ul.MediaList li.Comments p.Title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+ul.MediaList li.Comments p.Rate {
+    position: relative;
+    color: #999;
+    font-size: 11px;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+ul.MediaList li.Comments p.Rate a {
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 15px;
+    top: 0;
+}
+
+ul.MediaList li.Comments p.Rate a.Up, ul.MediaList li.Comments p.Rate a.UpDisabled {
+    left: 0;
+    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_onstate.gif) no-repeat;
+}
+
+ul.MediaList li.Comments p.Rate a.Up:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+}
+
+ul.MediaList li.Comments p.Rate a.Down, ul.MediaList li.Comments p.Rate a.DownDisabled {
+    left: 30px;
+    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_onstate.gif) no-repeat;
+}
+
+ul.MediaList li.Comments p.Rate a.Down:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+}
+
+ul.MediaList li.Comments p.Rate a.UpSelected {
+    left: 0;
+    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+}
+
+ul.MediaList li.Comments p.Rate a.DownSelected {
+    left: 30px;
+    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+}
+
+ul.MediaList li.Comments div.SongModule {
+    height: 20px;
+    position: relative;
+    padding-left: 45px;
+    overflow: hidden;
+    width: 100%;
+}
+
+ul.MediaList li.Comments div.SongModule a.Title {
+    text-transform: none;
+}
+
+ul.MediaList li.Comments div.SongModule .ButtonWrap a {
+    float: left;
+}
+
+.WideCommentsWrapper ul.MediaList li.Comments p.Content {
+    padding-right: 210px;
+}
+
+.WideCommentsWrapper ul.MediaList li.Comments p.Rate {
+    position: absolute;
+    padding-left: 0;
+    padding-top: 25px;
+    margin-top: 0;
+    right: 0;
+    top: 10px;
+    width: 190px;
+}
+
+ul.MediaList li.PodcastEpisode {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 45px;
+    min-height: 0;
+}
+
+ul.MediaList li.PodcastEpisode a.SongTitle {
+    font-size: 12px;
+    float: left;
+    width: 210px;
+    margin-right: 20px;
+}
+
+ul.MediaList li.PodcastEpisode img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+ul.MediaList li.PodcastEpisode p.Date {
+    float: left;
+}
+
+.tvEpisodeListCaption {
+    height: 40px;
+    border-bottom: #eee 1px solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+ul.MediaList li.PodcastEpisode a.Download {
+    float: right;
+}
+
+#videoPodcastImage {
+    margin-top: 2px;
+}
+
+table.MediaList {
+    width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+table.MediaList th {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+table.MediaList th:first-child {
+    text-align: left;
+}
+
+.Specifics table.MediaList td {
+    border-top: 0;
+}
+
+table.MediaList td {
+    padding: 7px 2px;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
+}
+
+#_albumSongs .playAllTracksText {
+    margin-left: 16px;
+}
+
+table.MediaList tr {
+    border-top: solid 1px #555;
+}
+
+.Zwrapper table.MediaList tr {
+    border-top: solid 1px #eee;
+}
+
+table.MediaList td.PlayControl {
+    width: 42px;
+    text-align: left;
+    float: none;
+}
+
+table.MediaList td.PlayControl a {
+    float: left;
+}
+
+table.MediaList td.Image {
+    width: 70px;
+    padding-top: 8px;
+    text-align: left;
+}
+
+table.MediaList td.Image .Img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+table.MediaList td.Image .Img img {
+    height: 100%;
+}
+
+table.MediaList td.Description {
+    text-align: left;
+    font-size: 11px;
+}
+
+table.MediaList td.Description a.Name {
+    color: #8E8E8E;
+}
+
+table.MediaList td.Total {
+    text-align: right;
+    padding: 7px 10px;
+    font-size: 11px;
+    white-space: nowrap;
+    min-width: 90px;
+}
+
+table.MediaList td.Number {
+    width: 20px;
+    text-align: right;
+}
+
+#_tvEpisodesList table.MediaList td.Play {
+    width: 20px;
+    float: none;
+}
+
+table.MediaList td.Play {
+    width: 20px;
+    float: left;
+}
+
+table.MediaList td.Title {
+    width: 190px;
+    text-align: left;
+}
+
+table.MediaList td.Buy {
+    text-align: right;
+    padding: 7px 10px;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+tr.NarrowMostPlayedSongs div.altContent {
+    display: none;
+}
+
+table.MediaList td a {
+    cursor: pointer;
+}
+
+table.MediaList tr.Songs td {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+table.MediaList tr.Songs td.Title {
+    width: auto;
+}
+
+table.MediaList tr.Songs td.PlayNumber {
+    text-align: right;
+    padding: 5px 10px 3px 2px;
+    white-space: nowrap;
+}
+
+table.MediaList tr.Songs td.Play {
+    width: 45px;
+    margin-top: -1px;
+}
+
+table.MediaList tr.Songs td.PlayNumber strong {
+    margin-right: 4px;
+    font-size: 11px;
+}
+
+.AlbumVerticalMediaListWrapper table.MediaList {
+    margin-top: -10px;
+}
+
+table.MediaList tr.AlbumVerList td {
+    border-top: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+table.MediaList tr.AlbumVerList td.Image {
+    padding-right: 10px;
+}
+
+table.MediaList tr.AlbumVerList td.Image img {
+    width: 150px;
+    height: 150px;
+}
+
+table.MediaList tr.AlbumVerList td.Description, td.Explicit {
+    border-bottom: 1px solid #eee;
+}
+
+.ExplicitLabel {
+    border: 1px solid;
+    color: Black;
+    padding: 2px;
+}
+
+table.MediaList tr.AlbumVerList td.Description .Title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -4px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+table.MediaList tr.AlbumVerList td.Description .Name {
+    text-transform: uppercase;
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+table.MediaList tr.AlbumVerList td.Description .Link a {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+table.MediaList tr.AlbumVerList td.Total {
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    padding-top: 18px;
+}
+
+#PlaylistSongs {
+    position: relative;
+}
+
+#PlaylistSongs table.MediaList {
+    width: 450px;
+    cursor: pointer;
+}
+
+#PlaylistSongs #SongsInfoContainer {
+    padding-left: 10px;
+    position: absolute;
+    width: 320px;
+    font-size: 12px;
+}
+
+#PlaylistSongs table.MediaList td.Play {
+    float: none;
+}
+
+#PlaylistSongs .MediaListWraper div.SongsPlayAll {
+    padding-top: 10px;
+}
+
+.MediaReviewWrapper h2 {
+    width: 100%;
+}
+
+.MediaReviewWrapper .body {
+    font-size: 12px;
+}
+
+.MediaReviewWrapper .ratingSummary {
+    font-size: 11px;
+}
+
+.GeneralMetaData {
+    color: #555;
+    font-size: 11px;
+}
+
+.LxInboxRightColumnProfile .MultiLineFeedData .GeneralMetaData {
+    width: 250px;
+}
+
+.FeedMetaData {
+    color: #555;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.PleaseWaitMessage {
+    color: #ec008c;
+}
+
+.DoublePivot {
+    float: left;
+    width: 50%;
+    clear: none;
+}
+
+div.Pivot {
+    font-size: 10px;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    background-color: #EEE;
+    clear: both;
+}
+
+div.Pivot a, div.Pivot span.nonPivot {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+div.FanTourDatesWrapper div.Pivot span.nonPivot {
+    margin: 0 0 0 10px;
+}
+
+div.Pivot a:hover {
+    color: #EC008C;
+}
+
+div.Pivot a.Selected {
+    font-weight: bold;
+}
+
+.PivotRight div.Pivot {
+    padding-right: 10px;
+}
+
+.PivotRight div.Pivot a {
+    float: right;
+}
+
+.TransparentWrapper div.Pivot {
+    background-color: #FFF;
+}
+
+.MediaPivot {
+    position: relative;
+    height: 28px;
+    background: #eee;
+}
+
+.MediaPivot div.Link {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    overflow: hidden;
+    line-height: 28px;
+    height: 28px;
+}
+
+.MediaPivot div.Link a, .MediaPivot div.Link span {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.MediaPivot div.Link a.Rss {
+    color: #333;
+    background: url(http://www.zune.net/xweb/lx/pic/Rss.png) no-repeat 0 50%;
+    padding-left: 20px;
+}
+
+.MediaPivot div.Link a.SeeAll {
+    font-weight: bold;
+    padding: 0;
+    color: #EC008C;
+    position: static;
+}
+
+.MediaPivot div.Link a.SeeAll:hover {
+    color: #7B006D;
+}
+
+.MediaPivot div.Pivot {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.SeeAllLink, .ArtistTourWrapper .SeeAll, .FriendsRecentPlaysWrapper .SeeAll {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.ArtistTourWrapper .SeeAll, .FriendsRecentPlaysWrapper .SeeAll {
+    padding: 0;
+}
+
+.ArtistRelatedWrapper .SeeAllLink {
+    display: block;
+    float: right;
+}
+
+.FilterBar {
+    clear: both;
+    float: none;
+}
+
+.FilterBar, .Transparent {
+    background-color: #eee;
+    height: 28px;
+    margin: 0 10px 0 0;
+    width: 100%;
+}
+
+.WideViewWrapper FilterBar {
+    margin-right: 0;
+}
+
+.SimilarArtistsWapper .FilterBar {
+    margin: 0 10px 10px 0;
+}
+
+.SimilarRelatedArtistsWapper .FilterBar {
+    margin: 0 10px -2px 0;
+}
+
+.TransparentFilter {
+    background-color: #fff;
+}
+
+.FilterBar p {
+    float: left;
+    margin: 7px 0 0 10px;
+    font-size: 10px;
+}
+
+.FilterBar a {
+    float: left;
+    margin: 7px 0 0 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.MainContent .FilterBar li {
+    display: inline;
+    float: none;
+}
+
+.FilterRight, .FilterRightNarrow, .MoreLess {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.FilterSubscribeImage a {
+    width: 10px;
+}
+
+.MoreLess {
+    margin-left: 2px;
+}
+
+.FilterRight, .FilterRightNarrow {
+    float: right;
+    margin: 23px 20px 0 0;
+}
+
+#_similarUsers .FilterRight {
+    float: left;
+    clear: both;
+    margin: 0;
+}
+
+.FilterRightNarrow {
+    margin-right: 10px;
+}
+
+.FilterBar ul {
+    float: left;
+    display: block;
+    margin: 0;
+    margin: 8px 0 0 10px;
+}
+
+.FilterBar ul.FilterButtonsWrapper {
+    float: right;
+    margin: 5px 7px 0 0;
+}
+
+.FilterBar ul.Right {
+    float: right;
+}
+
+.FilterBar .Right a {
+    margin: 0 5px 0 0;
+}
+
+.FilterBar li {
+    display: inline;
+    margin: 0;
+    list-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.FilterBar ul a {
+    margin: 0 9px 0 0;
+}
+
+.FilterBar ul a img {
+    float: right;
+    margin: 0;
+}
+
+.FilterButtonsWrapper {
+    width: 82px;
+}
+
+.FilterButtonsWrapper li a {
+    margin-top: 0;
+    margin-right: 2px;
+}
+
+.FilterButtonsWrapper li.PlayAllLink {
+    float: right;
+    margin-top: 1px;
+}
+
+.FilterButtonsWrapper .PlayAddWrapper {
+    margin: 0;
+}
+
+.FilterButtonsWrapper .PlayAddWrapper img {
+    float: none;
+    margin: 0;
+}
+
+.FilterBar a.FilterRight {
+    float: right;
+    margin-right: 10px;
+}
+
+.FilterBar .SubscribeWrapper {
+    float: right;
+    width: 188px;
+}
+
+.FilterBar a.FilterRight {
+    color: #ec008c;
+}
+
+.FilterBar a:hover.FilterRight {
+    color: #7B006D;
+}
+
+.Pager {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    line-height: 21px;
+}
+
+.Pager a {
+    margin-left: 10px;
+    width: 21px;
+    height: 21px;
+}
+
+.Pager a.Previous {
+    cursor: pointer;
+    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_left_on.jpg) no-repeat;
+}
+
+.Pager a.PreviousDisabled {
+    cursor: default;
+    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_left_off.jpg) no-repeat;
+}
+
+.Pager a.Next {
+    cursor: pointer;
+    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_right_on.jpg) no-repeat;
+    padding-right: 10px;
+    margin-left: 3px;
+}
+
+.Pager a.NextDisabled {
+    cursor: default;
+    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_right_off.jpg) no-repeat;
+}
+
+.Pager .SmallPager {
+    border-top: solid 1px #EEE;
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+}
+
+.Pager .SmallPager a, .Pager .SmallPager span {
+    float: right;
+}
+
+.TourDatesMediaListWrapper .Pager .SmallPager {
+    border-top: none;
+}
+
+.NewReleaseTVBrowseWrapper .Pager, .NewReleaseMovieBrowseWrapper .Pager, .PodcastBrowseWrapper .Pager {
+    position: absolute;
+}
+
+.NewReleaseTVBrowseWrapper .Pager .SmallPager, .NewReleaseMovieBrowseWrapper .Pager .SmallPager, .PodcastBrowseWrapper .Pager .SmallPager, .PodcastGenreBrowseWrapper .Pager .SmallPager, .AlbumNewReleasesBrowseWrapper .Pager .SmallPager {
+    border-top: none;
+}
+
+.Header {
+    border-bottom: 1px solid #eee;
+    height: 75px;
+    font-weight: normal;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header .Logo {
+    position: absolute;
+    top: 33px;
+    left: 10px;
+}
+
+.Header a {
+    font-size: 11px;
+}
+
+.Header a, .TopNav a {
+    color: #888;
+}
+
+.Header a:hover, .Header .Selected, .TopNav a:hover, .TopNav .Selected {
+    color: #333;
+}
+
+.HeaderUserWrapper {
+    margin-right: 10px;
+    height: 32px;
+    color: #333;
+}
+
+.HeaderUserWrapper ul.QuickTopLink li {
+    float: right;
+    margin-right: 10px;
+    font-size: 11px;
+    height: 32px;
+    line-height: 32px;
+    color: #777;
+}
+
+.HeaderUserWrapper ul.QuickTopLink li a {
+    color: #777;
+}
+
+.HeaderUserWrapper a.zunecard {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.HeaderUserWrapper .zunecard {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 0;
+}
+
+.HeaderSearch {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+}
+
+.HeaderSearch input, .Discussion input {
+    border: 1px solid #ddd;
+    color: #888;
+    font-size: 11px;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.HeaderSearch input.SearchBox {
+    background: #fff;
+    color: #888;
+    float: right;
+    vertical-align: middle;
+    width: 240px;
+}
+
+.HeaderSearch input.hiddenSubmit {
+    background: url(searchBarButton.svg) no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -9px;
+    top: 2px;
+    cursor: pointer;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.FooterWrapper {
+    clear: both;
+    padding-top: 70px;
+}
+
+.FooterWrapper ul, .FooterWrapper ol {
+    line-height: 10px;
+}
+
+.FooterWrapper .col {
+    float: left;
+    border-left: 1px solid #EEE;
+    padding: 0 5px 0 10px;
+    min-width: 140px;
+    font-size: 12px;
+    min-height: 237px;
+}
+
+.FooterWrapper .Editorial div:first-child {
+    border-left: 0;
+}
+
+.FooterWrapper .col li {
+    margin-bottom: 10px;
+}
+
+.FooterWrapper .col a, .FooterWrapper .col strong {
+    color: #555;
+}
+
+.FooterWrapper .XbcShellFooterFirst {
+    font-weight: bold;
+    color: #555;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.FooterWrapper .XbcShellFooterFirst a {
+    color: #333;
+}
+
+.FooterWrapper div.LastFooterCol {
+    width: 200px;
+}
+
+.FooterWrapper a {
+    color: #8e8e8e;
+}
+
+.FooterWrapper a:hover {
+    color: #F03EA8;
+}
+
+.copyright {
+    padding-top: 10px;
+    padding-bottom: 120px;
+    clear: both;
+    font-size: 12px;
+    color: #999;
+}
+
+ul.menu, ul.menu_v {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.menu ul, ul.menu_v ul {
+    display: none;
+    background: #FFF;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu_v {
+    width: 300px;
+}
+
+ul.menu_v li {
+    float: none;
+}
+
+ul.menu ul, ul.menu_v ul {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 10000;
+}
+
+ul.menu ul li, ul.menu_v ul li {
+    float: none;
+    margin: 0;
+}
+
+ul.menu, ul.menu ul, ul.menu_v, ul.menu_v ul {
+    height: 26px;
+}
+
+ul.menu_v {
+    height: auto;
+}
+
+ul.menu ul {
+    height: auto;
+    position: absolute;
+    left: -12px;
+    top: 39px;
+    padding: 0 20px 20px 20px;
+    border: 1px solid #eee;
+    border-top: 0;
+}
+
+ul.menu li.full ul {
+    width: 630px;
+}
+
+ul.menu ul div {
+    border-top: 1px solid #eee;
+    padding-top: 18px;
+}
+
+ul.menu ul div div {
+    border: 0;
+    padding-top: 0;
+}
+
+* html ul.menu ul {
+    width: 1%;
+}
+
+ul.menu li {
+    font-size: 18px;
+    color: #777;
+    line-height: 20px;
+    margin: 0;
+    padding: 4px 7px 3px 7px;
+    height: 19px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+ul.menu li li {
+    line-height: 10px;
+    font-size: 10px;
+    height: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul.menu li a {
+    color: #888;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul.menu li.selected > a {
+    color: #333;
+}
+
+ul.menu li ul li a {
+    font-size: 10px;
+    font-weight: bold;
+    height: 10px;
+    text-transform: uppercase;
+}
+
+ul.menu li.hover, ul.menu li.active, ul.menu a:hover, ul.menu a:active {
+    color: #000;
+}
+
+ul.menu li a.zuneTag {
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+}
+
+.HeaderUserWrapper ul.menu {
+    display: block;
+    float: right;
+    padding-top: 0;
+    min-width: 1px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.HeaderUserWrapper ul.menu li {
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    font-size: 0;
+}
+
+.HeaderUserWrapper ul.menu li li {
+    font-size: 10px;
+    height: 10px;
+    line-height: 10px;
+}
+
+.HeaderUserWrapper ul.menu .zuneTag {
+    margin-right: 8px;
+}
+
+.HeaderUserWrapper ul.menu ul {
+    top: 39px;
+    left: -12px;
+    padding: 18px 20px 10px 20px;
+}
+
+.HeaderUserWrapper ul.menu ul a {
+    margin-right: 0;
+}
+
+.HeaderUserWrapper ul.menu li {
+    padding-left: 0;
+}
+
+.HeaderUserWrapper ul.menu li li {
+}
+
+.TopNav {
+    position: absolute;
+    top: 36px;
+    left: 151px;
+    width: 500px;
+}
+
+.TopNav ul.menu ul {
+    padding-bottom: 10px;
+}
+
+.TopNav ul.menu > li {
+    padding-bottom: 16px;
+}
+
+.LeftNav, .SecondaryLeftNav {
+    clear: left;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 160px;
+}
+
+.LeftNav {
+    margin-bottom: 40px;
+}
+
+.LeftNavText {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+.LeftNavSubHeading {
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+
+.SubLeftNav {
+    margin-top: 20px;
+}
+
+.BlackZwrapper .SecondaryLeftNav, .BlackZwrapper .LeftNavText {
+    border-top: #333 1px solid;
+}
+
+.LeftNav ul {
+    margin-left: 0;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.LeftNav li {
+    margin-bottom: 7px;
+}
+
+.SecondaryLeftNav {
+    margin-top: 30px;
+}
+
+.SecondaryLeftNavUl {
+    color: #333;
+    float: left;
+    font-weight: bold;
+}
+
+.SecondaryLeftNavUl ul {
+    float: left;
+    margin: 0 0 5px 0;
+    width: 150px;
+    padding-left: 0;
+}
+
+.SecondaryLeftNavUl li {
+    zoom:1;line-height: 10px;
+}
+
+.LargePlayFollowMixViewImage {
+    display: inline;
+    width: 30px;
+    margin-right: 3px;
+}
+
+.LeftNav a, .BreadCrumb a {
+    color: #333;
+}
+
+.LeftNav li.selected a {
+    font-weight: bold;
+}
+
+.BlackZwrapper .LeftNav a, .BlackZwrapper .SecondaryLeftNavUl li, .BlackZwrapper .BreadCrumb a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.LeftNav a:hover, .BreadCrumb a:hover {
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.LeftNav .Last, .FilterBar .Selected {
+    font-weight: bold;
+}
+
+.UserActions .SecondaryLeftNavUl {
+    padding-top: 10px;
+}
+
+.UserActions .SecondaryLeftNavUl li {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.b_ClubEmailPreferencesBlock div.SecondaryLeftNav ul li {
+    word-wrap: break-word;
+}
+
+.UserActions .SecondaryLeftNavUl li span {
+    font-weight: normal;
+}
+
+#_userActions .SecondaryLeftNavUl {
+    padding-top: 10px;
+}
+
+#_userActions .SecondaryLeftNavUl li {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+#_userActions .SecondaryLeftNavUl li span {
+    font-weight: normal;
+}
+
+.LeftNav .ArtistHeaderButton {
+    float: left;
+    margin-top: 0;
+}
+
+.ArtistHeaderButton a {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    float: left;
+}
+
+.DiscoverMixView {
+    width: 84px;
+}
+
+.PlayArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_play.png) no-repeat;
+}
+
+.PlayArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_play_hover.png) no-repeat;
+}
+
+.PlayArtistRadio a {
+    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgwhite_play_mix.png) no-repeat;
+    width: 34px;
+}
+
+.PlayArtistRadio a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgwhite_play_mix_hover.png) no-repeat;
+    width: 34px;
+}
+
+.MixViewArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_mixview.png) no-repeat;
+}
+
+.MixViewArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_mixview_hover.png) no-repeat;
+}
+
+.FollowArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_follow.png) no-repeat;
+}
+
+.FollowArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_follow_hover.png) no-repeat;
+}
+
+.FollowArtist a.followed {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_followed.png) no-repeat;
+}
+
+.FollowArtist a.followed:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_followed_hover.png) no-repeat;
+}
+
+.BlackZwrapper .PlayArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/play_white_50per.png) no-repeat;
+}
+
+.BlackZwrapper .PlayArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_play_hover.png) no-repeat;
+}
+
+.BlackZwrapper .PlayArtistRadio a {
+    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgdark_play_mix.png) no-repeat;
+    width: 34px;
+}
+
+.BlackZwrapper .PlayArtistRadio a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgdark_play_mix_hover.png) no-repeat;
+    width: 34px;
+}
+
+.BlackZwrapper .MixViewArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/mix_white_50per.png) no-repeat;
+}
+
+.BlackZwrapper .MixViewArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_mixview_hover.png) no-repeat;
+}
+
+.BlackZwrapper .FollowArtist a {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_follow.png) no-repeat;
+}
+
+.BlackZwrapper .FollowArtist a:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_follow_hover.png) no-repeat;
+}
+
+.BlackZwrapper .FollowArtist a.followed {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_followed.png) no-repeat;
+}
+
+.BlackZwrapper .FollowArtist a.followed:hover {
+    background: url(http://www.zune.net/xweb/lx/pic/bgdark_followed_hover.png) no-repeat;
+}
+
+.BreadCrumb {
+    font-size: 10px;
+    margin: 10px 0 5px 10px;
+    text-transform: uppercase;
+}
+
+.BreadCrumb a {
+    background: transparent url(http://www.zune.net/xweb/zune/argoV2/images/BreadCrumb.png) no-repeat center right;
+    text-decoration: none;
+    padding-right: 13px;
+}
+
+.BreadCrumb li.last a {
+    background: none;
+    padding-right: 0;
+}
+
+.BreadCrumb li {
+    display: inline;
+    margin-right: 7px;
+}
+
+ul .BreadCrumbFirst {
+    display: none;
+}
+
+.pageSubTitle {
+    color: #888;
+}
+
+.TvNetworkBreadCrumbSubTitleWrapper {
+    width: 950px;
+    position: relative;
+    float: left;
+}
+
+img.TvNetworkImage {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    border-width: 0;
+}
+
+.ThirdPartySocialLinks {
+    font-size: 12px;
+    padding: 5px 0;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.ThirdPartySocialLinks li.right {
+    float: right;
+}
+
+.AboutMe {
+    float: left;
+    width: 280px;
+    clear: right;
+    display: block;
+}
+
+.AboutMe .AboutMeTopBorder {
+    background: #000;
+    opacity: .8;
+    height: 27px;
+    width: 280px;
+}
+
+.AboutMe ul {
+    list-style-type: none;
+}
+
+.AboutMe button {
+    float: left;
+}
+
+.UserInfoWrapper {
+    min-height: 60px;
+    margin: 10px 0 10px 20px;
+}
+
+.TileWrapper {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.TileWrapper img {
+    width: 60px;
+    height: 60px;
+}
+
+.UserInfoWrapper h3 {
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.UserInfoWrapper div {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.UserBioWrapper {
+    border-top: 1px solid #333;
+    margin: 0 0 20px 20px;
+}
+
+.UserBioWrapper h3 {
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.UserBioWrapper div {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.UserButtonWrapper {
+    margin-left: 20px;
+}
+
+.AddFriendButtons a:link, .AddFriendButtons a:visited, .AddFriendButtons a:hover {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.AboutMe .ButtonWrapper li {
+    display: block;
+    float: left;
+}
+
+.SimilarityMeter {
+    background-color: #888;
+    height: 7px;
+    width: 150px;
+    position: relative;
+    clear: none;
+    margin-top: 7px;
+}
+
+.SimilarityMeter div {
+    background-color: #ec008c;
+    height: 100%;
+    position: relative;
+}
+
+#_windowsLiveUsers h2 {
+    width: 100%;
+}
+
+.InviteFriendsWrapper {
+    font-size: 12px;
+}
+
+.InviteFriendsWrapper p, .InviteFriendsWrapper h3, .InviteFriendsWrapper h2 {
+    clear: both;
+}
+
+.InviteFriendsWrapper h3 {
+    margin-bottom: 10px;
+}
+
+.InviteFriendsWrapper br {
+    line-height: 0;
+    font-size: 0;
+    height: 0;
+}
+
+.InviteFriendsWrapper span.letter {
+    font-size: 12px;
+    font-weight: bold;
+    clear: both;
+    text-transform: uppercase;
+    position: relative;
+    left: 2px;
+    top: 0;
+}
+
+.InviteFriendsWrapper label {
+    font-weight: bold;
+}
+
+.InviteFriendsWrapper p.SmallCopy {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.InviteFriendsWrapper .AllContactsWrapper {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.SelectAllWrapper {
+    margin-bottom: 10px;
+}
+
+.SelectAllWrapper label {
+    font-weight: bold;
+}
+
+.InviteFriendsWrapper .AllContactsWrapper .ContactRowWrapper {
+    margin-bottom: 10px;
+}
+
+.InviteFriendsWrapper .AllContactsWrapper label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.InviteFriendsWrapper .AllContactsWrapper input {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.InviteFriendsWrapper #ExtraAddresses {
+    margin-bottom: 30px;
+}
+
+.InviteFriendsWrapper textarea {
+    height: 80px;
+    width: 472px;
+    font-size: 12px;
+}
+
+.InviteFriendsWrapper .RowLine {
+    margin-bottom: 30px;
+}
+
+.InviteFriendsWrapper .ButtonWrapper {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 480px;
+}
+
+.InviteFriendsWrapper .ButtonWrapper a {
+    float: right;
+}
+
+.FollowingWrapper .MyOtherFanClubsWrapper .FilterBar {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#_friendRecentPlays .RowData .EmptyState {
+    border: 0;
+}
+
+.MySocialHeader {
+    position: relative;
+    width: 960px;
+    height: 87px;
+}
+
+.MySocialHeader .ccm_bottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#_socialWeRecommend h2 {
+    float: none;
+}
+
+#_socialWeRecommend p {
+    overflow: visible;
+    height: auto;
+    max-height: 52px;
+}
+
+.SocialWeRecommentLink {
+    height: auto;
+    max-height: 26px;
+}
+
+.MySocialChartWrapper {
+    background-color: Black;
+}
+
+#_albumNewReleases .Pager .SmallPager {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.FanClubMessage {
+    clear: both;
+    padding-top: 10px;
+}
+
+.FanClubMessage h3 {
+    float: none;
+    clear: both;
+    margin-top: 0;
+}
+
+.FanClubMessage ul {
+    list-style: disc;
+    padding: 0 0 10px 10px;
+    margin-left: 10px;
+}
+
+.FanClubMessage li {
+    margin-bottom: 5px;
+}
+
+.MoreRecommendations {
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.FollowingWrapper .FollowingHeadInfo {
+    font-size: 11px;
+    width: 660px;
+    padding: 10px 30px 10px 120px;
+    margin-bottom: 10px;
+    background: #EEE url('http://www.zune.net/xweb/lx/pic/following_largeStar.gif') no-repeat left top;
+}
+
+.FollowingWrapper .TopArtistsWrapper ul.FollowingHead {
+    overflow: hidden;
+}
+
+.FollowingWrapper ul.FollowingHead {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.FollowingWrapper ul.FollowingHead li.Title {
+    float: left;
+    padding-bottom: 5px;
+}
+
+.FollowingWrapper ul.FollowingHead li.SeeMore {
+    float: left;
+    font-size: 16px;
+}
+
+.FollowingWrapper ul.FollowingHead li.SeeMore a {
+    display: block;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+*+html .FollowingWrapper ul.FollowingHead li.SeeMore a {
+    padding-top: 10px;
+}
+
+.FollowingWrapper ul.FollowingHead li.ArtistName {
+    float: right;
+}
+
+.FollowingWrapper ul.FollowingHead li.ArtistName input {
+    width: 285px;
+    border: solid 1px #DDD;
+    color: #888;
+    font-size: 11px;
+    padding: 5px 0 5px 10px;
+    margin-top: 3px;
+}
+
+.FollowingWrapper ul.FollowingHead li.Add {
+    float: right;
+    margin-left: 10px;
+}
+
+.FollowingWrapper .SeeMoreWrapper ul.FollowingHead li.AddArtistName {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.FollowingWrapper .SeeMoreWrapper ul.FollowingHead {
+    height: 48px;
+}
+
+.FollowingWrapper .TopArtistsWrapper {
+    padding-top: 13px;
+    border-top: solid 1px #EEE;
+}
+
+.FollowingWrapper .noFanClubResults {
+    display: none;
+    color: #EC008C;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.FollowingWrapper .head .NewButtonWrapper {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.Zwrapper .LxProfileNavWrapper {
+    margin-left: 144px;
+}
+
+.Zwrapper .LxPageName {
+    color: #333;
+    float: left;
+    font-size: 50px;
+    height: 55px;
+    line-height: 50px;
+    margin: 0;
+    text-transform: lowercase;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.Zwrapper .LxProfilePlays {
+    color: #555;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 44px;
+    margin-right: 44px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 290px;
+}
+
+.LxProfileNavWrapper .DetailMenu {
+    margin-bottom: 11px;
+    float: left;
+}
+
+.LxSongListing_Summary {
+    width: 370px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.XbcShellMainContent {
+    clear: both;
+}
+
+.LxWikiSearchRow {
+    padding-left: 23px;
+    margin-bottom: 30px;
+}
+
+.LxWikiSearchResult .LxWikiSearchRow {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.LxWikiSearchRow .LxAlbumInformation, .LxWikiSearchRow .LxAlbumInformation a {
+    font-size: 12px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.LxMediaAlbumArt {
+    margin-right: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.LxAlbumInformation {
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.LxWikiSearchRow .LxMediaAlbumArt img {
+    width: 75px;
+    height: 75px;
+}
+
+.LxWikiSearchRow .LxAlbumInformation .LxAlbumLink {
+    font-weight: normal;
+}
+
+.LxAlbumDetailsSendBuyFav {
+    margin-top: 0;
+}
+
+.LxBuyButtonDiv {
+    background: none;
+    padding: 0;
+}
+
+div.LxBuyButtonDiv a, div.LxSendButtonDiv a, div.LxFavButtonDiv a, div.LxBuyButtonDiv a:link, div.LxSendButtonDiv a:link, div.LxFavButtonDiv a:link, div.LxBuyButtonDiv a:hover, div.LxSendButtonDiv a:hover, div.LxFavButtonDiv a:hover, div.LxBuyButtonDiv a:visited, div.LxSendButtonDiv a:visited, div.LxFavButtonDiv a:visited {
+    color: #EC008C;
+    font-weight: normal;
+}
+
+#artistUsageList {
+    clear: both;
+    padding-left: 23px;
+    margin-bottom: 30px;
+}
+
+#artistUsageList a, #artistUsageList a:link {
+    color: #555;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.cropArtistImage {
+    width: 150px;
+    height: 84px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.cropArtistImage img {
+    width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+.ArtistFeedNarrowColumn {
+    float: left;
+    width: 300px;
+}
+
+.Feed {
+    clear: both;
+}
+
+#AlbumDetailHeader {
+    width: 780px;
+    float: left;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper .Image {
+    width: 200px;
+    height: 200px;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper .Image img {
+    width: 100%;
+    height: 100%;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper .Specifics {
+    margin-left: 202px;
+    padding-left: 10px;
+    float: none;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper h5 {
+    width: 300px;
+    margin: 0;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper p {
+    margin: 0;
+    line-height: 18px;
+    clear: right;
+    color: #8E8E8E;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper p.Title {
+    text-transform: uppercase;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper p.Title a {
+    color: #8E8E8E;
+}
+
+#AlbumDetailHeader .MediaDetailsWrapper p.Title a:hover {
+    color: #EC008C;
+}
+
+#AlbumDetailHeader .NewButtonWrapper {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#AlbumDetailHeader table.MediaList {
+    width: 400px;
+}
+
+#AlbumDetailHeader table.MediaList tr {
+    border-top: 0;
+}
+
+#ArtistChartRowLine {
+    float: left;
+    width: 790px;
+    clear: none;
+    margin-bottom: 10px;
+}
+
+#_albumListeners {
+    padding-top: 20px;
+}
+
+.HalfWideViewColumn .FilterBar {
+    margin-right: 0;
+}
+
+.MediumWideViewWrapper .FilterBar, .MediumViewWrapper .FilterBar {
+    margin-right: 0;
+}
+
+.MediaReviewBlockMedium .RowData {
+    margin: 0;
+    padding: 10px 0 9px 0;
+}
+
+.MediumPodCastWrapper {
+    float: left;
+    width: 790px;
+}
+
+.ActivityWrapper .MediumArtistWrapper {
+    float: left;
+    margin-bottom: 0;
+    width: 570px;
+}
+
+.ActivityWrapper {
+    float: left;
+    margin: 8px 0 0 0;
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+
+.ActivityWrapper li.ActivityArtistImageWrapper {
+    margin-top: 0;
+    width: auto;
+}
+
+.MediumArtistWrapper ul {
+    margin: 0 0 0 0;
+}
+
+.MediumArtistWrapper ul li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.MediumArtistWrapper {
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+}
+
+.ArtistPicks li.ArtistDetailWrapper {
+    margin-right: 8px !important;
+}
+
+.ArtistPicks .MostPlayedArtistImageWrapper {
+    width: 790px !important;
+}
+
+.MediumArtistWrapper ul li.ArtistDetailWrapper {
+    margin-bottom: 18px;
+}
+
+.MediumArtistWrapper ul li.ArtistDetailWrapperLast {
+    margin-bottom: 18px;
+    margin-right: 0;
+}
+
+.MostPlayedArtistImageWrapper li {
+    display: inline;
+}
+
+.MediumArtist {
+    float: left;
+    margin-right: 10px;
+}
+
+.HalfWideViewColumn .MultiLineFeedData {
+    width: 319px;
+}
+
+.ArtistCCMWrapper {
+    margin-bottom: 32px;
+}
+
+.ArtistTourWrapper .TourDatesRowLine {
+    display: none;
+}
+
+.ArtistTourWrapper ul.MediaList {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.ArtistFeedTourWrapper .RowLine.TourDatesRowLine {
+    margin-bottom: 0;
+}
+
+.ActivityWrapper ul.MediumArtist li, .MostPlayedArtistImageWrapper ul.MediumArtist li {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.MostPlayedArtistImageWrapper .MediumArtistWrapper {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.MediumArtist img {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.MediumArtistWrapper .MediumArtist img {
+    margin-top: 0;
+}
+
+.RowData {
+    float: left;
+    margin: 0 10px 9px 0;
+    width: 100%;
+    list-style: none;
+}
+
+.RowData .SmallImage, .RowData .XSImage {
+    float: left;
+    margin: 8px 10px 0 0;
+}
+
+.WideViewWrapper .RowData, .MediumViewWrapper .RowData, .MediumViewWrapper .ArtistFeedWrapper .RowData {
+    margin-right: 0;
+}
+
+.PlaysRight {
+    float: right;
+    margin: 6px 10px 0 0;
+}
+
+.PlaysLeft {
+    float: left;
+    margin: 1px 0 0 0;
+}
+
+.PlayAddWrapper, .PlayAddWrapper img {
+    float: left;
+}
+
+.PlayAddWrapper {
+    margin-top: 8px;
+}
+
+.podcastEpisode .PlayAddWrapper {
+    margin-top: 0;
+}
+
+.MusicChartsWrapper .PlayAddWrapper {
+    padding: 5px 0;
+    margin-top: 0;
+}
+
+.PlayAddWrapper img {
+    border: none;
+    margin-right: 3px;
+}
+
+.MultiLineFeedData, .SingleLineFeedData {
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.MultiLineFeedDataNoPlayer {
+    float: left;
+    margin: 5px 0 0 0;
+}
+
+.MultiLineFeedDataNoPlayer li.GeneralMetaData {
+    display: block;
+}
+
+.SingleLineFeedData .GeneralMetaData {
+    float: left;
+    margin-right: 9px;
+}
+
+.MultiLineFeedData .GreyLinkV2, .MultiLineFeedDataNoPlayer .GreyLinkV2 {
+    margin-top: 2px;
+}
+
+.RowLine, .RowLineNoFilter {
+    border-top: 1px solid #eee;
+    height: 0;
+    width: inherit;
+    font-size: 0;
+    line-height: 0;
+}
+
+.RowLine {
+    clear: both;
+    margin-bottom: 0;
+}
+
+.FirstRowLine {
+    display: none;
+}
+
+.DeleteFollowButtonRight {
+    border: none;
+    float: right;
+    margin: 9px 10px 0 0;
+}
+
+.MultiLineFeedData p {
+    float: none;
+    margin-top: 2px;
+}
+
+.MediumArtistWrapper li.ArtistDetailWrapper {
+    height: 119px;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    float: left;
+    width: 150px;
+}
+
+.ActivityArtistImageWrapper .MediumArtistWrapper li.ArtistDetailWrapper {
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.MostPlayedArtistImageWrapper .MediumArtistWrapper li.ArtistDetailWrapper {
+    height: 135px;
+    margin-right: 10px;
+}
+
+.ProfileMostPlayedWrapper .FilterBar {
+    width: 630px;
+}
+
+.ProfileMostPlayedWrapper .EmptyState {
+    border: 0;
+}
+
+.MediumArtistWrapper .MediumArtist li {
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+    overflow: visible;
+}
+
+.MediumArtistWrapper .MediumArtist .GeneralMetaData a {
+    display: block;
+    max-height: 27px;
+    overflow: hidden;
+}
+
+.MediumArtistWrapper .MediumArtist li.Plays {
+    height: 16px;
+    overflow: hidden;
+}
+
+.MediumArtistWrapper .MediumArtist .GeneralMetaData a {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    text-overflow: ellipsis;
+}
+
+.AlbumList .AlbumTitle {
+    display: inline;
+    width: 500px;
+}
+
+.AlbumDetailsList .FilterBar {
+    margin-bottom: 10px;
+}
+
+.AlbumDetailsList .AlbumName {
+    float: left;
+}
+
+.AlbumDetailsList .Artist {
+    float: left;
+    margin: 3px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.AlbumDetailsList .ReleaseYear, .ActivityWrapper ul.MediumArtist li.Plays, .MostPlayedArtistImageWrapper ul.MediumArtist li.Plays {
+    color: #8e8e8e;
+    float: left;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.MostPlayedArtistImageWrapper {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 640px;
+}
+
+.ActivityWrapper ul.MediumArtist li.Plays, .MostPlayedArtistImageWrapper ul.MediumArtist li.Plays {
+    margin-bottom: 0;
+    text-transform: lowercase;
+}
+
+.AlbumTracks li {
+    display: inline;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.PlayFavShareWrapper li {
+    display: inline;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+
+.ProfileActivityWrapper {
+    width: 630px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+
+.ProfileMostPlayedWrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.ProfileMostPlayedWrapper .ZPrivacyMessage {
+    padding-left: 10px;
+}
+
+.ProfileCommentWrapper {
+    width: 630px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.ProfileCommentWrapper .CommentWrapper ul.CommentSubmissionWrapper {
+}
+
+.ProfileCommentWrapper .InputText {
+    margin: 10px 0 10px 35px;
+    overflow: auto;
+}
+
+.ProfileCommentWrapper div.EditWrapper h3 {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.NarrowerColumn .UserComments input.Title {
+    width: 260px;
+    background-color: #EEE;
+}
+
+.NarrowerColumn .UserComments .NewButtonWrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.NarrowerColumn .ButtonWrapper {
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.UserComments .LxWikiIframeContainer {
+    margin-bottom: 10px;
+}
+
+.Button, .ButtonV2, .Button a, .ButtonV2 a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.TVEpisodesList .SongWithOrdinals .AlbumTracks {
+    margin: 0;
+    padding-top: 8px;
+    margin: 1px 0;
+    float: left;
+}
+
+.TVEpisodesList .SongWithOrdinals .AlbumTracks .BodyCopy {
+    width: 194px;
+    padding-bottom: 7px;
+}
+
+.TVEpisodesList .SongWithOrdinals .AlbumTracks {
+    width: 100%;
+}
+
+.TVEpisodesList tr.selected {
+    background-color: #eee;
+}
+
+.TVEpisodesList tr {
+    border: 0;
+}
+
+.TVEpisodesList td {
+    border-top: #eee 1px solid;
+}
+
+.TVEpisodesList table.MediaList {
+    margin-bottom: 40px;
+}
+
+.SongWithOrdinals .AlbumTracks .ButtonV2 {
+    float: right;
+    margin-right: 24px;
+}
+
+.SongWithOrdinals .RowData {
+    margin-bottom: 0;
+    float: left;
+}
+
+.SongWithOrdinals.selected .AlbumTracks {
+    background-color: #eee;
+}
+
+.SongWithOrdinals .RowData .LxInboxPlayListTrackBody {
+    line-height: 16px;
+}
+
+.SongWithOrdinals.selected .AlbumTracks .playicon a {
+    background-color: #eee;
+}
+
+.AlbumTracks {
+    margin: 8px 0 0 0;
+}
+
+.AlbumTracks .Ordinal {
+    margin: 0 0 0 10px;
+    width: 20px;
+    min-height: 1px;
+}
+
+.AlbumTracks .BodyCopy {
+    margin-right: 10px;
+    width: 258px;
+}
+
+.AlbumTracks .BodyCopy .SongTitle {
+    display: block;
+    width: 190px;
+    overflow: hidden;
+    float: left;
+}
+
+.AlbumTracks .BodyCopy .menugrip {
+    margin-right: -30px;
+}
+
+.AlbumTracks .TrackLength {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.AlbumTracks .Plays {
+    text-align: right;
+    width: 75px;
+}
+
+.AlbumTracks .btn.pink {
+    background: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    color: #ec0083;
+    font-size: 11px;
+    font-weight: normal;
+    height: auto;
+}
+
+.AlbumTracks .lxPurchaseTvEpisodeLinkButton div {
+    display: inline;
+}
+
+.AlbumTracks .btn.pink span {
+    background: none;
+    padding: 0;
+    margin: 0;
+    line-height: 11px;
+    height: 24px;
+}
+
+.AlbumSongsWrapper {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.AlbumSongsWrapper .AlbumTracks {
+    margin: 4px 0 0;
+}
+
+.MoreAlbumsBlock h2 {
+    float: left;
+}
+
+.AlbumReview .TextBlock {
+    margin: 5px 0 28px 0;
+}
+
+.AlbumReview div {
+    margin-top: 5px;
+}
+
+.ReviewWrapper {
+    margin: 2px 10px 0;
+}
+
+.FeedWrapper {
+    margin: 4px 10px 0;
+}
+
+. ArtistNewsWrapper .FeedWrapper {
+    margin: 5px 10px 0;
+}
+
+.ReviewWrapper h3 {
+    height: 14px;
+    margin: 0;
+}
+
+.FeedWrapper H3 {
+    margin: 0;
+}
+
+.ReviewWrapper li, .FeedWrapper li {
+    float: left;
+    margin-top: 5px;
+    width: 450px;
+}
+
+.FeedWrapper li {
+    width: 515px;
+}
+
+.ActivityWrapper .FeedWrapper li {
+    width: 400px;
+}
+
+.Feed ul.PagerWrapper, .Videos ul.PagerWrapper {
+    margin-right: 0;
+}
+
+.PagerWrapper li {
+}
+
+.FeedWrapper .TextBlock {
+    margin: 0;
+}
+
+.ArtistFeedWrapper .RowData {
+    margin: 0 10px 19px 0;
+}
+
+.ArtistFeedWrapper h2 {
+    width: 400px;
+}
+
+.ReviewMetaData li {
+    display: inline;
+    float: none;
+    font-size: 10px;
+    margin: 0 5px 0 0;
+    text-transform: uppercase;
+}
+
+.ReviewMetaData .PinkLinkV2 a {
+    font-weight: normal;
+}
+
+.ReviewWrapper .TextBlock, .ReviewWrapper .ReviewMetaDataWrapper {
+    margin-top: 2px;
+}
+
+.ActivityRowWrapper, .CommentRowWrapper {
+    margin-bottom: 0;
+}
+
+.ActivityWrapper .ReviewWrapper, .ActivityWrapper .FeedWrapper {
+    margin-left: 40px;
+}
+
+.ActivityElementWrapper, .ActivityElementImageWrapper, .ActivityWrapper li {
+    display: inline-block;
+    float: left;
+}
+
+.ActivityWrapper li {
+    margin: 0 5px 0 0;
+}
+
+.ActivityElementWrapperMedium {
+    max-width: 400px !important;
+}
+
+.ActivityElementWrapper, .ActivityElementImageWrapper {
+    margin: 15px 5px 10px 15px;
+    width: 560px;
+}
+
+.ActivityElementImageWrapper {
+    width: 30px;
+}
+
+.ActivityWrapper li.ReviewMetaDataWrapper {
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.ReviewMetaDataWrapper .PinkLinkV2 a {
+    font-weight: normal;
+}
+
+.ActivityWrapper li.SingleLineFeedData {
+    margin: 0 0 0 5px;
+    width: 400px;
+}
+
+.ActivityWrapper li.PlayAddWrapper {
+    float: none;
+}
+
+.Tile {
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.UserInfo {
+    float: left;
+    width: 240px;
+    margin-right: 10px;
+}
+
+.UserInfo .GeneralMetaData {
+    font-size: 12px;
+}
+
+.UserInfo .GereralMetaData span {
+    margin-left: 10px;
+}
+
+.UserInfo .ProfileLinks a {
+    text-transform: lowercase;
+}
+
+.PlayControl {
+    float: left;
+    width: 382px;
+    margin-right: 10px;
+}
+
+.PlayControl .FriendsListensTrackWrapper {
+    float: left;
+    width: 100%;
+}
+
+.FriendsPlaysWrapper h2 {
+}
+
+.FriendsPlaysWrapper .FilterRight {
+}
+
+.FriendsListensTrackWrapper .SingleLineFeedData {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.FriendsListensTrackWrapper .SingleLineFeedData .menugrip {
+    top: -4px;
+}
+
+.FriendsPlaysWrapper .FriendsListensTrackWrapper .PlayAddWrapper {
+    clear: both;
+}
+
+.FriendsPlaysWrapper .MultiLineFeedDataNoPlayer .PinkLinkV2 {
+    width: 175px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.FriendsPlaysWrapper .FriendsListensTrackWrapper .SingleLineFeedData {
+    width: 247px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.NarrowColumn .FriendsListensTrackWrapper .SingleLineFeedData {
+    white-space: normal;
+}
+
+.FriendsRecentPlaysWrapper .SingleLineFeedData .GeneralMetaData {
+    width: 208px;
+    white-space: normal;
+}
+
+.PlayControl .SingleLineFeedData {
+    width: 332px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.FriendsListensWrapper .RowLine {
+    padding-bottom: 4px;
+}
+
+.FriendsListensWrapper .Tile {
+    padding-left: 10px;
+}
+
+.FriendsListensWrapperWide .friendsfull .PlayControl {
+    width: 400px;
+}
+
+.friendsfull .PlayControl .SingleLineFeedData {
+    width: 350px;
+    overflow: hidden;
+}
+
+.recentPlays {
+    margin-bottom: 4px;
+}
+
+.FriendsListensWrapper .PlayControl .SingleLineFeedData {
+    width: 257px;
+}
+
+.FriendsListensWrapper .PlayControl {
+    width: 300px;
+}
+
+.ProfileLinks {
+    padding-top: 10px;
+}
+
+.ProfileLinks a {
+    display: inline;
+    font-size: 10px;
+    color: #555;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+ul.MultiLineFeedDataNoPlayer li.GeneralMetaData {
+    width: 250px;
+}
+
+ul.MultiLineFeedDataNoPlayer li {
+    line-height: 1;
+}
+
+.FriendsListensTrackWrapper {
+    width: 290px;
+}
+
+.NarrowColumn .FriendsListensTrackWrapper {
+    width: 270px;
+}
+
+.FriendsListensTrackWrapper li.PlayAddWrapper, .FriendsListensTrackWrapper li.SingleLineFeedData {
+    margin-top: 5px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.FriendsListensTrackWrapper li.SingleLineFeedData {
+    white-space: normal;
+}
+
+.FriendPlaysWrapper {
+    float: left;
+    margin-top: -4px;
+}
+
+.FriendPlaysWrapper li {
+    display: inline;
+}
+
+.FriendPlaysWrapper .GreyLinkV2 {
+    margin-top: 0;
+}
+
+.FriendsListensWrapperWide .PlayControl {
+    width: 470px;
+}
+
+.FriendsListensWrapperWide .FriendsListensTrackWrapper li.SingleLineFeedData {
+    white-space: normal;
+}
+
+.TourDatesWrapper {
+    clear: both;
+    margin-bottom: 10px;
+    float: left;
+    width: 300px;
+}
+
+.TourDatesWrapper .VenueInfo {
+    float: left;
+    width: 240px;
+    min-height: 49px;
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+
+.TourDatesWrapper h5, .TourDatesWrapper p {
+    color: #555;
+    line-height: 1;
+    margin: 6px 13px 0 10px;
+}
+
+.TourDatesWrapper h5 {
+    font-size: 24px;
+    margin: 6px 0 0 0;
+    text-align: center;
+    width: 50px;
+}
+
+.TourDatesWrapper p {
+    color: #555;
+    line-height: 2;
+    margin-top: 2px;
+}
+
+.TourDate {
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    float: left;
+    margin-right: 10px;
+}
+
+.ArtistTourWrapper .RowLine {
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.TourDate .BreadCrumb {
+    text-align: center;
+    width: 50px;
+    margin: 0;
+}
+
+.FanTourDatesWrapper .FilterBar {
+    margin-bottom: 10px;
+}
+
+.FanTourDatesWrapper .EmptyState {
+    border-top: 0;
+}
+
+.AverageScore {
+    float: left;
+    margin: 0 14px 0 12px;
+}
+
+.AverageScore li.AverageScoreValue {
+    text-align: center;
+    width: 74px;
+}
+
+.AverageScore li.FeedMetaData {
+    display: block;
+    line-height: 14px;
+    margin: 4px auto;
+    text-align: center;
+    width: 40px;
+    float: none;
+}
+
+.AverageScore h5 {
+    color: #555;
+    line-height: 1;
+    margin: 5px 10px 0 10px;
+}
+
+.TourDatesWrapper ul {
+    margin-bottom: 8px;
+}
+
+.TourDatesWrapper .PlaysRight {
+    margin: 14px 19px 0 0;
+}
+
+.ArtistVenueWrapper {
+    float: left;
+    margin: 0;
+    width: 200px;
+}
+
+.ArtistVenueWrapper li {
+    display: block;
+}
+
+.ArtistVenueWrapper a.BodyCopy {
+    margin-top: 1px;
+}
+
+.Zwrapper .ArtistNewsFeedWrapper {
+    width: 480px;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 17px;
+}
+
+.ArtistFeedWrapper {
+    width: 470px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ArtistUpdatesWrapper .RowLine {
+    margin-bottom: 10px;
+}
+
+.ArtistFeedWrapper .EditFeeds {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+}
+
+.ArtistFeedTourWrapper, .ArtistFeedWrapper {
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.ArtistFeedWrapper h2, .ArtistFeedTourWrapper h2 {
+    float: left;
+}
+
+.ArtistFeedWrapper Feed {
+    text-align: right;
+}
+
+.CommentWrapper {
+    margin: 2px 0 0 10px;
+}
+
+.CommentWrapper li {
+    display: inline;
+}
+
+.CommentWrapper .ReviewMetaDataWrapper li {
+    margin: 0;
+}
+
+.CommentWrapper textarea {
+    border: 0 none;
+    margin: 8px 0 0 4px;
+    height: 42px;
+    width: 555px;
+    background-color: #eee;
+    overflow: auto;
+    padding-top: 0;
+}
+
+.InputText {
+    color: #939393;
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-style: italic;
+    padding: 10px 10px 0 10px;
+    background-color: #EEE;
+    width: 555px;
+    border: none;
+}
+
+.CommentWrapper {
+    zoom:1;}
+
+.CommentWrapper .Button {
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    padding: 4px 7px;
+}
+
+.CommentWrapper ul.CommentButtonsWrapper {
+    float: right;
+    margin-top: 10px;
+}
+
+.CommentButtonsWrapper li {
+    display: inline;
+}
+
+.CommentButtonsWrapper img.XSImage {
+    margin: 0 3px 0 0;
+}
+
+.CommentWrapper ul.CommentDetailsWrapper {
+    float: left;
+    margin: 10px 0 0 5px;
+    width: 570px;
+}
+
+.CommentDetailsWrapper li.BodyCopy {
+    line-height: 1.3;
+    margin-top: 4px;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.CommentWrapper ul.CommentSubmissionWrapper {
+    float: left;
+    margin-left: 38px;
+    position: relative;
+}
+
+.MostPlaySongColumnWrapper {
+    width: 640px;
+}
+
+.MostPlaySongColumnWrapper li.RowData {
+    width: 310px;
+    margin: 0 10px 0 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.ProfileMostPlayedWrapper .MostPlaySongColumnWrapper li.RowData {
+    width: 630px;
+}
+
+.ProfileMostPlayedWrapper .MostPlaySongColumnWrapper li.RowData .FriendPlaysWrapper li {
+    display: block;
+}
+
+.ProfileMostPlayedWrapper .MostPlaySongColumnWrapper li.RowData .FriendPlaysWrapper li.FLoatL {
+}
+
+.ProfileMostPlayedWrapper .MostPlaySongColumnWrapper li.RowData .FriendPlaysWrapper li.SingleLineFeedData {
+    width: 565px;
+    margin-top: 3px;
+}
+
+.ProfileMostPlayedWrapper .MostPlaySongColumnWrapper li.RowData .FriendPlaysWrapper li.SingleLineFeedData .GeneralMetaData {
+    display: inline;
+    float: none;
+}
+
+.MostPlaySongColumnWrapper ul.MostPlayedDetailsRow {
+    margin-left: 10px;
+}
+
+a.deleteReview, a.ClosePopup {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+a.deleteReview:hover, a.ClosePopup:hover {
+    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+}
+
+.WideViewWrapper .MediaReviewWrapper h3 {
+    color: #ec008c;
+}
+
+.MusicChartsTrackWrapper .MusicChartsWrapper {
+    margin-top: 0;
+}
+
+.MusicChartsTrackWrapper .RowData {
+    margin-bottom: 0;
+}
+
+.MusicChartsWrapper {
+    margin-top: 2px;
+}
+
+.MusicChartsWrapper .MultiLineFeedData {
+    margin-top: 5px;
+}
+
+.CommentRowWrapper .smallPager {
+    float: right;
+}
+
+div#ajaxErr {
+    color: #ec008c;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.SilverlightHero {
+    width: 490px;
+    float: left;
+}
+
+.LxCartPopupFrame {
+    height: 200px;
+    background-color: White;
+    padding: 20px;
+}
+
+.LxAddToCartPopupH1 {
+    width: 590px;
+    font-size: 25px;
+    color: Gray;
+    border-bottom: solid 1px #eee;
+}
+
+.LxAddToCartPopupH2 {
+    width: 590px;
+    border-bottom: solid 1px #eee;
+    font-size: 12px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.LxAddToCartPopupH3 {
+    width: 590px;
+    font-size: 12px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.LxAddToCartDisplayName {
+    text-transform: capitalize;
+    width: 480px;
+    float: left;
+}
+
+.LxAddToCartMediaType {
+    text-transform: uppercase;
+    float: left;
+}
+
+.LxAddToCartColon {
+    padding: 0 10px 0 10px;
+    float: left;
+}
+
+.LxAddToCartMediaName {
+    font-weight: bold;
+    float: left;
+}
+
+.LxAddToCartNormalText {
+    float: left;
+    padding: 0 5px;
+}
+
+.LxAddToCartImg {
+    width: 60px;
+    height: 60px;
+    border-width: 0;
+    padding-top: 10px;
+    float: left;
+}
+
+.LxAddToCartPopupFoot {
+    padding-top: 10px;
+    border-top: solid 1px #eee;
+    padding-right: 10px;
+    width: 590px;
+    text-align: right;
+    overflow: hidden;
+    height: 32px;
+}
+
+.LxAddToCartPopupBody {
+    height: 160px;
+}
+
+#AddToCart {
+    width: 790px;
+    text-align: left;
+    margin: 0 auto;
+    color: #555;
+    font-size: 12px;
+    float: right;
+}
+
+#AddToCart .Cart .Controls {
+    text-transform: uppercase;
+    padding-left: 10px;
+    line-height: 28px;
+    background-color: #EEE;
+}
+
+#AddToCart .Cart .Controls a {
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+#AddToCart .Cart table {
+    line-height: 28px;
+    width: 100%;
+    border: none;
+}
+
+#AddToCart .Cart table th {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#AddToCart .Cart table th.Selected {
+    font-weight: bold;
+}
+
+#AddToCart .Cart table td {
+    line-height: 34px;
+    border-top: solid 1px #EEE;
+}
+
+#AddToCart .Cart table td.CheckBox {
+    width: 20px;
+    vertical-align: middle;
+}
+
+#AddToCart .Cart table td.Remove a {
+    color: #999;
+}
+
+#AddToCart .Cart table td.Remove a:hover {
+    color: #EC008C;
+}
+
+#AddToCart .Cart table td.ControlButtons {
+    width: 30px;
+}
+
+#AddToCart h2 {
+    margin-top: 30px;
+}
+
+#AddToCart .RecommendationsWrapper .BrowseImage {
+    width: 150px;
+    height: 150px;
+    clear: both;
+}
+
+#AddToCart .RecommendationsWrapper {
+    font-size: 11px;
+}
+
+#AddToCart .RecommendationsWrapper a.AddToCart {
+    margin-top: 10px;
+}
+
+#AddToCart .RecommendationsWrapper a.Title {
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#AddToCart .RecommendationsWrapper p {
+    text-transform: uppercase;
+}
+
+#_hubContent h2 {
+    visibility: hidden;
+    height: 0;
+}
+
+#_hubContent ul.MediaList li {
+    border-top: 0;
+    border-bottom: #eee 1px solid;
+}
+
+#_hubContent ul.MediaList li.MediaListLastCol {
+    border-bottom: 0;
+}
+
+.HubAHeroI {
+    height: 260px;
+    width: 630px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.HubAHeroII {
+    height: 260px;
+    width: 150px;
+    float: right;
+}
+
+.HubAHeroIIA {
+    float: right;
+    background: #323232;
+    height: 125px;
+}
+
+.HubAHeroIIB {
+    margin-top: 10px;
+}
+
+#HubHero .Text {
+    margin-top: 220px;
+    height: 40px;
+    background: black;
+    filter: alpha(opacity=70);
+    -moz-opacity: .7;
+    opacity: .7;
+}
+
+#HubHero .Title {
+    padding: 3px 0 0 5px;
+    font-size: 12px;
+    color: white;
+    overflow: hidden;
+    height: 15px;
+    font-weight: bold;
+}
+
+#HubHero .SubTitle {
+    padding-left: 5px;
+    font-size: 12px;
+    color: white;
+    overflow: hidden;
+    height: 15px;
+}
+
+#HubHero img {
+    width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+.HubImageCrop {
+    overflow: hidden;
+}
+
+.HubAImageII {
+    height: 85px;
+    width: 150px;
+}
+
+.HubBHero {
+    width: 790px;
+}
+
+#HubHero a:hover {
+    background-color: #ec008c;
+}
+
+#HubHero a:hover .Text {
+    background-color: #ec008c;
+}
+
+.SubHeroCCMWrapper {
+    position: relative;
+    float: right;
+    top: -200px;
+    height: 0;
+    right: 20px;
+}
+
+.page_Silverlight_BingPlayer {
+    background-color: #000;
+}
+
+.altContent {
+    white-space: nowrap;
+}
+
+.altContent .btnsmall {
+    margin-left: 2px;
+}
+
+td.Buy {
+    text-align: right;
+    white-space: nowrap;
+    width: 72px;
+}
+
+td.Buy .altContent {
+    margin-bottom: -6px;
+}
+
+td.Total .altContent, td.Buy .altContent {
+    margin-top: -2px;
+    clear: both;
+    float: right;
+}
+
+ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
+    min-width: 90px;
+}
+
+.langde #_mostActive h2 {
+    height: 74px;
+}
+
+.btn, .btnsmall {
+    margin: 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: 0;
+    line-height: normal;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    background: url("http://www.zune.net/xweb/lx/pic/spt_buttons2.png");
+    height: 32px;
+}
+
+.btnsmall {
+    background: url("http://www.zune.net/xweb/lx/pic/spt_buy_buttons.png");
+    height: 26px;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    padding-right: 8px;
+}
+
+.NarrowMostPlayedSongs .btnsmall {
+    margin-top: -8px;
+    margin-bottom: -4px;
+}
+
+.btnsmall span.btntext img.downarrow {
+    margin-left: -7px;
+    top: -1px;
+}
+
+.btn span, .btnsmall span {
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn span {
+    line-height: 32px;
+}
+
+.btnsmall span {
+    line-height: 29px;
+}
+
+.btn.pink, .btnsmall.pink {
+    background-position: right 0;
+    color: #FFF !important;
+}
+
+.btn.gray, .btnsmall.gray {
+    background-position: right -68px;
+    color: #333 !important;
+}
+
+.btn.disabled, .btnsmall.disabled {
+    background-position: right -68px;
+    color: #ccc !important;
+}
+
+.btn.disabled span, .btnsmall.disabled span {
+    cursor: default;
+}
+
+.btn .btntip, .btnsmall .btntip {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    display: block;
+}
+
+.btnsmall .btntip {
+    width: 8px;
+}
+
+.btn .btntip {
+    background: url("http://www.zune.net/xweb/lx/pic/spt_buttons2.png");
+    line-height: 32px;
+    height: 32px;
+}
+
+.btnsmall .btntip {
+    background: url("http://www.zune.net/xweb/lx/pic/spt_buy_buttons.png");
+    line-height: 26px;
+    height: 26px;
+}
+
+.btn img {
+    position: relative;
+    top: -2px;
+    padding-left: 4px;
+}
+
+.btnsmall img {
+    position: relative;
+    top: -2px;
+    padding-left: 4px;
+}
+
+.btn .btntext, .btnsmall .btntext {
+    font-weight: bold;
+    text-transform: none;
+    display: block;
+}
+
+.btn .btntext {
+    font-size: 12px;
+    height: 32px;
+}
+
+.btnsmall .btntext {
+    text-transform: uppercase;
+    font-size: 10px;
+    height: 26px;
+}
+
+.btncap {
+    text-transform: uppercase;
+}
+
+.btn.gray .btntext, .btnsmall.gray .btntext {
+    color: #333;
+}
+
+.btn.pink .btntip, .btnsmall.pink .btntip {
+    margin-left: -10px;
+    background-position: 0 0;
+}
+
+.btnsmall.pink .btntip {
+    margin-left: -8px;
+}
+
+.btn.gray .btntip, .btnsmall.gray .btntip {
+    margin-left: -10px;
+    background-position: 0 -68px;
+}
+
+.btn.disabled .btntip, .btnsmall.disabled .btntip {
+    margin-left: -10px;
+    background-position: 0 -68px;
+}
+
+.btn.pink:hover {
+    background-position: right -33px;
+    color: #FFF !important;
+}
+
+.btnsmall.pink:hover {
+    background-position: right -27px;
+    color: #FFF !important;
+}
+
+.btn.gray:hover, .btnsmall.gray:hover {
+    background-position: right -102px;
+    color: #333 !important;
+}
+
+.btn.pink:hover .btntip {
+    background-position: 0 -33px;
+}
+
+.btnsmall.pink:hover .btntip {
+    background-position: 0 -27px;
+}
+
+.btn.gray:hover .btntip, .btnsmall.gray:hover .btntip {
+    background-position: 0 -102px;
+}
+
+.btn .btntext.btnIE6, .btnsmall .btntext.btnIE6 {
+}
+
+.btn .btntip.btnIE6, .btnsmall .btntip.btnIE6 {
+}
+
+#popFooter .btnIE6 .btntip {
+}
+
+.DropDownButton, .DropDownButton li ul {
+    list-style-type: none;
+}
+
+.DropDownButton li {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.DropDownButton ul li, .DropDownButton ul .btn span.btntext {
+    text-align: left;
+    float: none;
+}
+
+.DropDownButton li a:link, .DropDownButton li a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    zoom:1;}
+
+.DropDownButton .button:hover ul, .DropDownButton .sfhover ul {
+    display: block;
+    height: auto;
+    top: 30px;
+}
+
+.DropDownButton li ul {
+    position: absolute;
+    background: #a60063;
+    z-index: 100;
+    padding-bottom: 10px;
+    float: none;
+    top: -30000px;
+    left: 2px;
+    zoom:1;}
+
+.DropDownButton li ul li {
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.DropDownButton li ul li.btn {
+    height: auto;
+}
+
+.DropDownButton li ul li a {
+    background: #a60063;
+    white-space: nowrap;
+    display: block;
+    padding: 10px 10px 0 10px;
+}
+
+.DropDownButton ul li.btn.pink span.btntip, .DropDownButton ul li.btn {
+    background: #a60063;
+}
+
+.AboutMe .ButtonWrapper .DropDownButton li {
+    float: none;
+}
+
+.AboutMe .ButtonWrapper .DropDownButton li div {
+}
+
+.AboutMe .ButtonWrapper .DropDownButton li .btn {
+}
+
+.AboutMe .ButtonWrapper .DropDownButton li .btn .btntext {
+    text-transform: none;
+}
+
+.NewButtonWrapper {
+    font-size: 12px;
+}
+
+.NewButtonWrapper a {
+    float: left;
+    height: 32px;
+    background: none;
+    margin-right: 10px;
+}
+
+.NewButtonWrapper .buybtn.pink .btntip {
+    background: none;
+}
+
+.NewButtonWrapper a span {
+    float: left;
+    height: 100%;
+}
+
+.NewButtonWrapper span.Text {
+    text-decoration: none;
+    line-height: 32px;
+    text-align: center;
+    background-image: url(http://www.zune.net/xweb/lx/pic/spt_buttons2.png);
+    background-repeat: repeat-x;
+    position: relative;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 4px;
+}
+
+.NewButtonWrapper span.BtnBg {
+    margin-left: -8px;
+    height: 32px;
+    width: 8px;
+    background-repeat: repeat-x;
+    background-image: url(http://www.zune.net/xweb/lx/pic/spt_buttons2.png);
+}
+
+#frameWrapper span.Text {
+    text-transform: uppercase;
+}
+
+.NewButtonWrapper .NormalBright a span.Text {
+    color: #FFF;
+    background-position: right 0;
+    font-weight: bold;
+}
+
+.NewButtonWrapper .NormalBright a span.Text:first-letter {
+}
+
+.NewButtonWrapper .NormalBright a:hover span.Text {
+    background-position: right -33px;
+}
+
+.NewButtonWrapper .NormalBright span.BtnBg {
+    background-position: left 0;
+}
+
+.NewButtonWrapper .NormalBright a:hover span.BtnBg {
+    background-position: left -33px;
+}
+
+.NewButtonWrapper .NormalDark a span.Text {
+    color: #666;
+    background-position: right -68px;
+}
+
+.NewButtonWrapper .NormalDark a:hover span.Text {
+    background-position: right -102px;
+}
+
+.NewButtonWrapper .NormalDark span.BtnBg {
+    background-position: left -68px;
+}
+
+.NewButtonWrapper .NormalDark a:hover span.BtnBg {
+    background-position: left -102px;
+}
+
+.MediaListWraper div.EditWrapper .NewButtonWrapper {
+    padding-top: 10px;
+}
+
+.MediumViewWrapper div.EditWrapper .NewButtonWrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.MediumWideViewWrapper div.EditWrapper .NewButtonWrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.BtnGroup {
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+    border-top: solid 1px #EEE;
+    padding-top: 10px;
+}
+
+.BtnGroup .NewButtonWrapper {
+    float: right;
+    margin-right: 5px;
+}
+
+#frameWrapper .BtnGroup {
+    border-top: none;
+    margin-top: 0;
+    width: 570px;
+    float: left;
+}
+
+.smartDJWrapper {
+    margin: 0 0 0 5px;
+    height: 85px;
+}
+
+#_smartDJSearch h2 {
+    float: none;
+    margin: 0;
+    height: 42px;
+}
+
+.smartDJWrapper .description {
+    clear: both;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.smartDJSearch {
+    position: absolute;
+}
+
+.smartDJSearch input {
+    border: 1px solid #ddd;
+    color: #888;
+    font-size: 11px;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.smartDJSearch input.SearchBox {
+    background: #fff;
+    color: #888;
+    vertical-align: middle;
+    width: 293px;
+}
+
+.smartDJSearch input.hiddenSubmit {
+    background: url(http://www.zune.net/xweb/lx/pic/smartDJPlay.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -9px;
+    top: 2px;
+    cursor: pointer;
+    border: 0;
+}
+
+.noSmartDJResults {
+    display: none;
+    color: #ec008c;
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    bottom: 16px;
+    left: 5px;
+}
+
+@media screen {
+    .sIFR-flash {
+        visibility: visible !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sIFR-replaced, .sIFR-ignore {
+        visibility: visible !important;
+    }
+
+    .sIFR-alternate {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    .sIFR-replaced div.sIFR-fixfocus {
+        margin: 0pt;
+        padding: 0pt;
+        overflow: auto;
+        letter-spacing: 0;
+        float: none;
+    }
+}
+
+@media print {
+    .sIFR-flash {
+        display: none !important;
+        height: 0;
+        width: 0;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .sIFR-alternate {
+        visibility: visible !important;
+        display: block !important;
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+@media screen {
+    .sIFR-active h1 {
+        visibility: hidden;
+    }
+
+    .sIFR-active h2 {
+        visibility: hidden;
+    }
+}
+
+.zunePlayerDashboardWrapper {
+    width: 100%;
+}
+
+.zuneDashboardControl {
+    display: block;
+    background-color: #fff;
+}
+
+.zuneDashboardWrapper {
+    background-color: Transparent;
+    position: fixed;
+    z-index: 998;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    left: 0;
+}
+
+.zuneDashboardShadow {
+    background: transparent url('http://www.zune.net/xweb/lx/pic/dash_shadow.png') repeat-x 0 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+}
+
+#dashboardControlHost {
+    margin: 0 auto;
+    height: 43px;
+}
+
+.zuneQueueEditorWrapper {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    right: 150px;
+    bottom: 85px;
+    background-color: Transparent;
+    color: #fff;
+}
+
+.zunePopupAudioPlayerControl {
+    position: absolute;
+}
+
+.zuneDashboardCCMHost {
+    visibility: collapse;
+    text-align: left;
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 10px;
+}
+
+.menugrip {
+    padding: 10px 8px 8px 8px;
+    display: none;
+    zoom:1;cursor: pointer;
+    position: absolute;
+}
+
+td.Buy .menugrip, li.FavoriteSongs .menugrip, .menugrip.buybtn {
+    padding: 0 10px 0 0;
+}
+
+td.Buy .menugrip {
+    display: block;
+}
+
+.MusicChartsWrapper .menugrip {
+    padding: 5px 8px 8px 8px;
+}
+
+ul.dropMenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FFF;
+    margin: 0;
+    border: 1px solid #CCC;
+    z-index: 1001;
+    text-align: left;
+}
+
+ul.dropMenu li {
+    display: block;
+    list-type: none;
+}
+
+ul.dropMenu a {
+    font-size: 80%;
+    display: block;
+    color: #888;
+    padding: 0 8px 4px 8px;
+}
+
+ul.dropMenu a:hover {
+    color: #FFF;
+    background-color: #ec008c;
+}
+
+#jsOverlay {
+    position: absolute;
+    display: none;
+}
+
+#jsOverMenu {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+#jsOverMenu img {
+    margin-top: 6px;
+}
+
+.overlay {
+    background-color: #000;
+    z-index: 997;
+}
+
+#jsOverlay .buttonRow {
+    display: block;
+    cursor: pointer;
+}
+
+#jsOverlay .buttonRow a.overbtn {
+    display: block;
+    float: left;
+}
+
+.buttonRow.med {
+    left: 4px;
+}
+
+.buttonRow.med .overbtn {
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.buttonRow.large {
+    left: 40px;
+}
+
+.buttonRow.large .overbtn {
+    margin-right: 6px;
+    height: 30px;
+    width: 30px;
+}
+
+.buttonRow.large #jsOverMenu {
+    padding-top: 8px;
+}
+
+.menudownarrow {
+    vertical-align: top;
+}
+
+.LxPopupFrag {
+    background-color: #fff;
+    height: 365px;
+    width: 630px;
+}
+
+div.lxPopupShield {
+    background-color: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+div.LxPopup .LxEditFeedsHeader div#LxAjaxInlineError {
+    margin-left: 15px;
+}
+
+.LxPopupFrag .LxControlHeaderText {
+    margin: 9px 0 0 13px;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 24px;
+    color: #555;
+}
+
+.LxEditFeedsSubHeader {
+    background-color: #ddd;
+    border-bottom: 1px solid #BABABA;
+    color: #555;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    margin-left: 15px;
+    width: 600px;
+}
+
+.LxEditFeedsSubHeaderWrapper {
+    margin: 4px 0 0 6px;
+}
+
+.LxEditFeedsSubHeaderTitle, .LxEditFeedsSubHeaderFeed, .LxEditFeedsSubHeaderBy, .LxFeedTitleLabel, .LxFeedUriLabel, .LxFeedLastUpdatedLabel, .LxFeedReportButton {
+    float: left;
+}
+
+.LxEditFeedsSubHeaderTitle, .LxFeedRow {
+    margin-left: 5px;
+}
+
+.LxEditFeedsSubHeaderFeed {
+    margin-left: 102px;
+}
+
+.LxEditFeedsSubHeaderBy {
+    margin-left: 270px;
+}
+
+.LxEditFeedsSubHeaderTextWrap {
+    margin: 4px 0 0 6px;
+}
+
+.LxFeedRow {
+    border-bottom: 1px solid #555;
+    float: left;
+    height: 39px;
+    margin-left: 14px;
+    width: 601px;
+}
+
+.LxFeedTitleLabel, .LxFeedUriLabel, .LxFeedLastUpdatedLabel {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.LxFeedTitleLabel {
+    color: #555;
+    font-size: 13px;
+    margin: 10px 21px 15px 10px;
+    text-align: left;
+    width: 100px;
+}
+
+.LxFeedUriLabel {
+    border: 1px solid #ddd;
+    color: #555;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 11px;
+    margin-top: 9px;
+    padding: 3px 5px 4px;
+    width: 259px;
+}
+
+.LxFeedLastUpdatedLabel {
+    color: #555;
+    font-weight: normal;
+    margin-left: 33px;
+    margin-top: 13px;
+    text-align: left;
+    width: 120px;
+}
+
+.LxFeedReportButton {
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 13px;
+    width: 18px;
+}
+
+.LxEditFeedNotes, .LxArtistFeedsInstructions {
+    color: #555;
+    float: left;
+    text-align: left;
+}
+
+.LxEditFeedNotes {
+    font-size: 11px;
+    margin: 6px 0 25px 15px;
+    width: 430px;
+}
+
+.LxArtistFeedsInstructions {
+    font-size: 11px;
+    margin-left: 15px;
+    width: 600px;
+}
+
+.LxEditFeedsButtons {
+    float: right;
+    margin: 3px 16px 4px 1px;
+}
+
+.LxEditFeedsButtons a, .LxEditFeedsButtons a:link, .LxEditFeedsButtons a:active, .LxEditFeedsButtons a:visited, .LxEditFeedsButtons a:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.LxCancelButton, .LxSaveButton {
+    float: left;
+    padding: 3px 11px;
+}
+
+.LxCancelButton {
+    background: #929292 none repeat scroll 0 0;
+    margin-right: 10px;
+}
+
+.LxSaveButton {
+    background: #ec008c none repeat scroll 0 0;
+}
+
+.LxEditFeedsMessageContainer {
+    margin: 0;
+    width: 600px;
+}
+
+.LxAjaxErrWrapper {
+    float: left;
+    height: 29px;
+    margin: 0;
+}
+
+.ac_results {
+    padding: 0;
+    border-left: 2px solid #BABABA;
+    border-right: 2px solid #BABABA;
+    border-bottom: 2px solid #BABABA;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+    width: 450px;
+}
+
+.ac_results ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0 1px;
+    width: 450px;
+    position: relative;
+    padding-right: 4px;
+}
+
+.ac_results li {
+    cursor: default;
+    display: inline;
+    width: 430px;
+    font: menu;
+    font-size: 12px;
+    border-bottom: 1px solid #BABABA;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+    margin: 0 10px;
+}
+
+.page_Social_MySocial .ac_results li {
+    margin: 0;
+}
+
+.ac_results li .LxSmallArtistWrapper {
+    padding: 5px 0;
+    width: 430px;
+    float: left;
+}
+
+.ac_loading {
+    background: white url('http://www.zune.net/xweb/lx/css/indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+    background-color: #FFF;
+}
+
+.ac_over {
+    background-color: #fff0f9;
+    color: white;
+}
+
+.AlbumDetail .Detail {
+    padding-right: 10px;
+    color: #555;
+}
+
+.AlbumList .Artist {
+    color: #555;
+}
+
+.AlbumsShow {
+    font-size: 11px;
+    float: left;
+    margin: 0 10px 40px 0;
+}
+
+.AlbumsShow .Artist a {
+    color: #555;
+    text-transform: uppercase;
+}
+
+.AlbumsShow .Artist a:hover {
+    color: #ec008c;
+}
+
+.AlbumsShow div, .ArtistsShow div {
+    width: 150px;
+}
+
+.AlbumsShow .Title {
+    margin: 5px 0 3px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ArtistList, .AlbumList {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 10px;
+    font-size: 14px;
+}
+
+.ArtistsShow {
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    margin: 0 10px 40px 0;
+}
+
+.ArtistsShow .ArtistName {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.SongsShow {
+    overflow: hidden;
+    height: 20px;
+    width: 750px;
+}
+
+#_body1 .PodcastShow, #_body1 .TVShow, #_body1 .MovieShow, #_body1 .MusicShow {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+
+#_body1 .SongsShow {
+    font-size: 12px;
+}
+
+#_body2 {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#_body2 .border {
+    border-top: 1px solid #eee;
+}
+
+#_body2 .RowLine {
+    margin-top: 10px;
+}
+
+#_body2 .SongsShow {
+    font-size: 14px;
+}
+
+#_body2 .PodcastShow, #_body2 .TVShow, #_body2 .MovieShow, #_body2 .MusicShow {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+}
+
+.MembersShow {
+    margin: 0 0 10px 10px;
+    font-size: 12px;
+    color: #555;
+    float: left;
+    width: 100%;
+}
+
+.MembersShow .MemberPic {
+    float: left;
+}
+
+.MembersShow .SearchWord {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.MembersShow .MemberInfo {
+    color: #555;
+}
+
+.MembersShow .MemberPic {
+    float: left;
+    margin-right: 10px;
+}
+
+.MembersShow .ZunTag {
+    text-transform: uppercase;
+}
+
+.MembersShow .ZunTag a {
+    font-weight: bold;
+}
+
+.MusicShow .Artist {
+    color: #555;
+}
+
+.MusicShow a.Artist:hover {
+    color: #ec008c;
+}
+
+.NoSearchResults {
+    margin: 5px 0 0 10px;
+    font-size: 12px;
+}
+
+.Search {
+    float: left;
+    width: 800px;
+    margin-right: 10px;
+}
+
+.SearchGrayLink a {
+    color: #555;
+}
+
+.SearchGrayLink a:hover {
+    color: #ec008c;
+}
+
+.Search #_body1 .SearchHeader {
+    display: none;
+}
+
+.Search #_body1 #LxAjaxBusyMessage {
+    display: none;
+}
+
+.Search h2 {
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    display: inline;
+}
+
+.Search .SearchBlock {
+    display: none;
+    width: 100%;
+    margin: 10px 0 9px 0;
+    float: left;
+    clear: both;
+}
+
+.Search .SearchHeader {
+    float: left;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.SearchCCM {
+    float: left;
+    width: 150px;
+    clear: both;
+    border-top: 1px solid #eee;
+}
+
+.SearchCCM img {
+    width: 150px;
+}
+
+.Search .SearchHeader h2 {
+    margin: 0;
+}
+
+.SearchBlock .AlbumsShow {
+    margin-bottom: 0;
+}
+
+.SearchLeft {
+    float: left;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 10px 30px;
+    border-top: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+.SearchLeft span {
+    text-transform: capitalize;
+}
+
+.SearchLeft a {
+    color: #555;
+    cursor: pointer;
+}
+
+.SearchLeft a:hover {
+    color: #333;
+}
+
+.SearchLeft a.selected {
+    color: #000;
+    font-weight: bolder;
+}
+
+.SearchLeft li {
+    margin: 5px 0;
+}
+
+.SearchLeft .NoResult {
+    color: #999;
+}
+
+.Loading, span .Loading {
+    color: #ec008c;
+    text-transform: capitalize;
+}
+
+.SearchNoFound {
+    display: none;
+    margin: 10px 0 0 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.SearchResult {
+    display: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #eee;
+    width: 790px;
+}
+
+.SearchResult div {
+    margin: 0;
+    font-size: 10px;
+    line-height: 28px;
+}
+
+.DidYouMean {
+    margin: 0;
+    font-size: 10px;
+    padding: 9px 10px 0;
+}
+
+.DidYouMeanResult {
+    font-weight: bold;
+}
+
+.SearchSubResult {
+    font-size: 12px;
+    color: #555;
+    margin-left: 7px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.SearchTitle {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+    padding: 20px 0 0 10px;
+}
+
+.SearchTitleDetail {
+    color: #999;
+    font-size: 50px;
+}
+
+.SeeAll {
+    float: right;
+    padding: 21px 10px 0 0;
+}
+
+.SeeAll a {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.SingleAlbum {
+    margin-top: 10px;
+}
+
+.SingleAlbum .AlbumImage {
+    float: left;
+    margin-right: 10px;
+    min-height: 84px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.SingleAlbum .AlbumImage img {
+    width: 100%;
+    border: medium none;
+}
+
+.SingleAlbum .AlbumDetail {
+    font-size: 12px;
+}
+
+.SingleAlbum .AlbumDetail a {
+    font-size: 16px;
+}
+
+.SingleAlbum .AlbumPic {
+    float: left;
+    margin-right: 10px;
+}
+
+.XbcFloatLeft {
+    float: left;
+}
+
+.XbcFloatClear {
+    clear: both;
+    width: 100%;
+}
+
+.XbcQuickSearchResults {
+    display: block;
+    width: 790px;
+    font-size: 12px;
+}
+
+.XbcQuickSearchResults p {
+    margin: 10px 0 0 10px;
+    float: left;
+    width: 100%;
+}
+
+.XbcSearchBuyNowButton {
+    float: left;
+    width: auto;
+}
+
+.XbcSearchProductResult {
+    width: 100%;
+}
+
+.XbcSearchProductResult p {
+    float: left;
+    width: 60%;
+    display: block;
+    margin: 3px;
+}
+
+.XbcSearchProductResult p.XbcSearchProductResultTitle {
+    margin: 25px 0 15px 0;
+}
+
+.XbcSearchProductResult p.XbcSearchProductResultTitle a {
+    color: #555;
+    font-size: 15px;
+}
+
+.XbcSearchProductResult .XbcSearchProductResultMainImg {
+    float: left;
+}
+
+.MemberBio {
+    font-size: 12px;
+    color: #555;
+}
+
+.XbcQuickSearchResults a {
+    color: #ec008c;
+    font-weight: bold;
+}
+
+.SearchSongs .PlayAddWrapper {
+    margin-top: 5px;
+}
+
+#tileDialog .rank {
+    float: left;
+    font-size: 37px;
+    color: #b1b1b1;
+    margin-left: 5px;
+}
+
+#tileDialog {
+    border: solid 1px #d8d8d8;
+    background-color: #fff;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#tileDialog .body {
+    text-align: left;
+    float: left;
+    margin: 5px 5px 0;
+    overflow: hidden;
+}
+
+#tileDialog .zuneTag {
+    font-size: 13px;
+    color: #191919;
+}
+
+#tileDialog .nameLoc {
+    margin-top: 5px;
+    color: #555;
+    font-size: 11px;
+}
+
+#tileDialog .playCount {
+    margin-top: 12px;
+    color: #555;
+}
+
+#tileDialog img {
+    position: absolute;
+    width: 7px;
+    height: 8px;
+    bottom: -7px;
+}
+
+#tileDialog .bottomLeft {
+    float: left;
+    left: -1px;
+}
+
+#tileDialog .bottomRight {
+    float: right;
+    right: -1px;
+}
+
+.WideViewWrapper .CommentTitle, .WideViewWrapper .LxWikiIframeContainer {
+    width: 750px;
+}
+
+.MediumWideViewWrapper .CommentTitle, .MediumWideViewWrapper .LxWikiIframeContainer {
+    width: 570px;
+}
+
+.MediumViewWrapper .CommentTitle, .MediumViewWrapper .LxWikiIframeContainer {
+    width: 420px;
+}
+
+.NarrowViewWrapper .CommentTitle, .NarrowViewWrapper .LxWikiIframeContainer {
+    width: 260px;
+}
+
+.WideViewWrapper .CommentWrapper ul.CommentSubmissionWrapper {
+}
+
+.MediumViewWrapper .CommentSubmissionWrapper {
+    width: 432px;
+}
+
+.LxImageButton {
+    cursor: pointer;
+    height: 19px;
+    margin-right: 10px;
+    width: 19px;
+}
+
+.LxToolbar {
+    margin-bottom: 3px;
+}
+
+.LxWikiIframeContainer {
+    border: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.LxWikiIframe {
+    background-color: #eee;
+    border: 0;
+    height: 120px;
+    width: 100%;
+}
+
+.LxWikiSearchBox {
+    width: 333px;
+    height: 18px;
+    padding-left: 10px;
+    border: solid 1px #ddd;
+    margin-right: 10px;
+}
+
+.LxWikiSearchTitle {
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+    color: #333;
+    height: 21px;
+}
+
+.LxWikiSearchCount {
+    font-weight: bold;
+}
+
+.LxWikiMediaContainer {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.LxWikiPager {
+    float: right;
+}
+
+.LxWikiPager .LxCommentListPagerLeft {
+    margin-right: 10px;
+}
+
+.LxWikiPager div {
+    display: inline;
+    font-size: 12px;
+}
+
+.LxWikiClearer {
+    clear: both;
+    height: 0;
+}
+
+.LxWikiSearchWrapper .ClosePopup {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+.LxWikiSearchWrapper h2 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    padding-bottom: 13px;
+    width: 100%;
+}
+
+.LxWikiSearchWrapper {
+    width: 570px;
+    padding: 30px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.LxWikiSearchWrapper .PopUpHeaderWrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.LxWikiSearchHead {
+    overflow: hidden;
+    border-bottom: solid 1px #eee;
+}
+
+.LxWikiSearchHead .left {
+    float: left;
+    color: #333;
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+}
+
+.LxWikiSearchHead .right {
+    float: right;
+    margin-top: 10px;
+}
+
+.LxWikiSearchBody {
+    padding: 0;
+    background: none;
+    text-align: left;
+    overflow: hidden;
+    clear: both;
+}
+
+.LxWikiSearchInputs {
+    margin-bottom: 6px;
+}
+
+.LxWikiSearchButton {
+    cursor: pointer;
+    border: 0;
+}
+
+.LxWikiSearchTip {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.LxWikiSearchRow {
+    float: left;
+    width: 100%;
+    color: #555;
+    font-size: 11px;
+}
+
+a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.LxWikiDisableSong:hover, a.LxWikiDisableSong:active {
+    color: #000;
+}
+
+.LxWikiSearchResult {
+    border: solid 1px #ddd;
+    padding: 10px;
+    width: 548px;
+    overflow: hidden;
+}
+
+.LxWikiSearchResult .LxWikiSearchTitle, .LxWikiSearchResult .LxCommentListPagerText {
+    line-height: 21px;
+}
+
+.LxWikiMediaContainer .LxCommentListPagerText {
+    position: relative;
+    top: -5px;
+}
+
+.WideArtistCommentRow {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #eee;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.WideArtistCommentRow .tile, .WideArtistCommentRow .content, .WideArtistCommentRow .actions {
+    float: left;
+}
+
+.WideArtistCommentRow .tile {
+    margin: 0 10px;
+    width: 30px;
+}
+
+.WideArtistCommentRow .content {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.WideArtistCommentRow .datetime {
+    font-size: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.WideArtistCommentRow .actions {
+    width: 190px;
+}
+
+.WideArtistCommentRow .buttons, .WideArtistCommentRow .ratingSummary {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.LxSelection {
+    position: absolute;
+    cursor: move;
+    z-index: 1002;
+    display: block;
+    border: ridge 3px #cb5a0a;
+    background: Transparent url(http://www.zune.net/xweb/lx/pic/white_trans_0.png) repeat-x;
+}
+
+.LxCropMask {
+    background-color: Transparent;
+    background-image: url(http://www.zune.net/xweb/lx/pic/grey_trans_50.png);
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 1002;
+}
+
+.XbcLayoutTable {
+    border-collapse: collapse;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.XbcLayoutTable tr, .XbcLayoutTable td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.CCMHide {
+}
+
+#_ccm {
+    clear: both;
+}
+
+.XbcChrome {
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.XbcChrome .XbcChrome {
+    padding-bottom: 0;
+}
+
+.XbcChrome ul {
+    list-style-type: disc;
+    padding-left: 33px;
+}
+
+.XbcChrome ul li {
+    padding-left: 7px;
+    line-height: 16px;
+}
+
+.XbcChrome ol li {
+    line-height: 16px;
+}
+
+.cms_textgray13px {
+    font-size: 12px;
+    color: #555;
+}
+
+.cms_textwhite13px {
+    font-size: 12px;
+    color: #fff;
+}
+
+.cms_3rdtiernavtext, .cms_3rdtiernavtext a, .cms_3rdtiernavtext a:link, .cms_3rdtiernavtext a:visited {
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavtext a:active, .cms_3rdtiernavtext a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.cms_promotext {
+    font-size: 11px;
+    color: #555;
+}
+
+.cms_footnotes {
+    font-size: 10px;
+    color: #555;
+}
+
+.cms_pageheader30px {
+    font-size: 50px;
+    color: #333;
+}
+
+.cms_heroheadline40px {
+    font-size: 50px;
+    color: #fff;
+}
+
+.cms_heroheadline30px {
+    font-size: 20px;
+    color: #333;
+}
+
+.cms_heroheadline20px {
+    font-size: 20px;
+    color: #fff;
+}
+
+.cms_herosubheadline15px {
+    font-weight: bold;
+    font-size: 15px;
+    color: #555;
+}
+
+.cms_pageheader30px, .cms_heroheadline40px, .cms_pagesubhead1gray, .cms_pagesubhead1white {
+    margin-bottom: 12px;
+}
+
+.cms_pagesubhead1gray {
+    font-size: 30px;
+    color: #333;
+}
+
+.cms_pagesubhead1white {
+    font-size: 30px;
+    color: #fff;
+}
+
+.cms_3rdtiernavheader, .cms_3rdtiernavheader a, .cms_3rdtiernavheader a:link, .cms_3rdtiernavheader a:visited {
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavheader a:active, .cms_3rdtiernavheader a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.cms_promosubhead {
+    font-size: 20px;
+    color: #929292;
+}
+
+.cms_pagesubhead2gray {
+    font-size: 12px;
+    color: #333;
+}
+
+.cms_3rdtiernavdefault, .cms_3rdtiernavdefault a, .cms_3rdtiernavdefault a:link, .cms_3rdtiernavdefault a:visited {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavdefault a:active, .cms_3rdtiernavdefault a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.cms_pagesubhead2white {
+    font-size: 12px;
+    color: #fff;
+}
+
+.cms_promohead {
+    font-size: 11px;
+    color: #fff;
+}
+
+.cms_promoheader {
+    font-size: 10px;
+    color: #fff;
+}
+
+.cms_articlesubhead {
+    font-size: 14px;
+    color: #333;
+}
+
+.cms_promosuperheader {
+    font-size: 14px;
+    color: #fff;
+}
+
+.framePurchaseCongrats {
+    float: left;
+    width: 570px;
+    border-bottom: 1px solid #eee;
+    height: 220px;
+}
+
+.frameImage {
+    width: 150px;
+    float: left;
+}
+
+.mediaImage {
+    width: 150px;
+    height: 150px;
+}
+
+.frameContent {
+    float: left;
+    width: 415px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.purchaseNotification {
+    font-size: 12px;
+    color: #555;
+}
+
+.languageWrapper, .resolutionWrapper {
+    font-size: 12px;
+    color: #555;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.languageContent, .languageContent span {
+    font-weight: normal;
+}
+
+#divLoading {
+    float: right;
+    text-align: right;
+    display: none;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+
+#divLoading span {
+    color: #ec008c;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.purchaseMain {
+    float: left;
+    width: 570px;
+    border-bottom: 1px solid #eee;
+}
+
+.purchaseContentWrapper {
+    width: 410px;
+    float: left;
+}
+
+.purchaseContent {
+    float: left;
+    width: 410px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+
+.languageWrapper {
+    width: 224px;
+    float: left;
+}
+
+#highDefinition, #standardDefinition {
+    vertical-align: middle;
+}
+
+.hdRadioWrapper {
+    margin-top: 5px;
+}
+
+#lblHighDefinition, #lblStandardDefinition {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #555;
+}
+
+.liRenderTuner {
+    margin-top: 5px;
+}
+
+.availableTunerWrapper {
+    width: 180px;
+    float: left;
+    font-size: 12px;
+    color: #555;
+}
+
+.tunerDesc {
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+.mediaDescAndPointsWrapper {
+    border-top: 1px solid #eee;
+    position: relative;
+    width: 410px;
+    float: left;
+    padding: 10px 0 20px 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.mediaDescWrapper {
+    float: left;
+    width: 200px;
+}
+
+.pointsPriceWrapper {
+    float: left;
+    text-align: right;
+    width: 205px;
+}
+
+#spMSPoints {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.gray {
+    color: Gray !important;
+}
+
+.purchaseHeader {
+    color: #333;
+    float: left;
+    font-size: 30px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 0 13px;
+    text-transform: lowercase;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    width: 570px;
+}
+
+.PurchaseMusicRowProduct {
+    color: #555;
+    font-size: 12px;
+    margin: 10px 0;
+    width: 100%;
+    float: left;
+}
+
+.PurchaseMusicImage {
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.PurchaseMusicContentWrapper {
+    width: 470px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.PurchaseMusicPayment {
+    width: 470px;
+    height: 70px;
+    float: left;
+}
+
+.PurchaseMusicPayment span {
+    margin-top: 10px;
+}
+
+.PurchaseMusicContent {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.PurchaseMusicBalance {
+    clear: both;
+    height: 14px;
+    padding: 0 0 2px;
+    float: right;
+    width: 150px;
+}
+
+.PurchaseMusicBalanceRemaining {
+    padding-top: 3px;
+}
+
+.PurchaseMusicBalanceValueRemaining {
+    border-top: 1px solid #555;
+}
+
+.PurchaseMusicBalanceValue {
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    width: 50px;
+}
+
+.PurchaseMusicBalanceValuePink {
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 5px;
+    color: #EC008C;
+}
+
+.PurchaseMusicBalanceTitle {
+    text-align: right;
+    float: left;
+    width: 100px;
+}
+
+.PurchaseMusicBalanceTaxes {
+    text-align: right;
+    float: right;
+}
+
+.PurchaseMusicNoRefund {
+    color: #555;
+    position: absolute;
+    top: 410px;
+    left: 0;
+    clear: both;
+}
+
+.PurchaseMusicPromo {
+    border-top: 1px solid #eee;
+    padding: 10px 0 0;
+}
+
+.Large {
+    margin: 10px 0;
+}
+
+.PurchaseMusicSubtitle, .PurchaseHistory, .PurchaseMusicTrackList table {
+    color: #555;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.PurchaseHistory table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.PurchaseHistory thead {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.PurchaseHistory td {
+    border-top: 1px solid #eee;
+    vertical-align: middle;
+    padding: 10px 0 10px 10px;
+}
+
+.PurchaseHistory tr:first-child td {
+    border: 0;
+}
+
+.PurchaseHistory .LastColumn {
+    padding: 10px;
+    text-align: right;
+    width: 80px;
+}
+
+.spacer {
+    clear: both;
+}
+
+.PurchaseHistoryDescription {
+    margin: 20px 0 10px;
+}
+
+.PurchaseHistoryNoDownload {
+    color: #999;
+}
+
+.PurchaseMusicTrackList table {
+    width: 96%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.PurchaseMusicTrackList td {
+    vertical-align: middle;
+}
+
+.PurchaseMusicTrackList tr td:last-child, .PurchaseMusicTrackList .LastColumn {
+    text-align: right;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.PurchaseMusicTrackList {
+    height: 90px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.jsDisabledDownloadbtn {
+    color: #ccc !important;
+}
+
+.PurchaseMusicWarnings {
+    padding: 3px 0 3px 30px;
+    background: #FDE5F3 url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_16.png) 5px center no-repeat;
+    width: 100%;
+}
+
+.PurchaseMusicWarnings p {
+    margin: 0;
+    width: 600px;
+}
+
+.PurchaseMusicTitle {
+    margin: 10px 0 0;
+}
+
+.PurchaseMusicGenericWarnings {
+    float: left;
+    padding: 35px 0 35px 40px;
+    background: url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_30.png) left center no-repeat;
+    color: #333;
+    font-size: 12px;
+    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-weight: bold;
+}
+
+.PurchaseMusicError {
+    padding: 35px 0 35px 40px;
+    background: url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_30.png) left center no-repeat;
+    color: #333;
+    font-size: 12px;
+    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-weight: bold;
+}
+
+#dtoconfirmpurchase .BtnGroup {
+    top: 350px;
+    position: absolute;
+}
+
+.LoadingImg {
+    padding: 45px 0;
+    text-align: center;
+    vertical-align: middle;
+    clear: both;
+}
+
+.SmallLoadingImage {
+    width: 70px;
+    height: 5px;
+}
+
+.PurchaseMusicDropList {
+    font-size: 12px;
+    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-weight: normal;
+    text-decoration: none;
+    width: 200px;
+}
+
+option.gray {
+    color: #555;
+}
+
+tr.Highlight {
+    background-color: InfoBackground;
+}
+
+.PurchaseHistoryPivot {
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    background-color: #EEE;
+    clear: both;
+}
+
+.PurchaseHistoryPivot p {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.downloadWrapper {
+    color: #636363;
+    margin: 5px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.downloadWrapper .downloadHeader, .downloadWrapper .downloadBody {
+    padding-left: 10px;
+}
+
+.downloadWrapper .downloadHeader {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+.downloadWrapper .downloadBody {
+    padding-top: 20px;
+}
+
+.downloadWrapper ul.downloadDescription {
+    clear: both;
+}
+
+.playerShell {
+    background-color: #000;
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+    font-size: 9pt;
+    height: 455px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.bingInstallArtist, .bingInstallAlbum {
+    text-transform: uppercase;
+}
+
+.bingInstallArtist {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.bingInstallAlbum, .bingInstallArtist {
+    white-space: nowrap;
+}
+
+.bingInstallAlbumImage {
+    float: left;
+    margin-right: 10px;
+}
+
+.bingInstallTrack {
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.installLogo {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.grayBar {
+    height: 1px;
+    margin-bottom: 15px;
+    width: 270px;
+    background-color: #333;
+}
+
+.installHead {
+    text-align: left;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+.installHead_metadataWrapper {
+    float: left;
+    width: 195px;
+}
+
+.installMain {
+    text-align: center;
+    height: 190px;
+}
+
+.installButton {
+    margin: 15px auto;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.installFoot {
+    text-align: left;
+    height: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.installDetailsLink {
+    margin-top: 15px;
+}
+
+.installDetailsLink a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.installList {
+    text-align: left;
+    font-size: 11pt;
+    list-style-image: url('http://www.zune.net/xweb/lx/pic/checkmark_white.png');
+    margin: auto;
+    width: 150px;
+}
+
+.smartDJWrapper {
+    margin: 0 0 0 5px;
+    height: 85px;
+}
+
+#_smartDJSearch h2 {
+    float: none;
+    margin: 0;
+    height: 42px;
+}
+
+.smartDJWrapper .description {
+    clear: both;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.smartDJSearch {
+    position: absolute;
+}
+
+.smartDJSearch input {
+    border: 1px solid #ddd;
+    color: #888;
+    font-size: 11px;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.smartDJSearch input.SearchBox {
+    background: #fff;
+    color: #888;
+    vertical-align: middle;
+    width: 293px;
+}
+
+.smartDJSearch input.hiddenSubmit {
+    background: url(http://www.zune.net/xweb/lx/pic/smartDJPlay.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -9px;
+    top: 2px;
+    cursor: pointer;
+    border: 0;
+}
+
+.noSmartDJResults {
+    display: none;
+    color: #ec008c;
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    bottom: 16px;
+    left: 5px;
+}
+
+.ServiceAlertMain, .SocialAlertMain {
+    background-color: #EC008C;
+    color: #FFF;
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.SocialAlertMain {
+    line-height: 42px;
+    padding: 0 0 0 15px;
+}
+
+.SocialAlertButtonNo {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #EC008C;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.SocialAlertText {
+    float: left;
+}
+
+.SocialAlertMain .NewButtonWrapper a {
+    float: right;
+}
+
+.SocialAlertMain .NormalDark a {
+    margin: 5px 15px;
+}
+
+.ServiceAlertMessage {
+    white-space: normal;
+    width: 650px;
+    float: left;
+    padding: 10px 15px 0 15px;
+}
+
+.ServiceAlertSelectBox {
+    float: left;
+    padding: 10px 0 0 0;
+}
+
+.ServiceAlertMain .NewButtonWrapper a {
+    float: right;
+    padding: 5px;
+}
+
+/*
+     FILE ARCHIVED ON 22:18:30 Nov 30, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:01:41 May 23, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 75.123
+  exclusion.robots: 0.229
+  exclusion.robots.policy: 0.211
+  RedisCDXSource: 1.894
+  esindex: 0.013
+  LoadShardBlock: 43.722 (3)
+  PetaboxLoader3.datanode: 52.682 (4)
+  CDXLines.iter: 26.094 (3)
+  load_resource: 239.959
+  PetaboxLoader3.resolve: 215.587
+*/
