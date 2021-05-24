@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router,Route,
-    Redirect,Switch} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import './index.css';
@@ -11,6 +9,10 @@ import Header from './components/Header'
 import Footer from "./components/Footer";
 import JoinTheSocial_default from "./pages/en-US/promotions/JoinTheSocial_default";
 import PageNotFound from "./pages/PageNotFound";
+
+const ReactRouterDOM = require('react-router-dom');
+const {Switch, Route, Redirect} = ReactRouterDOM;
+const Router = ReactRouterDOM.BrowserRouter;
 
 ReactDOM.render(
     <React.StrictMode>
