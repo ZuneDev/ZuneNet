@@ -163,10 +163,9 @@ a.bingVideoListItemLink {
     background: #000 none repeat scroll 0 0;
     border: 1px solid black;
     display: inline-block;
-    margin: 1px;
     position: relative;
     text-align: center;
-    margin-bottom: 7px;
+    margin: 1px 1px 7px;
 }
 
 .bingVideoThumbnailImg {
@@ -209,14 +208,14 @@ a.bingVideoListItemLink {
 }
 
 a.delUserComment, a.DeleteFollowButtonRight {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    /*background: #fff url(ico16_delete.png) no-repeat;*/
     width: 16px;
     height: 16px;
     float: right;
 }
 
 a.delUserComment:hover, a.DeleteFollowButtonRight:hover {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+    /*background: #fff url(ico16_delete_hover.png) no-repeat;*/
 }
 
 #_ArtistActivityBlock .FanClubArtistLastCol {
@@ -561,19 +560,19 @@ div.seriesAuthor {
 }
 
 .ReviewThumbUp a.disabled, .ReviewThumbUp a.enabled {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_likeit_onstate.gif) no-repeat;
+    /*background: #fff url(heart_likeit_onstate.gif) no-repeat;*/
 }
 
 .ReviewThumbUp a.enabled:hover, .ReviewThumbUp a.selected {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+    /*background: #fff url(heart_likeit_selected.gif) no-repeat;*/
 }
 
 .ReviewThumbDown a.disabled, .ReviewThumbDown a.enabled {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_onstate.gif) no-repeat;
+    /*background: #fff url(heart_dontlikeit_onstate.gif) no-repeat;*/
 }
 
 .ReviewThumbDown a.enabled:hover, .ReviewThumbDown a.selected {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+    /*background: #fff url(heart_dontlikeit_selected.gif) no-repeat;*/
 }
 
 .iFrameWrapper {
@@ -634,7 +633,7 @@ a.LxCloseVideoPopup {
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    background: transparent url(http://www.zune.net/xweb/lx/pic/ico_circ_remove_white.png) no-repeat scroll right center;
+    /*background: transparent url(ico_circ_remove_white.png) no-repeat scroll right center;*/
     display: inline-block;
     height: 16px;
     padding-right: 21px;
@@ -654,9 +653,6 @@ a.LxCloseVideoPopup {
     color: #333;
     font-size: 30px;
     font-weight: normal;
-}
-
-.dialog .sendMessageTitle cufontext {
 }
 
 .dialog #wwWrapper input[type="text"], .dialog #wwWrapper textarea {
@@ -1025,8 +1021,7 @@ ul.friendsList span.zunetag {
 .frameWrapper {
     width: 570px;
     height: 390px;
-    padding: 30px;
-    padding-bottom: 10px;
+    padding: 30px 30px 10px;
     float: left;
 }
 
@@ -1381,9 +1376,8 @@ ul.podcastEpisode li.BodyCopy {
 body {
     margin: 0;
     text-decoration: none;
-    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-family: Segoe UI, Trebuchet, Arial, sans-serif;
     font-weight: normal;
-    text-decoration: none;
 }
 
 table, tr, td {
@@ -1468,7 +1462,7 @@ a:hover {
 }
 
 a.LxExternalLink {
-    background: transparent url(http://www.zune.net/xweb/zune/images/pink_glyph.gif) no-repeat scroll right center;
+    /*background: transparent url(pink_glyph.gif) no-repeat scroll right center;*/
     display: inline-block;
     padding-right: 17px;
 }
@@ -1512,7 +1506,7 @@ a.LxExternalLink {
 }
 
 .playicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_p.png) no-repeat;
+    /*background: url(ico16_play_p.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1520,7 +1514,7 @@ a.LxExternalLink {
 }
 
 .playicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_p_hover.png) no-repeat;
+    /*background: url(ico16_play_p_hover.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1528,7 +1522,7 @@ a.LxExternalLink {
 }
 
 .playgrayicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_g.png) no-repeat;
+    /*background: url(ico16_play_g.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1536,7 +1530,7 @@ a.LxExternalLink {
 }
 
 .playgrayicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_play_g_hover.png) no-repeat;
+    /*background: url(ico16_play_g_hover.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1544,7 +1538,7 @@ a.LxExternalLink {
 }
 
 .addicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_add.png) no-repeat;
+    /*background: url(ico16_add.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1552,7 +1546,7 @@ a.LxExternalLink {
 }
 
 .addicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_add_hover.png) no-repeat;
+    /*background: url(ico16_add_hover.png) no-repeat;*/
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -1560,7 +1554,7 @@ a.LxExternalLink {
 }
 
 .totopicon a {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/tempToTop.png) no-repeat;
+    /*background: #fff url(tempToTop.png) no-repeat;*/
     width: 16px;
     margin-right: 5px;
     float: left;
@@ -1577,27 +1571,27 @@ a.LxExternalLink {
 }
 
 .BlackZwrapper .playgrayicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_play_bgdark.png) no-repeat;
+    /*background: url(ico16_play_bgdark.png) no-repeat;*/
 }
 
 .BlackZwrapper .playgrayicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_play_bgdark_hover.png) no-repeat;
+    /*background: url(ico16_play_bgdark_hover.png) no-repeat;*/
 }
 
 .BlackZwrapper .addicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_add_bgdark.png) no-repeat;
+    /*background: url(ico16_add_bgdark.png) no-repeat;*/
 }
 
 .BlackZwrapper .addicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/icons/ico16_add_bgdark_hover.png) no-repeat;
+    /*background: url(ico16_add_bgdark_hover.png) no-repeat;*/
 }
 
 #_artistMostActive .playicon a {
-    background: url(http://www.zune.net/xweb/lx/pic/artisttop/ico16_play_p.png) no-repeat;
+    /*background: url(ico16_play_p.png) no-repeat;*/
 }
 
 #_artistMostActive .playicon a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/artisttop/ico16_play_p_hover.png) no-repeat;
+    /*background: url(ico16_play_p_hover.png) no-repeat;*/
 }
 
 .Clear {
@@ -1654,7 +1648,7 @@ a.LxExternalLink {
 }
 
 .EmptyState, .GenreBrowseEmptyState {
-    padding: 5px 0pt 0pt 10px;
+    padding: 5px 0 0 10px;
     border-top: 1px solid #eee;
     clear: both;
     font-size: 12px;
@@ -1728,7 +1722,7 @@ a.LxExternalLink {
 }
 
 .BlackZwrapper {
-    background: #161616 url('http://www.zune.net/xweb/lx/pic/bgrd_161616.jpg') no-repeat 28% 100%;
+    /*background: #161616 url('bgrd_161616.jpg') no-repeat 28% 100%;*/
     color: #fff;
     float: left;
     min-height: 400px;
@@ -1756,7 +1750,7 @@ a.LxExternalLink {
 
 .HomePageBlackZwrapper /*move to home page specific*/
 {
-    background: transparent url('http://www.zune.net/xweb/lx/pic/bgrd_161616_solid.gif') repeat-x 0 0;
+    /*background: transparent url('bgrd_161616_solid.gif') repeat-x 0 0;*/
 }
 
 .BlackZWrapperArtistOverview /* move to artist overview page specific */
@@ -2325,7 +2319,6 @@ ul.MediaList div.ButtonWrap {
     position: absolute;
     top: 10px;
     left: 0 !important;
-    left: -42px;
 }
 
 ul.MediaList div.ButtonWrap a {
@@ -2389,12 +2382,12 @@ ul.MediaList a.DeleteButton {
     right: 0;
     width: 16px;
     height: 16px;
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    /*background: url(ico16_delete.png) no-repeat;*/
     cursor: pointer;
 }
 
 ul.MediaList a.DeleteButton:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+    /*background: url(ico16_delete_hover.png) no-repeat;*/
 }
 
 .WideCommentsWrapper ul.MediaList a.DeleteButton {
@@ -2583,7 +2576,6 @@ ul.MediaList li.TopListener {
 
 ul.MediaList li.TopListener ul {
     list-style-position: outside;
-    padding-bottom: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -2591,7 +2583,6 @@ ul.MediaList li.TopListener ul {
 
 ul.MediaList li.TopListener li {
     list-style-position: outside;
-    padding-bottom: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -2671,30 +2662,30 @@ ul.MediaList li.Comments p.Rate a {
 
 ul.MediaList li.Comments p.Rate a.Up, ul.MediaList li.Comments p.Rate a.UpDisabled {
     left: 0;
-    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_onstate.gif) no-repeat;
+    /*background: url(heart_likeit_onstate.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments p.Rate a.Up:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+    /*background: url(heart_likeit_selected.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments p.Rate a.Down, ul.MediaList li.Comments p.Rate a.DownDisabled {
     left: 30px;
-    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_onstate.gif) no-repeat;
+    /*background: url(heart_dontlikeit_onstate.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments p.Rate a.Down:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+    /*background: url(heart_dontlikeit_selected.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments p.Rate a.UpSelected {
     left: 0;
-    background: url(http://www.zune.net/xweb/lx/pic/heart_likeit_selected.gif) no-repeat;
+    /*background: url(heart_likeit_selected.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments p.Rate a.DownSelected {
     left: 30px;
-    background: url(http://www.zune.net/xweb/lx/pic/heart_dontlikeit_selected.gif) no-repeat;
+    /*background: url(heart_dontlikeit_selected.gif) no-repeat;*/
 }
 
 ul.MediaList li.Comments div.SongModule {
@@ -3094,7 +3085,7 @@ div.Pivot a.Selected {
 
 .MediaPivot div.Link a.Rss {
     color: #333;
-    background: url(http://www.zune.net/xweb/lx/pic/Rss.png) no-repeat 0 50%;
+    /*background: url(Rss.png) no-repeat 0 50%;*/
     padding-left: 20px;
 }
 
@@ -3302,24 +3293,24 @@ div.Pivot a.Selected {
 
 .Pager a.Previous {
     cursor: pointer;
-    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_left_on.jpg) no-repeat;
+    /*background: url(btn_pg_left_on.jpg) no-repeat;*/
 }
 
 .Pager a.PreviousDisabled {
     cursor: default;
-    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_left_off.jpg) no-repeat;
+    /*background: url(btn_pg_left_off.jpg) no-repeat;*/
 }
 
 .Pager a.Next {
     cursor: pointer;
-    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_right_on.jpg) no-repeat;
+    /*background: url(btn_pg_right_on.jpg) no-repeat;*/
     padding-right: 10px;
     margin-left: 3px;
 }
 
 .Pager a.NextDisabled {
     cursor: default;
-    background: url(http://www.zune.net/xweb/lx/pic/btn_pg_right_off.jpg) no-repeat;
+    /*background: url(btn_pg_right_off.jpg) no-repeat;*/
 }
 
 .Pager .SmallPager {
@@ -3825,87 +3816,87 @@ ul.menu li a.zuneTag {
 }
 
 .PlayArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_play.png) no-repeat;
+    /*background: url(bgwhite_play.png) no-repeat;*/
 }
 
 .PlayArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_play_hover.png) no-repeat;
+    /*background: url(bgwhite_play_hover.png) no-repeat;*/
 }
 
 .PlayArtistRadio a {
-    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgwhite_play_mix.png) no-repeat;
+    /*background: url(ico30_bgwhite_play_mix.png) no-repeat;*/
     width: 34px;
 }
 
 .PlayArtistRadio a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgwhite_play_mix_hover.png) no-repeat;
+    /*background: url(ico30_bgwhite_play_mix_hover.png) no-repeat;*/
     width: 34px;
 }
 
 .MixViewArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_mixview.png) no-repeat;
+    /*background: url(bgwhite_mixview.png) no-repeat;*/
 }
 
 .MixViewArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_mixview_hover.png) no-repeat;
+    /*background: url(bgwhite_mixview_hover.png) no-repeat;*/
 }
 
 .FollowArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_follow.png) no-repeat;
+    /*background: url(bgwhite_follow.png) no-repeat;*/
 }
 
 .FollowArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_follow_hover.png) no-repeat;
+    /*background: url(bgwhite_follow_hover.png) no-repeat;*/
 }
 
 .FollowArtist a.followed {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_followed.png) no-repeat;
+    /*background: url(bgwhite_followed.png) no-repeat;*/
 }
 
 .FollowArtist a.followed:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgwhite_followed_hover.png) no-repeat;
+    /*background: url(bgwhite_followed_hover.png) no-repeat;*/
 }
 
 .BlackZwrapper .PlayArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/play_white_50per.png) no-repeat;
+    /*background: url(play_white_50per.png) no-repeat;*/
 }
 
 .BlackZwrapper .PlayArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_play_hover.png) no-repeat;
+    /*background: url(bgdark_play_hover.png) no-repeat;*/
 }
 
 .BlackZwrapper .PlayArtistRadio a {
-    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgdark_play_mix.png) no-repeat;
+    /*background: url(ico30_bgdark_play_mix.png) no-repeat;*/
     width: 34px;
 }
 
 .BlackZwrapper .PlayArtistRadio a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/ico30_bgdark_play_mix_hover.png) no-repeat;
+    /*background: url(ico30_bgdark_play_mix_hover.png) no-repeat;*/
     width: 34px;
 }
 
 .BlackZwrapper .MixViewArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/mix_white_50per.png) no-repeat;
+    /*background: url(mix_white_50per.png) no-repeat;*/
 }
 
 .BlackZwrapper .MixViewArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_mixview_hover.png) no-repeat;
+    /*background: url(bgdark_mixview_hover.png) no-repeat;*/
 }
 
 .BlackZwrapper .FollowArtist a {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_follow.png) no-repeat;
+    /*background: url(bgdark_follow.png) no-repeat;*/
 }
 
 .BlackZwrapper .FollowArtist a:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_follow_hover.png) no-repeat;
+    /*background: url(bgdark_follow_hover.png) no-repeat;*/
 }
 
 .BlackZwrapper .FollowArtist a.followed {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_followed.png) no-repeat;
+    /*background: url(bgdark_followed.png) no-repeat;*/
 }
 
 .BlackZwrapper .FollowArtist a.followed:hover {
-    background: url(http://www.zune.net/xweb/lx/pic/bgdark_followed_hover.png) no-repeat;
+    /*background: url(bgdark_followed_hover.png) no-repeat;*/
 }
 
 .BreadCrumb {
@@ -3915,7 +3906,7 @@ ul.menu li a.zuneTag {
 }
 
 .BreadCrumb a {
-    background: transparent url(http://www.zune.net/xweb/zune/argoV2/images/BreadCrumb.png) no-repeat center right;
+    /*background: transparent url(BreadCrumb.png) no-repeat center right;*/
     text-decoration: none;
     padding-right: 13px;
 }
@@ -4228,7 +4219,7 @@ img.TvNetworkImage {
     width: 660px;
     padding: 10px 30px 10px 120px;
     margin-bottom: 10px;
-    background: #EEE url('http://www.zune.net/xweb/lx/pic/following_largeStar.gif') no-repeat left top;
+    /*background: #EEE url('following_largeStar.gif') no-repeat left top;*/
 }
 
 .FollowingWrapper .TopArtistsWrapper ul.FollowingHead {
@@ -5441,7 +5432,6 @@ ul.MultiLineFeedDataNoPlayer li {
     text-transform: uppercase;
     font-size: 10px;
     font-weight: bold;
-    text-transform: uppercase;
     position: absolute;
     top: 23px;
     right: 10px;
@@ -5485,7 +5475,7 @@ ul.MultiLineFeedDataNoPlayer li {
 
 .InputText {
     color: #939393;
-    font-family: Segoe UI;
+    font-family: Segoe UI, sans-serif;
     font-size: 13px;
     font-style: italic;
     padding: 10px 10px 0 10px;
@@ -5573,14 +5563,14 @@ ul.MultiLineFeedDataNoPlayer li {
 }
 
 a.deleteReview, a.ClosePopup {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete.png) no-repeat;
+    /*background: #fff url(ico16_delete.png) no-repeat;*/
     width: 16px;
     height: 16px;
     float: right;
 }
 
 a.deleteReview:hover, a.ClosePopup:hover {
-    background: #fff url(http://www.zune.net/xweb/lx/pic/player/ico16_delete_hover.png) no-repeat;
+    /*background: #fff url(ico16_delete_hover.png) no-repeat;*/
 }
 
 .WideViewWrapper .MediaReviewWrapper h3 {
@@ -5932,12 +5922,12 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .btn {
-    background: url("http://www.zune.net/xweb/lx/pic/spt_buttons2.png");
+    /*background: url("spt_buttons2.png");*/
     height: 32px;
 }
 
 .btnsmall {
-    background: url("http://www.zune.net/xweb/lx/pic/spt_buy_buttons.png");
+    /*background: url("spt_buy_buttons.png");*/
     height: 26px;
     margin-top: -4px;
     margin-bottom: 4px;
@@ -6001,13 +5991,13 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .btn .btntip {
-    background: url("http://www.zune.net/xweb/lx/pic/spt_buttons2.png");
+    /*background: url("spt_buttons2.png");*/
     line-height: 32px;
     height: 32px;
 }
 
 .btnsmall .btntip {
-    background: url("http://www.zune.net/xweb/lx/pic/spt_buy_buttons.png");
+    /*background: url("spt_buy_buttons.png");*/
     line-height: 26px;
     height: 26px;
 }
@@ -6201,7 +6191,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
     text-decoration: none;
     line-height: 32px;
     text-align: center;
-    background-image: url(http://www.zune.net/xweb/lx/pic/spt_buttons2.png);
+    /*background-image: url(spt_buttons2.png);*/
     background-repeat: repeat-x;
     position: relative;
     cursor: pointer;
@@ -6214,7 +6204,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
     height: 32px;
     width: 8px;
     background-repeat: repeat-x;
-    background-image: url(http://www.zune.net/xweb/lx/pic/spt_buttons2.png);
+    /*background-image: url(spt_buttons2.png);*/
 }
 
 #frameWrapper span.Text {
@@ -6333,7 +6323,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .smartDJSearch input.hiddenSubmit {
-    background: url(http://www.zune.net/xweb/lx/pic/smartDJPlay.png) no-repeat;
+    /*background: url(smartDJPlay.png) no-repeat;*/
     width: 20px;
     height: 20px;
     position: absolute;
@@ -6434,7 +6424,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .zuneDashboardShadow {
-    background: transparent url('http://www.zune.net/xweb/lx/pic/dash_shadow.png') repeat-x 0 0;
+    /*background: transparent url('dash_shadow.png') repeat-x 0 0;*/
     margin: 0 auto;
     width: 100%;
     height: 50px;
@@ -6500,7 +6490,8 @@ ul.dropMenu {
 
 ul.dropMenu li {
     display: block;
-    list-type: none;
+    list-style-type: none;
+    /*list-type: none;*/
 }
 
 ul.dropMenu a {
@@ -6657,7 +6648,7 @@ div.LxPopup .LxEditFeedsHeader div#LxAjaxInlineError {
 .LxFeedUriLabel {
     border: 1px solid #ddd;
     color: #555;
-    font-family: arial;
+    font-family: "Arial", serif;
     font-size: 11px;
     font-weight: bold;
     height: 11px;
@@ -7481,12 +7472,12 @@ a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.Lx
     z-index: 1002;
     display: block;
     border: ridge 3px #cb5a0a;
-    background: Transparent url(http://www.zune.net/xweb/lx/pic/white_trans_0.png) repeat-x;
+    /*background: Transparent url(white_trans_0.png) repeat-x;*/
 }
 
 .LxCropMask {
     background-color: Transparent;
-    background-image: url(http://www.zune.net/xweb/lx/pic/grey_trans_50.png);
+    /*background-image: url(grey_trans_50.png);*/
     background-repeat: repeat;
     position: absolute;
     z-index: 1002;
@@ -7989,7 +7980,7 @@ a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.Lx
 
 .PurchaseMusicWarnings {
     padding: 3px 0 3px 30px;
-    background: #FDE5F3 url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_16.png) 5px center no-repeat;
+    /*background: #FDE5F3 url(PurchaseMusic/error_16.png) 5px center no-repeat;*/
     width: 100%;
 }
 
@@ -8005,19 +7996,19 @@ a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.Lx
 .PurchaseMusicGenericWarnings {
     float: left;
     padding: 35px 0 35px 40px;
-    background: url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_30.png) left center no-repeat;
+    /*background: url(error_30.png) left center no-repeat;*/
     color: #333;
     font-size: 12px;
-    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-family: Segoe UI, Trebuchet, Arial, sans-serif;
     font-weight: bold;
 }
 
 .PurchaseMusicError {
     padding: 35px 0 35px 40px;
-    background: url(http://www.zune.net/xweb/lx/pic/PurchaseMusic/error_30.png) left center no-repeat;
+    /*background: url(error_30.png) left center no-repeat;*/
     color: #333;
     font-size: 12px;
-    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-family: Segoe UI, Trebuchet, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -8040,7 +8031,7 @@ a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.Lx
 
 .PurchaseMusicDropList {
     font-size: 12px;
-    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    font-family: Segoe UI, Trebuchet, Arial, sans-serif;
     font-weight: normal;
     text-decoration: none;
     width: 200px;
@@ -8099,7 +8090,7 @@ tr.Highlight {
 .playerShell {
     background-color: #000;
     color: #fff;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 9pt;
     height: 455px;
     width: 300px;
@@ -8186,7 +8177,7 @@ tr.Highlight {
 .installList {
     text-align: left;
     font-size: 11pt;
-    list-style-image: url('http://www.zune.net/xweb/lx/pic/checkmark_white.png');
+    /*list-style-image: url('checkmark_white.png');*/
     margin: auto;
     width: 150px;
 }
@@ -8231,7 +8222,7 @@ tr.Highlight {
 }
 
 .smartDJSearch input.hiddenSubmit {
-    background: url(http://www.zune.net/xweb/lx/pic/smartDJPlay.png) no-repeat;
+    /*background: url(smartDJPlay.png) no-repeat;*/
     width: 20px;
     height: 20px;
     position: absolute;

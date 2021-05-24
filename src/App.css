@@ -2,8 +2,8 @@
     --color-blue: #0294d0;
     --color-purple: #e64e8d;
     --color-orange: #ee9037;
-    --three-color-gradient-h: linear-gradient(to right, var(--color-orange), var(--color-purple), var(--color-blue));
-    --three-color-gradient-v: linear-gradient(to down, var(--color-orange), var(--color-purple), var(--color-blue));
+    --three-color-gradient-h: linear-gradient(90deg, var(--color-orange), var(--color-purple), var(--color-blue));
+    --three-color-gradient-v: linear-gradient(0deg, var(--color-orange), var(--color-purple), var(--color-blue));
 }
 
 /*.App {
