@@ -9,14 +9,18 @@ class Header extends React.Component{
                 <div id="XbcShellBody">
                     <h3/>
                     <div className="XbcChrome" style={{width: 950}}>
-                        <div className="XbcWpColumnGroup" style={{marginTop: 30, marginBottom: 10}}>
+                        <div className="XbcWpColumnGroup" style={{marginTop: 10}}>
                             <table className="XbcLayoutTable">
                                 <tbody>
                                     <tr className="XbcLayoutRow">
                                         <td className="XbcLayoutCell">
                                             <div className="XbcChrome">
                                                 <div className="XbcWpFreeForm2">
-                                                    <div className="cms_pageheader30px">
+                                                    <div className="cms_pageheader30px"
+                                                         style={{
+                                                             marginBottom: "unset",
+                                                             fontWeight: "lighter"
+                                                         }}>
                                                         <p>page not found</p>
                                                     </div>
                                                 </div>
