@@ -4,7 +4,7 @@ import '../assets/zune.css';
 function Footer() {
     return (
         <div id="ctl00__shellFooter" className="XbcShellMainContent">
-            <div style={{width: 950, clear: "both"}} id="_foot">
+            <div style={{width: 950, clear: "both", textAlign: "left"}} id="_foot">
                 <div id="_footer">
                     <div className="FooterWrapper">
                         <div>

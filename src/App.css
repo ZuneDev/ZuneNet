@@ -6,9 +6,9 @@
     --three-color-gradient-v: linear-gradient(to down, var(--color-orange), var(--color-purple), var(--color-blue));
 }
 
-.App {
+/*.App {
     text-align: center;
-}
+}*/
 
 .App-logo {
     height: 50px;

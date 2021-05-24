@@ -9,11 +9,11 @@ import btn_circle2 from "../assets/btn_circle2.svg"
 import btn_circle3 from "../assets/btn_circle3.svg"
 import '../App.css';
 import '../assets/zune.css'
+import '../assets/zune_argo.css'
 
 function Home() {
     return (
-        <div className="App">
-
+        <div>
             <div className="XbcChrome" style={{width: 950}}>
                 <div className="XbcWpColumnGroup" style={{margin: "35px 0px 0px"}}>
                     <table className="XbcLayoutTable" style={{marginLeft: "auto", marginRight: "auto"}}>
@@ -65,7 +65,7 @@ function Home() {
                                     <div className="XbcChrome" style={{width: 310}}>
                                         <div className="XbcWpColumn" style={{margin: 0}}>
                                             <div className="XbcChrome"
-                                                 style={{width: 310, backgroundImage: "url(" + pc_210x235 + ")", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+                                                 style={{width: 310, backgroundImage: "url(" + pc_210x235 + ")", backgroundRepeat: "no-repeat"}}>
                                                 <div className="XbcWpColumnGroup" style={{minHeight: 235, margin: 0}}>
                                                     <table className="XbcLayoutTable">
                                                         <tbody>
@@ -277,7 +277,7 @@ function Home() {
                                                      height: 55,
                                                      borderRadius: 5,
                                                      boxShadow: "0px 0px 2px 0px black",
-                                                     marginTop: 12
+                                                     marginTop: 3
                                                  }}>
                                                 <div className="XbcWpColumnGroup" style={{minHeight: 60, margin: 0}}>
                                                     <table className="XbcLayoutTable">
@@ -288,11 +288,11 @@ function Home() {
                                                                         <div className="XbcWpFreeForm2"
                                                                              style={{
                                                                                  minHeight: 60,
-                                                                                 margin: "18px 0px 10px 10px"
+                                                                                 marginTop: 14
                                                                              }}>
                                                                             <table style={{border: 0}} cellPadding="0" cellSpacing="0">
                                                                                 <tbody>
-                                                                                    <tr style={{textAlign: "left", verticalAlign: "middle"}}>
+                                                                                    <tr>
                                                                                         <td width="35">
                                                                                             <a href="/products/software/download/default.htm">
                                                                                                 <img style={{alignSelf: "center"}} alt="Image: Step 1"
@@ -300,7 +300,7 @@ function Home() {
                                                                                             </a>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <div>
+                                                                                            <div style={{paddingBottom: 5}}>
                                                                                                 <a className="hero_Link"
                                                                                                    href="/products/software/download/default.htm">
                                                                                                     <strong>Get the Zune software</strong>
@@ -343,7 +343,7 @@ function Home() {
                                                                              }}>
                                                                             <table style={{border: 0}} cellPadding="0" cellSpacing="0">
                                                                                 <tbody>
-                                                                                    <tr style={{textAlign: "left", verticalAlign: "middle"}}>
+                                                                                    <tr>
                                                                                         <td width="35">
                                                                                             <a href="http://social.zune.net/redirect?type=hub&amp;id=newtozunestarthere">
                                                                                                 <img style={{alignSelf: "center"}}
@@ -353,7 +353,7 @@ function Home() {
                                                                                             </a>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <div>
+                                                                                            <div style={{paddingBottom: 5}}>
                                                                                                 <a className="hero_Link"
                                                                                                    href="http://social.zune.net/redirect?type=hub&amp;id=newtozunestarthere">
                                                                                                     <strong>Browse Zune Marketplace</strong>
@@ -396,7 +396,7 @@ function Home() {
                                                                              }}>
                                                                             <table style={{border: 0}} cellPadding="0" cellSpacing="0">
                                                                                 <tbody>
-                                                                                    <tr style={{textAlign: "left", verticalAlign: "middle"}}>
+                                                                                    <tr>
                                                                                         <td width="35"><a
                                                                                             href="https://live.zune.net/account/buySubscription">
                                                                                             <img style={{alignSelf: "center"}} alt="Image: Step 3"
@@ -405,7 +405,7 @@ function Home() {
                                                                                             </a>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <div>
+                                                                                            <div style={{paddingBottom: 5}}>
                                                                                                 <a className="hero_Link"
                                                                                                    href="https://live.zune.net/account/buySubscription">
                                                                                                     <strong>Try a Zune Music Pass</strong>

@@ -1,0 +1,1954 @@
+/* generated on 10/15/2010 10:48:21 AM */
+#XbcCmsConsole {
+    margin-bottom: 15px;
+    border: double 3px orange;
+    padding: 3px 10px 3px 10px;
+    color: Black;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    width: 1100px;
+    background-color: silver;
+    text-align: left;
+    float: left;
+}
+
+#XbcCmsConsole a, #XbcCmsConsole a:link {
+    color: Black;
+}
+
+#XbcCmsConsole .XbcAuthoringButton {
+    border: double 3px green;
+    margin-left: 15px;
+    padding: 1px;
+}
+
+#XbcCmsConsole .XbcAuthoringButton a {
+    text-decoration: none;
+    padding: 0 0 0 3px;
+    margin-right: 1px;
+}
+
+#XbcCmsConsole .XbcAuthoringButton a:focus, #XbcCmsConsole .XbcAuthoringButton a:hover {
+    background-color: Green;
+    color: Silver;
+}
+
+h1, h2, h3, h4, h5, h6, form {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: .6em;
+    line-height: 1.3em;
+}
+
+body {
+    font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+    background-color: #fff;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    border: 0;
+}
+
+em, i {
+    font-style: italic;
+}
+
+hr {
+    height: 1px;
+    color: #eee;
+    background: #eee;
+    border: 0;
+}
+
+hr.hrgrey {
+    height: 1px;
+    color: #eee;
+    background: #eee;
+    border: 0;
+}
+
+hr.hrwhite {
+    height: 1px;
+    color: #333;
+    background: #333;
+    border: 0;
+}
+
+ul, ol {
+    line-height: 25px;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #ec008c;
+    text-decoration: none;
+}
+
+a.linkgray, a.linkgray:link, a.linkgray:visited {
+    font-size: 12px;
+    text-decoration: none;
+    color: #555;
+}
+
+a.linkgray:active, a.linkgray:hover {
+    font-size: 12px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+a.linkmagenta, a.linkmagenta:link, a.linkmagenta:visited {
+    font-size: 12px;
+    text-decoration: none;
+    color: #ec008c;
+}
+
+a.linkmagenta:active, a.linkmagenta:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: #b7006d;
+}
+
+.cms_textgray13px {
+    font-size: 12px;
+    color: #555;
+}
+
+.cms_textwhite13px {
+    font-size: 12px;
+    color: #fff;
+}
+
+.cms_3rdtiernavtext, .cms_3rdtiernavtext a, .cms_3rdtiernavtext a:link, .cms_3rdtiernavtext a:visited {
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavtext a:active, .cms_3rdtiernavtext a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.cms_promotext {
+    font-size: 11px;
+    color: #555;
+}
+
+.cms_footnotes {
+    font-size: 10px;
+    color: #555;
+}
+
+h1, .cms_pageheader30px, .cms_pageheader30px_noncufon {
+    font-size: 50px;
+    color: #333;
+}
+
+.cms_heroheadline40px, .cms_heroheadline40px_noncufon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.cms_heroheadline30px {
+    font-size: 20px;
+    color: #333;
+}
+
+.cms_heroheadline20px {
+    font-size: 20px;
+    color: #fff;
+}
+
+.cms_herosubheadline15px {
+    font-weight: bold;
+    font-size: 15px;
+    color: #555;
+}
+
+h2, .cms_pagesubhead1gray, .cms_pagesubhead1gray_noncufon {
+    font-size: 30px;
+    color: #333;
+}
+
+h3, .cms_pagesubhead1white, .cms_pagesubhead1white_noncufon {
+    font-size: 30px;
+    color: #fff;
+}
+
+h4, .cms_3rdtiernavheader, .cms_3rdtiernavheader a, .cms_3rdtiernavheader a:link, .cms_3rdtiernavheader a:visited {
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavheader a:active, .cms_3rdtiernavheader a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+h5, .cms_promosubhead {
+    font-size: 20px;
+    color: #929292;
+}
+
+h6, .cms_pagesubhead2gray {
+    font-size: 12px;
+    color: #333;
+}
+
+.cms_3rdtiernavdefault, .cms_3rdtiernavdefault a, .cms_3rdtiernavdefault a:link, .cms_3rdtiernavdefault a:visited {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cms_3rdtiernavdefault a:active, .cms_3rdtiernavdefault a:hover {
+    font-size: 10px;
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.cms_pagesubhead2white {
+    font-size: 12px;
+    color: #fff;
+}
+
+.cms_promohead {
+    font-size: 11px;
+    color: #fff;
+}
+
+.cms_promoheader {
+    font-size: 10px;
+    color: #fff;
+}
+
+.cms_articlesubhead {
+    font-size: 14px;
+    color: #333;
+}
+
+.cms_promosuperheader {
+    font-size: 14px;
+    color: #fff;
+}
+
+a.LxExternalLink {
+    /*background: transparent url(pink_glyph.gif) no-repeat scroll right center;*/
+    display: inline-block;
+    padding-right: 17px;
+}
+
+a.LxExternalLink, a.lLxExternalLink:link, a.LxExternalLink:visited {
+    font-size: 12px;
+    text-decoration: none;
+    color: #ec008c;
+}
+
+a.LxExternalLink:active, a.LxExternalLink:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: #b7006d;
+}
+
+hr {
+    height: 1px;
+    color: #eee;
+    background: #eee;
+    border: 0;
+}
+
+h2 {
+    font-size: 240%;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+textarea {
+    border-color: #d1d1d1;
+    scrollbar-arrow-color:#e2e2e2;scrollbar-3dlight-color: #f9f9f9;
+    scrollbar-darkshadow-color: #000;
+    scrollbar-face-color:#757575;scrollbar-highlight-color:#757575;scrollbar-shadow-color:#fff;scrollbar-track-color:#e2e2e2;}
+
+input[disabled] {
+    color: #aaa;
+    cursor: auto;
+}
+
+cite {
+    font-size: 50%;
+    font-style: normal;
+}
+
+a.XbcLinkRight, a.XbcMoreLink {
+    display: block;
+    /*background-image: url(genericGreenArrow.gif);*/
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 0 15px 0 0;
+    text-align: right;
+}
+
+a.XbcMoreLink {
+    margin: 5px 10px;
+}
+
+.XbcAlignLeft {
+    text-align: left;
+}
+
+.XbcAlignRight {
+    text-align: right;
+}
+
+.XbcAlignCenter {
+    text-align: center;
+}
+
+.XbcDisplayNone {
+    display: none;
+}
+
+.XbcRelative {
+    position: relative;
+}
+
+.XbcErrorMessage {
+    display: block;
+    clear: both;
+}
+
+.XbcErrorMessagePaddingBottom {
+    padding-bottom: 14px;
+}
+
+.XbcFloatLeft {
+    float: left;
+    display: block;
+}
+
+.XbcFloatLeftAlignLeft {
+    float: left;
+    text-align: left;
+    display: block;
+}
+
+.XbcFloatRight {
+    float: right;
+    display: block;
+}
+
+.XbcFloatRightAlignRight {
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.XbcFloatClear {
+    margin: 0;
+    padding: 1px;
+    clear: both;
+}
+
+.XbcFloatClearLeft {
+    margin: 0;
+    padding: 1px;
+    clear: left;
+}
+
+input.XbcTextBox {
+    border: 1px solid #d1d1d1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.XbcRadioButtonList {
+    display: block;
+    margin: 5px 15px;
+}
+
+.XbcRadioButtonList br {
+    clear: both;
+}
+
+.XbcRadioButtonList input {
+    display: block;
+    margin: 0;
+    float: left;
+    margin-top: 5px;
+}
+
+.XbcRadioButtonList label {
+    display: block;
+    float: left;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.XbcRadioButtonList label br {
+    clear: none;
+}
+
+.XbcLayoutSidebar, #XbcLayoutSidebar {
+    margin: 0 0 0 4px;
+    padding: 0;
+    float: right;
+    width: 283px;
+    overflow: hidden;
+}
+
+.XbcLayoutNavbar, #XbcLayoutNavbar {
+    margin: 1px 9px 0 0;
+    float: left;
+    overflow: hidden;
+    width: 141px;
+}
+
+.XbcLayoutBody, #XbcLayoutBody {
+    float: left;
+    width: 473px;
+}
+
+.XbcLIVEText {
+    color: #E88D00;
+}
+
+.XbcForceUpperCase {
+    text-transform: uppercase;
+}
+
+.XbcErrorMessage {
+    color: #EC008C;
+}
+
+.XbcFormButtons {
+    font-family: 'Segoe UI', Arial, Verdana, Helvetica, Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+    border: none;
+    clear: none;
+}
+
+.XbcFormButtons {
+    color: #fff;
+    background: #ec008c;
+}
+
+input.XbcTextBox {
+    background-color: #FFF;
+    border-color: #d1d1d1;
+}
+
+.XbcRequiredField {
+    color: #311801;
+}
+
+.XbcQuickSearchResults .XbcSearchProductResult {
+    text-align: left;
+    position: relative;
+    padding: 7px;
+    margin: 0;
+}
+
+.XbcQuickSearchResults .XbcSearchProductResult .XbcSearchProductResultMainImg {
+    float: left;
+    margin-right: 15px;
+    border: 0;
+}
+
+.XbcQuickSearchResults .XbcSearchProductResult p {
+    margin: 0;
+    padding-bottom: 0;
+    line-height: 1.3;
+}
+
+.XbcQuickSearchResults .XbcSearchProductResult .XbcSearchBuyNowButton {
+    margin-top: 16px;
+}
+
+.XbcQuickSearchResults .XbcSearchZuneResult .XbcSearchProductResultInstantAnswerImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 18px;
+    width: 18px;
+    /*background-image: url(InstantAnswer.gif);*/
+}
+
+.XbcQuickSearchResults .XbcSearchZuneResult P.XbcSearchProductResultTitle {
+    margin-top: 12px;
+    font-size: 160%;
+    margin-bottom: 12px;
+}
+
+.XbcQuickSearchResults .XbcSearchZuneResult P.XbcSearchProductResultTitle A {
+    color: #726551;
+}
+
+.XbcQuickSearchResults .XbcSearchXbox1Result P.XbcSearchProductResultTitle {
+    font-size: 103%;
+}
+
+.XbcQuickSearchResults .XbcSearchXbox1Result P.XbcSearchProductResultTitle A {
+}
+
+.XbcQuickSearchResults .XbcSearchXbox360Result P.XbcSearchProductResultTitle {
+    font-size: 103%;
+}
+
+.XbcQuickSearchResults .XbcSearchXbox360Result P.XbcSearchProductResultTitle A {
+}
+
+.XbcSuperhead {
+    text-decoration: underline;
+}
+
+.XbcSubhead {
+    font-style: italic;
+}
+
+h4.XbcPullquote {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding: 10px 0 10px 0;
+    font-size: 120%;
+    border-bottom: solid 1px #d1d1d1;
+    border-top: solid 1px #d1d1d1;
+}
+
+.XbcGlanceMain {
+    float: right;
+    border: 1px solid #757575;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.XbcGlanceMain h6 {
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.XbcGlanceMain ul {
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 10px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.XbcByline {
+    font-style: italic;
+}
+
+.XbcGamertag {
+    font-weight: bold;
+}
+
+.XbcGameTitle {
+    font-style: italic;
+}
+
+.XbcNotebox {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.XbcSyndicateByline {
+    font-style: italic;
+}
+
+.XbcImageCaption {
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0 12px;
+    line-height: 120%;
+    font-size: 80%;
+}
+
+h4.XbcSuperhead {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h4.XbcSubhead {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4.XbcPullquote {
+    border-bottom-color: #726551;
+    border-top-color: #726551;
+}
+
+.XbcGlanceMain {
+    border-color: #726551;
+}
+
+.XbcGlanceMain h6 {
+    background-color: Transparent;
+}
+
+.XbcNotebox {
+    background-color: Transparent;
+}
+
+.XbcImageCaption {
+}
+
+div.XbcList ul {
+    padding: 0;
+    margin: 7px 0 7px 22px;
+}
+
+div.XbcList li {
+    padding: 0;
+    margin: 3px 0;
+    line-height: 100%;
+    /*list-style-image: url(chevron1.gif);*/
+}
+
+a.XbcGdpNav {
+    color: #515151;
+    text-decoration: none;
+}
+
+a.XbcGdpNav:hover {
+    text-decoration: none;
+}
+
+div.XbcHR {
+    margin-top: 5px;
+    height: 1px;
+    background: #000;
+}
+
+div.XbcHR hr {
+    display: none;
+    height: 1px;
+}
+
+.XbcClearFloat {
+    height: 0;
+    line-height: 0;
+}
+
+.XbcFormElements {
+    float: left;
+    width: 45%;
+}
+
+.XbcFormHelp {
+    float: right;
+    width: 45%;
+}
+
+.XbcSearchButtons {
+    clear: both;
+    color: #fff;
+    background-color: #515151;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d1d1d1;
+}
+
+input.XbcPassBox {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.XbcSuperSymbols {
+    vertical-align: super;
+    font-size: 80%;
+}
+
+.XbcSidebar {
+    font-size: 50%;
+}
+
+.XbcSidebar .XbcSidebar {
+    font-size: 100%;
+}
+
+img.XbcTrailerImage {
+    border: 1px solid #fff;
+}
+
+.XbcBannerBottom {
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+}
+
+.XbcCalendarDate {
+    width: 66px;
+}
+
+.XbcCalendarPlatform {
+    width: 28px;
+}
+
+.XbcFMScreen {
+    margin: 5px;
+    border: solid 1px #fff;
+    padding: 0;
+}
+
+.XbcFMVideoBox {
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+.XbcFMVideo {
+    margin: 5px;
+    border: solid 1px #fff;
+    padding: 0;
+}
+
+.XbcLayoutTable {
+    border: none;
+    border-collapse: collapse;
+    padding: 0;
+    color: inherit;
+}
+
+.XbcLayoutCell {
+    padding: 0;
+    vertical-align: top;
+}
+
+.XbcPITitle {
+    padding: 7px 12px 7px 12px;
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.XbcPIProductImage {
+    float: left;
+    padding: 0 12px 0 12px;
+}
+
+.XbcPIGame {
+    margin: 0;
+    padding: 2px 12px;
+    line-height: 1.1em;
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.XbcMSPointsImage {
+    margin: 0 3px;
+    position: relative;
+    top: 2px;
+}
+
+.XbcPIHardware {
+    margin: 0;
+    padding: 9px 10px 10px 10px;
+    line-height: 1.1em;
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.XbcPIRating {
+    margin: 0;
+    padding: 7px 0 25px 7px;
+    line-height: 1.1em;
+    clear: both;
+}
+
+.XbcPIRating img {
+    margin: 1px 12px;
+}
+
+.XbcPIRatingNewLineText {
+    padding-left: 20px;
+}
+
+.XbcPIBuyNowButton {
+    padding-top: 2px;
+}
+
+.XbcPIXbox {
+    margin: 2px 12px;
+    padding: 2px 10px;
+    line-height: 1.2em;
+    border-left-width: 17px;
+}
+
+.XbcPILive {
+    margin: 2px 12px;
+    padding: 2px 10px;
+    line-height: 1.1em;
+    border: solid 1px #EB8E03;
+    border-left-width: 17px;
+}
+
+.XbcMediaViewScreenshot {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.XbcProgressBar ul, .XbcProgressBar li {
+    display: inline;
+}
+
+.XbcPullQuote {
+    font-style: italic;
+}
+
+.XbcChrome h5 {
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 1em;
+}
+
+.XbcWpColumn {
+    margin: 0;
+    padding: 0;
+}
+
+.XbcWpColumnGroup {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.XbcDownrule {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 4px;
+}
+
+.XbcWpFreeForm {
+    margin: 10px;
+    padding: 0;
+}
+
+.XbcWpFreeForm1 {
+    margin: 10px;
+    padding: 0;
+}
+
+.XbcWpFreeForm1 h3 {
+    padding: 0;
+}
+
+.XbcWpFreeForm1 h4 {
+    margin-top: 0;
+}
+
+.XbcWpFreeForm1 h6 {
+    margin-top: 0;
+}
+
+.XbcWpFreeForm1 ol {
+    padding: 0;
+    list-style-position: outside;
+    margin: 5px 0 5px 20px;
+}
+
+.XbcWpFreeForm1 ul {
+    padding: 0;
+    list-style-position: outside;
+    margin: 5px 0 5px 20px;
+}
+
+.XbcWpFreeForm1 li {
+    padding: 0 0 0 0;
+    margin: 0 0 8px 0;
+}
+
+.XbcWpFreeForm2 {
+    margin: 10px;
+    padding: 0;
+}
+
+.XbcWpFlash {
+    margin: 0;
+    padding: 0;
+}
+
+.XbcWpFeatureMedia {
+    padding: 5px;
+    margin: 0;
+}
+
+.XbcWpMenu {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.XbcWpFindAGamer {
+    margin: 14px 10px 14px 10px;
+    padding: 0;
+}
+
+.XbcWpProductInfo h6 {
+    padding: 8px 10px;
+    margin: 0;
+}
+
+.XbcWpProductInfo {
+    margin-bottom: 15px;
+}
+
+.XbcSearchResults {
+    padding-left: 15px;
+}
+
+ul.XbcDynamicProductsList {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 99.9%;
+    border-bottom: 4px solid #fff;
+}
+
+ul.XbcDynamicProductsList li {
+    border-top: 4px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    cursor: hand;
+}
+
+ul.XbcDynamicProductsList li.XbcDynamicProductsListNotLinkable {
+    cursor: default;
+}
+
+ul.XbcDynamicProductsList li div {
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+ul.XbcDynamicProductsList li a {
+    font-weight: bold;
+    color: #515151;
+}
+
+ul.XbcDynamicProductsList li a:hover {
+    text-decoration: none;
+}
+
+ul.XbcDynamicProductsList li.XbcDynamicProductsListHighlight {
+    border-top: 4px solid #fff;
+    border-bottom: 1px solid #9c3;
+    background-color: #fff;
+}
+
+ul.XbcDynamicProductsList li.XbcDynamicProductsListHighlight a {
+    font-weight: bold;
+    color: #9c3;
+}
+
+ul.XbcDynamicProductsList li.XbcDynamicProductsListHighlight div {
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 1px solid #9c3;
+    top: 0;
+}
+
+table.XbcDynamicProductsBoxArt {
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+}
+
+table.XbcDynamicProductsBoxArt td {
+    vertical-align: top;
+}
+
+.XbcDynamicProductsBoxArtShortDescription {
+    padding-top: 8px;
+    text-align: left;
+}
+
+.XbcBuyNowGameImage {
+    float: left;
+    padding: 0;
+    margin: 1px 0 1px 12px;
+}
+
+.XbcBuyNowHardwareImage {
+    float: left;
+    padding: 0;
+    margin: 1px 0px 1px 0px;
+}
+
+.XbcBuyNowGameTitle {
+    margin: 0;
+    font-size: 13px;
+    padding: 2px 12px;
+    line-height: 1.1em;
+    width: 320px;
+}
+
+.XbcBuyNowGame {
+    margin: 0;
+    padding: 2px 12px;
+    line-height: 1.1em;
+}
+
+.XbcBuyNowOfferTable {
+    text-align: left;
+    width: 100%;
+}
+
+.XbcBuyNowFeaturedText {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferVendorCell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferAvailabilityCell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferPriceCell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferErrorCell {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferPurchaseCell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.XbcBuyNowButton {
+    text-align: center;
+}
+
+.XbcBuyNowButtonHighlight {
+    text-align: center;
+}
+
+.XbcBuyNowButtonTop {
+    cursor: hand;
+    overflow: hidden;
+}
+
+.XbcBuyNowButtonBottom {
+    cursor: hand;
+    overflow: hidden;
+}
+
+.XbcBuyNowButton .XbcBuyNowButtonText {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: hand;
+    padding-bottom: 1px;
+}
+
+.XbcBuyNowButtonHighlight .XbcBuyNowButtonText {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: hand;
+    padding-bottom: 1px;
+}
+
+.XbcProductInfoRating {
+    margin: 0;
+    padding: 7px 0 5px 7px;
+    line-height: 1.1em;
+    clear: both;
+}
+
+.XbcProductInfoRatingDescription {
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.XbcProductInfoRatingImage {
+    float: left;
+    padding: 0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 4px;
+    margin-right: 7px;
+}
+
+.XbcSponsorshipText {
+}
+
+.XbcSponsorshipTextLeftAlign {
+    text-align: left;
+}
+
+.XbcSponsorshipTextCenterAlign {
+    text-align: center;
+}
+
+.XbcSponsorshipTextRightAlign {
+    text-align: right;
+}
+
+.XbcProductInfoMiniGameImage {
+    float: left;
+    padding-left: 4px;
+    padding-right: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 1px 0px 1px 12px;
+}
+
+.XbcProductInfoMiniHardwareImage {
+    float: left;
+    padding-left: 4px;
+    padding-right: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 1px 0px 1px 0px;
+}
+
+.XbcProductInfoMiniTitle {
+    width: 100%;
+    height: auto;
+    padding-top: 3px;
+}
+
+.XbcProductInfoMiniPrice {
+    padding: 3px 0px 3px 0px;
+}
+
+.XbcProductInfoDetails {
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+.XbcProductInfoDetailsGame {
+    margin: 0;
+    padding: 2px 6px;
+    line-height: 1.1em;
+}
+
+.XbcProductInfoDetailsHardware {
+    margin: 0;
+    padding: 2px 6px;
+    line-height: 1.1em;
+}
+
+.DeviceList, .XbcPCSearchBox ul {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.HorizontalList ul, .HorizontalList li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.DeviceList li a, .DeviceList li a:visited, .XbcPCSearchBox li a, .XbcPCSearchBox li a:visited {
+    color: #555;
+}
+
+.DeviceList li a:hover, .XbcPCSearchBox li a:hover {
+    color: #ec008c;
+}
+
+.DeviceList {
+    float: right;
+    margin: -27px 5px 0 0;
+}
+
+.XbcPCSearchBox {
+    margin-top: 48px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.XbcPCSearchBox ul {
+    padding: 0 0 30px 2px;
+    margin: 0;
+}
+
+.XbcPCSearchBox li {
+    list-style: none;
+    line-height: 1em;
+    padding: .5em 0;
+}
+
+.XbcPCResultBox {
+    overflow: hidden;
+    width: 800px;
+    float: left;
+}
+
+.XbcPager a, .XbcPager a:link {
+    color: #555;
+}
+
+.XbcPager .current {
+    color: #ec008c;
+}
+
+.XbcPcBottomNav {
+    border-top: 20px solid #eee;
+}
+
+h2.PCat {
+    margin: 10px 0 0;
+    line-height: 1em;
+    width: 500px;
+    position: relative;
+    top: 28px;
+    float: none;
+    text-transform: none;
+    color: #333;
+}
+
+img.XbcTrailerImage {
+    border-color: #726551;
+}
+
+table.XbcCalendar {
+    border-bottom-color: #fff;
+}
+
+table.XbcCalendar tbody {
+    border-bottom-color: #fff;
+}
+
+table.XbcCalendar th {
+    border-top-color: #fff;
+    background-color: #f9f9f9;
+}
+
+table.XbcCalendar td {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+table.XbcCalendar tbody td a {
+    color: #515151;
+}
+
+table.XbcCalendar tr.XbcCalendarHighlight {
+    background-color: #fff;
+}
+
+table.XbcCalendar tr.XbcCalendarHighlight td {
+    border-top-color: #fff;
+    border-bottom-color: #9c3;
+    background-color: #fff;
+}
+
+table.XbcCalendar tr.XbcCalendarHighlight a {
+    color: #ec008c;
+}
+
+table.XbcCalendar td div {
+    border-top-color: #fff;
+}
+
+table.XbcCalendar tr.XbcCalendarHighlight div {
+    border-top-color: #515151;
+}
+
+.XbcFMScreen {
+    border-color: #726551;
+}
+
+.XbcFMVideoBox {
+}
+
+.XbcFMVideo {
+    border-color: #726551;
+}
+
+.XbcPITitle {
+    background-color: #f9f9f9;
+    color: #515151;
+    border-bottom-color: #D1D1D1;
+}
+
+.XbcPIGame {
+    border-bottom-color: #D1D1D1;
+}
+
+.XbcPIHardware {
+    border-bottom-color: #D1D1D1;
+}
+
+.XbcPIXbox {
+    border-color: #515151;
+    background-color: #fff;
+    color: #fff;
+}
+
+.XbcPILive {
+    border-color: #63687b;
+    background-color: #fff;
+    color: #515151;
+}
+
+ul.XbcExpandoMenu {
+    background-color: #d1d1d1;
+}
+
+ul.XbcExpandoMenu span, ul.XbcExpandoMenu a {
+    border-top-color: #BCBCBC;
+    border-bottom-color: #BCBCBC;
+}
+
+ul.XbcExpandoMenu li.XbcMenuCurrent {
+    border-top-color: #BCBCBC;
+    border-bottom-color: #BCBCBC;
+    color: #B2B2B2;
+}
+
+ul.XbcExpandoMenu li.XbcMenuLink a, ul.XbcExpandoMenu li.XbcMenuLink a:link, ul.XbcExpandoMenu li.XbcMenuLink a:visited {
+    border-top-color: #BCBCBC;
+    border-bottom-color: #BCBCBC;
+    color: #52971A;
+}
+
+ul.XbcExpandoMenu li.XbcMenuLink a:hover {
+    color: #63687b;
+}
+
+li.XbcExpandoMenuClosed {
+    color: #515151;
+}
+
+li.XbcExpandoMenuOpen {
+    color: #63687b;
+}
+
+li.XbcExpandoMenuOpen ul {
+    background-color: #A4D033;
+}
+
+li.XbcExpandoMenuOpen ul li {
+    background: #A4D033;
+    border-bottom: 1px solid #C5E07F;
+}
+
+li.XbcExpandoMenuOpen ul li.XbcMenuCurrent {
+    background-color: #DBEBB2;
+    color: #52971A;
+}
+
+li.XbcExpandoMenuOpen ul li.XbcMenuLink a, li.XbcExpandoMenuOpen ul li.XbcMenuLink a:link, li.XbcExpandoMenuOpen ul li.XbcMenuLink a:visited {
+    color: #515151;
+    background-color: #A4D033;
+}
+
+li.XbcExpandoMenuOpen ul li.XbcMenuLink a:hover {
+    color: #fff;
+}
+
+li.XbcExpandoMenuOpen ul li.XbcMenuSelected a {
+    background-color: #DBEBB2;
+    color: #52971A;
+}
+
+ul.XbcExpandoMenu span.XbcExpandoHighlight {
+    background-color: #fff;
+}
+
+ul.XbcExpandoMenu a:hover {
+    background-color: #fff;
+}
+
+ul.XbcExpandoMenu ul li a:hover {
+    background-color: #A4D033;
+}
+
+.XbcProgressBar {
+    color: #d1d1d1;
+}
+
+.XbcProgressBar ul .XbcProgressBarStep {
+    color: #000;
+}
+
+.XbcChrome h5 {
+    padding-left: 0;
+    background-color: Transparent;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.XbcDownrule {
+    background-color: Transparent;
+}
+
+.XbcWpSearch {
+    background-color: #fff;
+}
+
+.XbcProductInfoMiniCategory {
+    padding-bottom: 3px;
+}
+
+.XbcProductInfoMiniTitle {
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.XbcProductInfoMiniManufacturer {
+    padding-bottom: 3px;
+}
+
+.XbcProductInfoMiniSmallTitle {
+    min-height: 50px;
+}
+
+.XbcProductInfoMiniSmallTitle a, .XbcProductInfoMiniSmallTitle a:link {
+    color: #333;
+    font-weight: bold;
+}
+
+.XbcProductInfoMiniReleaseDate {
+    padding-bottom: 3px;
+}
+
+.XbcProductInfoMiniSupportedDevices {
+    padding-bottom: 3px;
+}
+
+.XbcProductInfoMiniBuyNowButton {
+    float: left;
+    margin: 10px 0;
+}
+
+.XbcDynamicProductsBoxArt .XbcProductInfoMiniBuyNowButton {
+    margin-left: 10px;
+}
+
+.XbcBuyNowButtonTop {
+    width: 90px;
+    height: 1px;
+    background-color: #ec008c;
+    border-top: solid 2px #ec008c;
+    border-left: solid 2px #ec008c;
+    border-right: solid 2px #ec008c;
+}
+
+.XbcBuyNowButtonBottom {
+    width: 90px;
+    height: 1px;
+    background-color: #ec008c;
+    border-bottom: solid 2px #ec008c;
+    border-left: solid 2px #ec008c;
+    border-right: solid 2px #ec008c;
+}
+
+.XbcBuyNowButton .XbcBuyNowButtonText {
+    width: 90px;
+    background-color: #ec008c;
+    color: #fff;
+    border-left: solid 2px #ec008c;
+    border-right: solid 2px #ec008c;
+}
+
+.XbcBuyNowButtonHighlight .XbcBuyNowButtonText {
+    width: 90px;
+    background-color: #ec008c;
+    color: #fff;
+    border-left: solid 2px #ec008c;
+    border-right: solid 2px #ec008c;
+}
+
+table.XbcDynamicProductsBoxArt {
+    text-align: left;
+    margin: -2px 0 0 -2px;
+}
+
+table.XbcDynamicProductsBoxArt td {
+    border-top: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    padding: 20px 19px;
+}
+
+div.XbcDynamicProductsBoxArtLayoutControl {
+    min-height: 80px;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.XbcDynamicProductsBoxArtCell img {
+    width: 160px;
+}
+
+td.XbcDynamicProductsBoxArtCellNoBack {
+    background: none !important;
+}
+
+.XbcBuyNowGameTitle {
+    padding-bottom: 12px !important;
+}
+
+.XbcBuyNowGameTitle a {
+    color: #726551;
+}
+
+.XbcBuyNowGameTitle a:hover, .XbcBuyNowGameTitle a:link {
+    text-decoration: none;
+}
+
+.XbcBuyNowGame {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 3px;
+}
+
+.XbcWpBuyNowProductInfo {
+    margin-bottom: 15px;
+}
+
+.XbcWpBuyNowOffers div.XbcChrome h5 {
+    padding: 8px 0;
+}
+
+.XbcBuyNowOfferTable td {
+    background-color: #E5E3DB;
+    border-bottom: 4px solid #DEDCD2;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferVendorCell {
+    text-align: left;
+    width: 25%;
+    padding: 5px 0 5px 25px;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferAvailabilityCell {
+    width: 25%;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferPriceCell {
+    width: 25%;
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferErrorCell {
+}
+
+.XbcBuyNowOfferTable td.XbcBuyNowOfferPurchaseCell {
+    width: 25%;
+    padding: 35px 0;
+}
+
+body, body.forceNormalStyle {
+    background-color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+#XbcShellBody {
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+#XbcPageFragment {
+    text-align: left;
+}
+
+.XbcShellTop {
+    font-size: 10px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    clear: both;
+}
+
+.XbcShellHeader {
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 950px;
+    /*background-image: url('header_bg.jpg');*/
+}
+
+#shellHeaderTop {
+    clear: both;
+    height: 3px;
+}
+
+#shellHeaderBottom {
+    clear: both;
+    margin-top: 22px;
+}
+
+.XbcShellHeaderBrandLogo {
+    float: left;
+    margin-left: 18px;
+    margin-top: -5px;
+    width: 141px;
+}
+
+.XbcShellHeaderBrandLogo a img {
+}
+
+.XbcShellHeaderNav {
+    float: left;
+    margin-top: 9px;
+}
+
+.XbcShellFooter {
+    margin: 0 auto 37px 160px;
+    width: 945px;
+    color: #929292;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.XbcShellFooter li, .XbcShellFooter a:visited, .XbcShellFooter a:link {
+    list-style: none;
+    color: #929292;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.XbcShellFooter a:active, .XbcShellFooter a:hover, .footerBottom .country li.selected {
+    color: #191919;
+}
+
+.footerTop, .footerBottom {
+    text-align: left;
+    clear: both;
+    width: 100%;
+    overflow: auto;
+}
+
+.footerTop ul {
+    width: 160px;
+    margin: 60px 10px 0 0;
+    padding: 0;
+}
+
+.footerBottom {
+    margin-top: 74px;
+}
+
+.footerBottom .copyright, .footerBottom .country {
+    font-weight: bold;
+    font-size: 11px;
+    clear: both;
+    overflow: hidden;
+}
+
+.footerBottom .country ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.footerBottom .country li {
+    padding: 0 5px;
+    border-left: solid 1px #929292;
+    list-style: none;
+    display: inline;
+}
+
+.footerBottom .country li.first {
+    border: none;
+}
+
+.footerBottom .copyright {
+    margin-top: 24px;
+}
+
+.XbcShellFooterLegal {
+    position: relative;
+    text-align: left;
+    color: #929292;
+    clear: both;
+}
+
+.XbcShellFooterLegal p {
+    position: absolute;
+    left: 0;
+}
+
+.XbcShellFooterLegal ul {
+    display: block;
+    padding-top: 60px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.XbcShellFooterLegal li {
+    display: inline;
+    color: #929292;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.XbcShellFooterLegal a, .XbcShellFooterLegal a:link, .XbcShellFooterLegal a:visited {
+    color: #929292;
+    text-decoration: none;
+    border-left: solid 1px #929292;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 3px;
+    text-decoration: none;
+}
+
+.XbcShellFooterLegal a:active, .XbcShellFooterLegal a:hover {
+    color: #191919;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.XbcShellFooterLegal .XbcShellFooterFirst a {
+    border-left: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.XbcShellHeaderBrandSearch {
+    width: 301px;
+    height: 20px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.XbcShellHeaderBrandSearchBox {
+    margin: 0 0 0 32px;
+}
+
+.XbcShellHeaderBrandSearchBox input {
+    border: solid 1px #e1e1e1;
+    border-right: none;
+    height: 15px;
+    line-height: 13px;
+    padding: 1px 6px;
+    font-size: 11px;
+    width: 100%;
+    background-color: #fff;
+    color: #999;
+    margin-left: -32px;
+}
+
+.XbcShellHeaderBrandSearchSubmit {
+    float: right;
+    height: 17px;
+    width: 18px;
+    border: solid 1px #e1e1e1;
+    border-left: none;
+    background-image: url(searchBarButton.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.zuneCardShell {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.shellItems a,.shellItems a:link, .shellItems a:visited, .shellItems a:active, .shellItems a:hover,.shellItems .selected {
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.shellItems a,.shellItems a:link, .shellItems a:visited {
+    color: #ddd;
+}
+
+.shellItems a:active, .shellItems a:hover,.shellItems a.selected {
+    color: #fff;
+}
+
+.shellItems a.ZuneTagFont:active, .shellItems a.ZuneTagFont:link,.shellItems a.ZuneTagFont:hover,.shellItems a.ZuneTagFont:visited {
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.shellItems a.ZuneTagFont:link, .shellItems a.ZuneTagFont:visited {
+    color: #ddd;
+}
+
+.shellItems a.ZuneTagFont:active, .shellItems a.ZuneTagFont:hover, .shellItems a.selected {
+    color: #fff;
+}
+
+.shellItems {
+    margin-top: 0;
+}
+
+.shellItemsFirst {
+    margin-top: 2px;
+}
+
+.XbcShellHeaderBrandMyXboxGamerCardPicture {
+    margin-left: 4px;
+    width: 32px;
+    height: 32px;
+}
+
+.XbcShellMain {
+    clear: both;
+}
+
+.XbcShellMainContent {
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+.XbcErrorCode {
+    color: #ec008c;
+}
+
+.shellMenu ul, .shellSubMenu ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+    border: none;
+}
+
+.shellMenu ul li, .shellSubMenu ul li {
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 16px;
+    border: none;
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.shellMenu ul li {
+    font-size: 13px;
+}
+
+.shellSubMenu ul li {
+    font-size: 11px;
+    margin-left: 1px;
+}
+
+.shellMenu ul li.first, .shellSubMenu ul li.first {
+    padding-left: 0;
+}
+
+.shellMenu a:link, .shellMenu a:visited, .shellSubMenu a:link, .shellSubMenu a:visited {
+    color: #ddd;
+}
+
+.shellMenu a:active, .shellMenu a:hover, .shellSubMenu a:active, .shellSubMenu a:hover, .shellMenu a.selected, .shellSubMenu a.selected {
+    color: #fff;
+}
+
+/*
+     FILE ARCHIVED ON 14:35:59 Nov 02, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:11:59 May 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 73.245
+  RedisCDXSource: 153.774
+  captures_list: 547.299
+  CDXLines.iter: 20.574 (3)
+  exclusion.robots: 0.248
+  exclusion.robots.policy: 0.234
+  LoadShardBlock: 368.624 (3)
+  load_resource: 230.152
+  esindex: 0.012
+  PetaboxLoader3.datanode: 505.405 (4)
+*/
