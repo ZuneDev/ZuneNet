@@ -9,10 +9,13 @@ class Header extends React.Component{
     XbcNav_mainOver(event: PointerEvent<HTMLElement>) {
         let menu = event.currentTarget.getElementsByTagName("ul")[0];
         menu.style.display = "block";
+        menu.classList.remove("fade-out");
+        menu.classList.add("fade-in");
     }
     XbcNav_mainOut(event: PointerEvent<HTMLElement>) {
         let menu = event.currentTarget.getElementsByTagName("ul")[0];
-        menu.style.display = "none";
+        menu.classList.remove("fade-in");
+        menu.classList.add("fade-out");
     }
 
     doHeaderSearch(event: FormEvent<HTMLFormElement>) {
@@ -48,12 +51,13 @@ class Header extends React.Component{
                     </div>
                     <div className="TopNav">
                         <ul className="menu">
-                            <li className="products" onPointerEnter={event => this.XbcNav_mainOver(event)}
+                            <li className="products"
+                                onPointerEnter={event => this.XbcNav_mainOver(event)}
                                 onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="/products/default.htm">
                                     products
                                 </a>
-                                <ul className="events" style={{left: "0px", top: "39px", display: "none"}}>
+                                <ul className="events" style={{left: "0px", top: "39px"}}>
                                     <div style={{float: "left"}}>
                                         <li><a href="/products/software/default.htm">zune software</a></li>
                                         <li><a href="/products/zunepass/default.htm">zune music pass</a></li>
@@ -69,7 +73,7 @@ class Header extends React.Component{
                             <li className="music" onPointerEnter={event => this.XbcNav_mainOver(event)}
                                 onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/music/">music</a>
-                                <ul className="events" style={{left: "84.225px", top: "39px", display: "none"}}>
+                                <ul className="events" style={{left: "84.225px", top: "39px"}}>
                                     <div style={{float: "left"}}>
                                         <li><a href="https://social.zune.net/music/genre/rock">rock</a></li>
                                         <li><a href="https://social.zune.net/music/genre/hiphop">hip hop</a></li>
@@ -86,7 +90,7 @@ class Header extends React.Component{
                             <li className="video" onPointerEnter={event => this.XbcNav_mainOver(event)}
                                 onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/video">video</a>
-                                <ul className="events" style={{left: 144.238, top: 39, display: "none"}}>
+                                <ul className="events" style={{left: 144.238, top: 39}}>
                                     <div style={{float: "left"}}>
                                         <li><a href="https://social.zune.net/tv">tv</a></li>
                                         <li><a href="https://social.zune.net/movies">movies</a></li>
@@ -100,7 +104,7 @@ class Header extends React.Component{
                             <li className="podcasts" onPointerEnter={event => this.XbcNav_mainOver(event)}
                                 onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/podcasts/">podcasts</a>
-                                <ul className="events" style={{left: 201.788, top: 39, display: "none"}}>
+                                <ul className="events" style={{left: 201.788, top: 39}}>
                                     <div style={{float: "left"}}>
                                         <li><a
                                             href="https://social.zune.net/podcasts/genre/pod.arts">arts</a></li>
