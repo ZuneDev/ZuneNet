@@ -12,26 +12,26 @@ function Footer() {
                                 <div className="floatLeft col">
                                     <ul>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-US/press/default.htm">Press</a>
+                                            <a href="/en-US/press/default.htm">Press</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://privacy.microsoft.com/en-US/default.aspx"
+                                            <a href="http://privacy.microsoft.com/en-US/default.aspx"
                                                target="_blank">Privacy Statement</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-US/legal/termsofservice.htm">Terms of Service</a>
+                                            <a href="/en-US/legal/termsofservice.htm">Terms of Service</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-us/legal/safety.htm">Safety</a>
+                                            <a href="/en-us/legal/safety.htm">Safety</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-US/legal/codeOfConduct.htm">Code of Conduct</a>
+                                            <a href="/en-US/legal/codeOfConduct.htm">Code of Conduct</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://social.zune.net/reportAbuse.aspx">Report Abuse</a>
+                                            <a href="http://social.zune.net/reportAbuse.aspx">Report Abuse</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.microsoft.com/About/Legal/EN/US/IntellectualProperty/Trademarks/EN-US.aspx"
+                                            <a href="http://www.microsoft.com/About/Legal/EN/US/IntellectualProperty/Trademarks/EN-US.aspx"
                                                target="_blank">Trademarks</a>
                                         </li>
                                     </ul>
@@ -39,25 +39,24 @@ function Footer() {
                                 <div className="floatLeft col">
                                     <ul>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://zuneinsider.com/"
-                                               target="_blank">Zune Insider</a>
+                                            <a href="http://zuneinsider.com/" target="_blank">Zune Insider</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-us/newsletter/default.htm">Newsletter</a>
+                                            <a href="/en-us/newsletter/default.htm">Newsletter</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.microsoftaffiliates.com/index.html?content=Zune"
+                                            <a href="http://www.microsoftaffiliates.com/index.html?content=Zune"
                                             target="_blank">Affiliate Program</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://social.zune.net/links/zunelinks.aspx">Link to Zune</a>
+                                            <a href="http://social.zune.net/links/zunelinks.aspx">Link to Zune</a>
                                         </li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-us/support/accessibility/default.htm">Accessibility</a>
+                                            <a href="/en-us/support/accessibility/default.htm">Accessibility</a>
                                         </li>
                                         <li>Follow us on:</li>
                                         <li>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.facebook.com/zune"
+                                            <a href="http://www.facebook.com/zune"
                                                // onClick="window.open(this.href);return false;"
                                                // onKeyPress="window.open(this.href);return false;"
                                             >
@@ -65,7 +64,7 @@ function Footer() {
                                                     src="http://web.archive.org/web/20111130221814im_/https://www.zune.net/NR/rdonlyres/CD7A2D12-EE37-468B-B1A4-82DECA1F3B8C/0/ico_facebook.png"
                                                     width="15"/>
                                             </a>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.myspace.com/zune"
+                                            <a href="http://www.myspace.com/zune"
                                                // onClick="window.open(this.href);return false;"
                                                // onKeyPress="window.open(this.href);return false;"
                                             >
@@ -73,7 +72,7 @@ function Footer() {
                                                      src="http://web.archive.org/web/20111130221814im_/https://www.zune.net/NR/rdonlyres/D8108120-F1EF-4A43-A955-533A33308329/0/ico_myspace.png"
                                                      width="15"/>
                                             </a>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.twitter.com/zune"
+                                            <a href="http://www.twitter.com/zune"
                                                // onClick="window.open(this.href);return false;"
                                                // onKeyPress="window.open(this.href);return false;"
                                             >
@@ -81,7 +80,7 @@ function Footer() {
                                                      src="http://web.archive.org/web/20111130221814im_/https://www.zune.net/NR/rdonlyres/9BCAAEF1-B5A9-4F19-B31B-7691F0EB2344/0/ico_twitter.png"
                                                      width="15"/>
                                             </a>
-                                            <a href="http://web.archive.org/web/20111130221814/http://www.youtube.com/zune"
+                                            <a href="http://www.youtube.com/zune"
                                                // onClick="window.open(this.href);return false;"
                                                // onKeyPress="window.open(this.href);return false;"
                                             >
@@ -100,7 +99,7 @@ function Footer() {
                                 <li className="XbcShellFooterFirst">Region/Language:</li>
                                 <li style={{whiteSpace: "nowrap"}}><strong>United States</strong> / <a
                                     id="ctl00__footerControl__internationalHyperlink"
-                                    href="http://web.archive.org/web/20111130221814/http://www.zune.net/en-US/ChangeLocale.htm">International</a></li>
+                                    href="/en-US/ChangeLocale.htm">International</a></li>
                             </ul>
                         </div>
                         <div className="copyright">©2011 Microsoft Corporation. All Rights Reserved

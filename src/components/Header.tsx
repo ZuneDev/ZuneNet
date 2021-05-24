@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PointerEvent, FormEvent} from 'react';
 import logo from "../assets/header_logo.svg";
 import spacer from "../assets/spacer.gif"
 import zunetile_default from "../assets/zunetile_default.svg"
@@ -6,19 +6,30 @@ import zunetile_default from "../assets/zunetile_default.svg"
 import '../assets/zune.css';
 
 class Header extends React.Component{
+    XbcNav_mainOver(event: PointerEvent<HTMLElement>) {
+        let menu = event.currentTarget.getElementsByTagName("ul")[0];
+        menu.style.display = "block";
+    }
+    XbcNav_mainOut(event: PointerEvent<HTMLElement>) {
+        let menu = event.currentTarget.getElementsByTagName("ul")[0];
+        menu.style.display = "none";
+    }
+
+    doHeaderSearch(event: FormEvent<HTMLFormElement>) {
+        console.log(event);
+    }
+
     render() {
         return (
             <div className="Zwrapper">
                 <div className="Header">
                     <a id="A1" className="Logo" href="/">
-                        <img
-                        src={logo} id="Img1" style={{ height: 32}}
-                        alt="Zune.net" />
+                        <img src={logo} id="Img1" style={{ height: 32}} alt="Zune.net" />
                     </a>
                     <div className="HeaderUserWrapper">
 
                         <div id="ctl00__headerControl__gamercardSignedOutTextPanel">
-                            <img className="zunecard" alt="" src={zunetile_default} />
+                            <img className="zunecard" alt="" src={zunetile_default}/>
                                 <ul className="menu">
                                     <li>
                                         <a id="ctl00__headerControl__signInHyperlink" className="zuneTag"
@@ -37,12 +48,14 @@ class Header extends React.Component{
                     </div>
                     <div className="TopNav">
                         <ul className="menu">
-                            <li className="products"><a
-                                href="/products/default.htm">products</a>
+                            <li className="products" onPointerEnter={event => this.XbcNav_mainOver(event)}
+                                onPointerLeave={event => this.XbcNav_mainOut(event)}>
+                                <a href="/products/default.htm">
+                                    products
+                                </a>
                                 <ul className="events" style={{left: "0px", top: "39px", display: "none"}}>
                                     <div style={{float: "left"}}>
-                                        <li>
-                                            <a href="/products/software/default.htm">zune software</a></li>
+                                        <li><a href="/products/software/default.htm">zune software</a></li>
                                         <li><a href="/products/zunepass/default.htm">zune music pass</a></li>
                                         <li><a href="/products/windowsphone7/default.htm">zune on windows phone</a></li>
                                         <li><a href="/products/zuneonxbox/default.htm">zune on xbox live</a></li>
@@ -53,7 +66,8 @@ class Header extends React.Component{
                                     </div>
                                 </ul>
                             </li>
-                            <li className="music">
+                            <li className="music" onPointerEnter={event => this.XbcNav_mainOver(event)}
+                                onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/music/">music</a>
                                 <ul className="events" style={{left: "84.225px", top: "39px", display: "none"}}>
                                     <div style={{float: "left"}}>
@@ -69,9 +83,10 @@ class Header extends React.Component{
                                     </div>
                                 </ul>
                             </li>
-                            <li className="video">
+                            <li className="video" onPointerEnter={event => this.XbcNav_mainOver(event)}
+                                onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/video">video</a>
-                                <ul>
+                                <ul className="events" style={{left: 144.238, top: 39, display: "none"}}>
                                     <div style={{float: "left"}}>
                                         <li><a href="https://social.zune.net/tv">tv</a></li>
                                         <li><a href="https://social.zune.net/movies">movies</a></li>
@@ -82,9 +97,10 @@ class Header extends React.Component{
                                     </div>
                                 </ul>
                             </li>
-                            <li className="podcasts">
+                            <li className="podcasts" onPointerEnter={event => this.XbcNav_mainOver(event)}
+                                onPointerLeave={event => this.XbcNav_mainOut(event)}>
                                 <a href="https://social.zune.net/podcasts/">podcasts</a>
-                                <ul>
+                                <ul className="events" style={{left: 201.788, top: 39, display: "none"}}>
                                     <div style={{float: "left"}}>
                                         <li><a
                                             href="https://social.zune.net/podcasts/genre/pod.arts">arts</a></li>
@@ -103,14 +119,16 @@ class Header extends React.Component{
                                 </ul>
                             </li>
                             <li className="mysocial">
-                                <a href="/promotions/jointhesocial/default.htm">my social</a></li>
+                                <a href="/en-US/promotions/jointhesocial/default.htm">my social</a>
+                            </li>
                         </ul>
                     </div>
 
 
                     <div id="ctl00__headerControl__searchBoxPanel">
                         <div className="HeaderSearch">
-                            <form>
+                            <form onSubmit={(event) => this.doHeaderSearch(event)}
+                                  action="http://social.zune.net/search.aspx">
                                 <input name="keyword" type="text" id="searchBox" className="SearchBox" maxLength={100}
                                        value="search"/>
                                     <input type="image" src={spacer} className="hiddenSubmit"/>

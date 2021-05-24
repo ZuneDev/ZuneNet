@@ -8,26 +8,20 @@ import Home from './pages/Home'
 import Header from './components/Header'
 import reportWebVitals from './reportWebVitals';
 import Footer from "./components/Footer";
+import JoinTheSocial_default from "./pages/en-US/promotions/JoinTheSocial_default";
 
 ReactDOM.render(
     <React.StrictMode>
+        <Header/>
         <Router>
-            <div>
-                {/*<link
-                    rel="stylesheet"
-                    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-                    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-                    crossOrigin="anonymous"
-                />*/}
-                <Header/>
-                <Switch>
-                    <Route path="/" component = {Home}/>
-                    <Redirect from='/blog/' to="/tutorials/" />
-                    {/*<Route path="/tutorials/" component={About} />*/}
-                </Switch>
-                <Footer/>
-            </div>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route path={`/en-US/promotions/jointhesocial/:type`} component={JoinTheSocial_default}/>
+                {/*<Redirect exact from='/blog/' to="/tutorials/" />*/}
+                {/*<Route path="/tutorials/" component={About} />*/}
+            </Switch>
         </Router>
+        <Footer/>
     </React.StrictMode>,
     document.getElementById('root')
 );
