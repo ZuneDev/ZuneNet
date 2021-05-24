@@ -5922,7 +5922,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .btn {
-    /*background: url("spt_buttons2.png");*/
+    background: url("spt_buttons2.png");
     height: 32px;
 }
 
@@ -5991,7 +5991,7 @@ ul.MediaList .FavoriteSongs .altContent,table.MediaList td.Buy .altContent {
 }
 
 .btn .btntip {
-    /*background: url("spt_buttons2.png");*/
+    background: url("spt_buttons2.png");
     line-height: 32px;
     height: 32px;
 }
