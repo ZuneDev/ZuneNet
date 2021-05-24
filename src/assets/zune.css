@@ -7496,8 +7496,6 @@ a.LxWikiDisableSong, a.LxWikiDisableSong:link, a.LxWikiDisableSong:visited, a.Lx
     border: 0;
     margin: 0;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .XbcLayoutTable tr, .XbcLayoutTable td {
@@ -8326,3 +8324,29 @@ playback timings (ms):
   load_resource: 239.959
   PetaboxLoader3.resolve: 215.587
 */
+
+.hero_Text1{
+    font-size: 12px;
+    color: #999999;
+}
+
+.hero_Text2{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.hero_Link:link{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+.hero_Link:hover{
+    color: #999999;
+}
+
+.hero_Link:visited{
+    color: #ffffff;
+    font-size: 14px;
+}
