@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet'
+import {Helmet} from 'react-helmet'
 import onyourphone_rocky_us from '../assets/onyourphone_rocky_us.png';
 import pc_210x235 from '../assets/pc_210x235.png';
 import xbox_210x235 from '../assets/xbox_210x235.png';
@@ -226,7 +226,8 @@ function Home() {
                                                                 <div className="XbcChrome">
                                                                     <div className="XbcWpFreeForm2"
                                                                          style={{margin: 10}}>
-                                                                        <p><a href="/en-US/products/zuneonxbox/default.htm">
+                                                                        <p><a
+                                                                            href="/en-US/products/zuneonxbox/default.htm">
                                                                             <img alt="Image: Zune on Windows Phone 7"
                                                                                  height="170" width="300"
                                                                                  src={spacer}/>
@@ -495,9 +496,421 @@ function Home() {
                     </div>
                 </div>
 
+                <div className="XbcChrome" style={{width: 950}}>
+                    <div className="XbcWpColumnGroup" style={{margin: "0px 0px 50px"}}>
+                        <table className="XbcLayoutTable">
+                            <tbody>
+                            <tr className="XbcLayoutRow">
+                                <td className="XbcLayoutCell">
+                                    <div className="XbcChrome" style={{width: 230}}>
+                                        <div className="XbcWpColumn">
+                                            <div className="XbcChrome" style={{width: 230}}>
+                                                <div className="XbcWpColumnGroup" style={{margin: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 230}}>
+                                                                    <div className="XbcWpFreeForm2" style={{margin: 0}}>
+                                                                        <div className="cms_pagesubhead1gray">
+                                                                            <p>what's new</p>
+                                                                        </div>
+                                                                        <hr/>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div className="XbcChrome" style={{width: 230}}>
+                                                <div className="XbcWpColumnGroup" style={{margin: "20px 0px 0px"}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome">
+                                                                    <div className="XbcWpFlash">
+                                                                        <a href="en-us/products/software/default.htm">
+                                                                            <img src="230x110_subfeature_software.png"
+                                                                                 alt="Image: Zune software"/>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div className="XbcChrome" style={{width: 230}}>
+                                                <div className="XbcWpColumnGroup" style={{margin: "0px 0px 30px"}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome">
+                                                                    <div className="XbcWpFreeForm2"
+                                                                         style={{margin: "10px 0px 0px"}}>
+                                                                        <div className="cms_pagesubhead2gray">
+                                                                            <strong>GET THE LATEST<br/>
+                                                                                ZUNE SOFTWARE UPDATE</strong>
+                                                                        </div>
+                                                                        <p>Download the new Zune software, which
+                                                                            provides improved performance, new features,
+                                                                            and seamless integration with Windows
+                                                                            Phone.</p>
+                                                                        <p><a className="btn pink"
+                                                                              href="products/software/download/default.htm"
+                                                                              title="Download the software">
+                                                                            <span className="btntip"/>
+                                                                            <span className="btntext">Download the software</span>
+                                                                        </a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td className="XbcDownrule" style={{width: 10}}>
+                                    <div style={{width: 10}}/>
+                                </td>
+                                <td className="XbcLayoutCell">
+                                    <div className="XbcChrome" style={{width: 710}}>
+                                        <div className="XbcWpColumn">
+                                            <div className="XbcChrome" style={{width: 710}}>
+                                                <div className="XbcWpColumnGroup" style={{margin: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 710}}>
+                                                                    <div className="XbcWpFreeForm2" style={{margin: 0}}>
+                                                                        <div className="cms_pagesubhead1gray">
+                                                                            <p>this week in zune marketplace</p>
+                                                                        </div>
+                                                                        <hr/>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div className="XbcChrome" style={{width: 710}}>
+                                                <div className="XbcWpColumnGroup" style={{margin: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 230}}>
+                                                                    <div className="XbcWpColumn" style={{margin: 0}}>
+                                                                        <div className="XbcChrome" style={{width: 230}}>
+                                                                            <div className="XbcWpColumnGroup"
+                                                                                 style={{minHeight: 40, margin: 0}}>
+                                                                                <table className="XbcLayoutTable">
+                                                                                    <tbody>
+                                                                                    <tr className="XbcLayoutRow">
+                                                                                        <td className="XbcLayoutCell">
+                                                                                            <div className="XbcChrome">
+                                                                                                <div
+                                                                                                    className="XbcWpFreeForm2"
+                                                                                                    style={{margin: "10px 0px 0px"}}>
+                                                                                                    <p><strong>
+                                                                                                        <a href="http://social.zune.net/music">MUSIC</a>
+                                                                                                    </strong></p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="XbcChrome" style={{width: 230}}>
+                                                                            <div className="XbcWpColumnGroup"
+                                                                                 style={{margin: "0px 0px 15px"}}>
+                                                                                <table className="XbcLayoutTable">
+                                                                                    <tbody>
+                                                                                    <tr className="XbcLayoutRow">
+                                                                                        <td className="XbcLayoutCell">
+                                                                                            <div className="XbcChrome"
+                                                                                                 style={{width: 230}}>
+                                                                                                <div
+                                                                                                    className="XbcWpFreeForm2"
+                                                                                                    style={{margin: 0}}>
+                                                                                                    <table
+                                                                                                        style={{border: 0}}
+                                                                                                        cellPadding="0"
+                                                                                                        cellSpacing="0"
+                                                                                                        width="230">
+                                                                                                        <tbody>
+                                                                                                        <tr style={{
+                                                                                                            textAlign: "left",
+                                                                                                            verticalAlign: "top"
+                                                                                                        }}>
+                                                                                                            <td width="75">
+                                                                                                                <a href="http://social.zune.net/album/04D60207-0100-11DB-89CA-0019B92A3933">
+                                                                                                                    <img
+                                                                                                                        alt="Image: Hot Chelle Rae"
+                                                                                                                        height="70"
+                                                                                                                        width="70"
+                                                                                                                        src="70x70_hotchellerae_03.png"
+                                                                                                                    />
+                                                                                                                </a>
+                                                                                                            </td>
+                                                                                                            <td>
+                                                                                                                <a className="linkgray"
+                                                                                                                   href="http://social.zune.net/album/04D60207-0100-11DB-89CA-0019B92A3933">
+                                                                                                                    <strong>Hot
+                                                                                                                        Chelle
+                                                                                                                        Rae</strong>
+                                                                                                                </a>
+                                                                                                                <br/>
+                                                                                                                <a className="linkgray"
+                                                                                                                   href="http://social.zune.net/album/04D60207-0100-11DB-89CA-0019B92A3933">Whatever</a>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="XbcChrome" style={{width: 230}}>
+                                                                            <div className="XbcWpColumnGroup"
+                                                                                 style={{margin: 0}}>
+                                                                                <table className="XbcLayoutTable">
+                                                                                    <tbody>
+                                                                                    <tr className="XbcLayoutRow">
+                                                                                        <td className="XbcLayoutCell">
+                                                                                            <div className="XbcChrome"
+                                                                                                 style={{width: 230}}>
+                                                                                                <div
+                                                                                                    className="XbcWpFreeForm2"
+                                                                                                    style={{margin: 0}}>
+                                                                                                    <hr/>
+                                                                                                    <div className="cms_pagesubhead2gray">
+                                                                                                        <strong>ZUNE MUSIC PASS</strong>
+                                                                                                    </div>
+                                                                                                    <p>Unlimited
+                                                                                                        music,
+                                                                                                        wherever you
+                                                                                                        are.</p>
+                                                                                                    <p><a href="products/zunepass/default.htm">
+                                                                                                        Learn more
+                                                                                                    </a></p>
+                                                                                                    <p><a className="btn pink"
+                                                                                                          href="https://live.zune.net/account/buySubscription"
+                                                                                                          title="Try Zune Music Pass">
+                                                                                                        <span className="btntip"/>
+                                                                                                        <span className="btntext">Try Zune Music Pass</span>
+                                                                                                    </a></p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td className="XbcDownrule" style={{width: 10}}>
+                                                                <div style={{width: 10}}/>
+                                                            </td>
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 230}}>
+                                                                    <div className="XbcWpColumn" style={{margin: 0}}>
+                                                                        <div className="XbcChrome">
+                                                                            <div className="XbcWpColumn">
+                                                                                <div className="XbcChrome"
+                                                                                     style={{width: 230}}>
+                                                                                    <div className="XbcWpColumnGroup"
+                                                                                         style={{minHeight: 40, margin:0}}>
+                                                                                        <table
+                                                                                            className="XbcLayoutTable">
+                                                                                            <tbody>
+                                                                                            <tr className="XbcLayoutRow">
+                                                                                                <td className="XbcLayoutCell">
+                                                                                                    <div className="XbcChrome">
+                                                                                                        <div className="XbcWpFreeForm2"
+                                                                                                             style={{margin: "10px 0px 0px"}}>
+                                                                                                            <p><strong><a
+                                                                                                                href="http://social.zune.net/movies">MOVIES
+                                                                                                            </a></strong></p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div className="XbcChrome" style={{width: 230}}>
+                                                                                    <div className="XbcWpColumnGroup"
+                                                                                         style={{margin: "0px 0px 15px"}}>
+                                                                                        <table
+                                                                                            className="XbcLayoutTable">
+                                                                                            <tbody>
+                                                                                            <tr className="XbcLayoutRow">
+                                                                                                <td className="XbcLayoutCell">
+                                                                                                    <div className="XbcChrome"
+                                                                                                         style={{width: 230}}>
+                                                                                                        <div className="XbcWpFreeForm2"
+                                                                                                             style={{margin: 0}}>
+                                                                                                            <table
+                                                                                                                style={{border: 0}}
+                                                                                                                cellPadding="0"
+                                                                                                                cellSpacing="0"
+                                                                                                                width="230">
+                                                                                                                <tbody>
+                                                                                                                <tr style={{textAlign: "left", verticalAlign: "top"}}>
+                                                                                                                    <td width="75">
+                                                                                                                        <a href="http://social.zune.net/MOVIES/0/ACF3B423-E4FE-46D0-8582-82C6C2D9E79C">
+                                                                                                                            <img alt="Image: Conan The Barbarian"
+                                                                                                                                 height="105" width="70"
+                                                                                                                                 src="conanthebarbarian.jpg"/>
+                                                                                                                        </a>
+                                                                                                                    </td>
+                                                                                                                    <td width="155">
+                                                                                                                        <p>
+                                                                                                                            <a className="linkgray"
+                                                                                                                               href="http://social.zune.net/MOVIES/0/ACF3B423-E4FE-46D0-8582-82C6C2D9E79C">
+                                                                                                                                <strong>Conan The Barbarian</strong>
+                                                                                                                            </a><br/>
+                                                                                                                            <a className="linkgray"
+                                                                                                                               href="http://social.zune.net/MOVIES/0/ACF3B423-E4FE-46D0-8582-82C6C2D9E79C">Lionsgate</a>
+                                                                                                                        </p>
+                                                                                                                        <p>&nbsp;</p>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td className="XbcDownrule" style={{width: 10}}>
+                                                                <div style={{width: 10}}/>
+                                                            </td>
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 230}}>
+                                                                    <div className="XbcWpColumn" style={{margin: 0}}>
+                                                                        <div className="XbcChrome">
+                                                                            <div className="XbcWpColumn">
+                                                                                <div className="XbcChrome"
+                                                                                     style={{width: 230}}>
+                                                                                    <div className="XbcWpColumnGroup"
+                                                                                         style={{minHeight: 40, margin: 0}}>
+                                                                                        <table
+                                                                                            className="XbcLayoutTable">
+                                                                                            <tbody>
+                                                                                            <tr className="XbcLayoutRow">
+                                                                                                <td className="XbcLayoutCell">
+                                                                                                    <div className="XbcChrome">
+                                                                                                        <div className="XbcWpFreeForm2"
+                                                                                                             style={{margin: "10px 0px 0px"}}>
+                                                                                                            <p><strong>
+                                                                                                                <a href="http://web.archive.org/web/20111130221814/http://social.zune.net/tv/">TV</a>
+                                                                                                            </strong></p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div className="XbcChrome"
+                                                                                     style={{width: 230}}>
+                                                                                    <div className="XbcWpColumnGroup"
+                                                                                         style={{margin: "0px 0px 15px"}}>
+                                                                                        <table
+                                                                                            className="XbcLayoutTable">
+                                                                                            <tbody>
+                                                                                            <tr className="XbcLayoutRow">
+                                                                                                <td className="XbcLayoutCell">
+                                                                                                    <div className="XbcChrome"
+                                                                                                         style={{width: 230}}>
+                                                                                                        <div className="XbcWpFreeForm2"
+                                                                                                             style={{margin: 0}}>
+                                                                                                            <table
+                                                                                                                style={{border: 0}}
+                                                                                                                cellPadding="0"
+                                                                                                                cellSpacing="0"
+                                                                                                                width="230">
+                                                                                                                <tbody>
+                                                                                                                <tr style={{textAlign: "left", verticalAlign: "top"}}>
+                                                                                                                    <td width="75">
+                                                                                                                        <a href="http://social.zune.net/TV/SERIES/THE-WALKING-DEAD/52F36FC1-6FF4-4418-A432-252BBAF93861">
+                                                                                                                            <img alt="Image: Grimm"
+                                                                                                                                 height="70" width="70"
+                                                                                                                                 src="thewalkingdead.jpg"/>
+                                                                                                                        </a>
+                                                                                                                    </td>
+                                                                                                                    <td width="155">
+                                                                                                                        <a className="linkgray"
+                                                                                                                           href="http://social.zune.net/TV/SERIES/THE-WALKING-DEAD/52F36FC1-6FF4-4418-A432-252BBAF93861">
+                                                                                                                            <strong>The Walking Dead</strong>
+                                                                                                                        </a><br/>
+                                                                                                                        <a className="linkgray"
+                                                                                                                           href="http://social.zune.net/TV/SERIES/THE-WALKING-DEAD/52F36FC1-6FF4-4418-A432-252BBAF93861">AMC</a>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
             </div>
         </div>
-    );
+);
 }
 
 export default Home;
