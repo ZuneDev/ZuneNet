@@ -899,10 +899,10 @@ img.XbcTrailerImage {
     margin: 0 0 8px 0;
 }
 
-.XbcWpFreeForm2 {
+/*.XbcWpFreeForm2 {
     margin: 10px;
     padding: 0;
-}
+}*/
 
 .XbcWpFlash {
     margin: 0;
@@ -1877,11 +1877,11 @@ img {
     clear: both;
 }
 
-.XbcShellMainContent {
+/*.XbcShellMainContent {
     width: 950px;
     text-align: center;
     margin: 0 auto;
-}
+}*/
 
 form {
     padding: 0;

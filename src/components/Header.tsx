@@ -54,16 +54,16 @@ class Header extends React.Component{
                             <li className="products"
                                 onPointerEnter={event => this.XbcNav_mainOver(event)}
                                 onPointerLeave={event => this.XbcNav_mainOut(event)}>
-                                <a href="/products/default.htm">
+                                <a href="/en-US/products/default.htm">
                                     products
                                 </a>
                                 <ul className="events" style={{left: "0px", top: "39px"}}>
                                     <div style={{float: "left"}}>
-                                        <li><a href="/products/software/default.htm">zune software</a></li>
-                                        <li><a href="/products/zunepass/default.htm">zune music pass</a></li>
-                                        <li><a href="/products/windowsphone7/default.htm">zune on windows phone</a></li>
-                                        <li><a href="/products/zuneonxbox/default.htm">zune on xbox live</a></li>
-                                        <li><a href="/products/zunehd/default.htm">zune hd</a></li>
+                                        <li><a href="/en-US/products/software/default.htm">zune software</a></li>
+                                        <li><a href="/en-US/products/zunepass/default.htm">zune music pass</a></li>
+                                        <li><a href="/en-US/products/windowsphone7/default.htm">zune on windows phone</a></li>
+                                        <li><a href="/en-US/products/zuneonxbox/default.htm">zune on xbox live</a></li>
+                                        <li><a href="/en-US/products/zunehd/default.htm">zune hd</a></li>
                                     </div>
                                     <div style={{float: "left"}}>
 

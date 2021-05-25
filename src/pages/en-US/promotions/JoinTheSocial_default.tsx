@@ -1,133 +1,164 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import '../../../assets/zune.css'
 
 import spacer from '../../../assets/spacer.gif';
 import jointhesocial_img from '../../../assets/950x450_jointhesocial.jpg';
+import bg_tile_black from "../../../assets/1x476tile.jpg";
+import {Helmet} from "react-helmet";
 
 function JoinTheSocial_default() {
     let type: any;
     ({type} = useParams());
 
     return (
-        <div className="XbcShellMainContent">
+        <div className="XbcShellMainContent"
+             style={{
+                 color: "#333333",
+                 backgroundImage: "url(" + bg_tile_black + ")",
+                 backgroundRepeat: "repeat-x",
+                 backgroundAttachment: "scroll",
+                 backgroundPosition: "top center",
+                 backgroundPositionY: -76
+             }}>
+            <Helmet>
+                <title>Join the Social | Zunes.tk</title>
+            </Helmet>
+
             <div id="XbcShellBody">
                 <div className="XbcBannerTop">
                 </div>
 
 
                 <div className="XbcChrome"
-                     style={{width: 950, backgroundImage: "url(" + jointhesocial_img + ")", backgroundRepeat: "no-repeat"}}>
+                     style={{
+                         width: 950,
+                         backgroundImage: "url(" + jointhesocial_img + ")",
+                         backgroundRepeat: "no-repeat"
+                     }}>
                     <div className="XbcWpColumnGroup" style={{minHeight: 450, marginBottom: 0}}>
                         <table className="XbcLayoutTable">
                             <tbody>
-                                <tr className="XbcLayoutRow">
-                                    <td className="XbcLayoutCell">
-                                        <div className="XbcChrome" style={{width: 950}}>
-                                            <div className="XbcWpColumn" style={{marginLeft: 0}}>
-                                                <div className="XbcChrome" style={{width: 950}}>
-                                                    <div className="XbcWpColumnGroup"
-                                                         style={{marginTop: 10, marginLeft: 0, marginBottom: 0}}>
-                                                        <table className="XbcLayoutTable">
-                                                            <tbody>
-                                                                <tr className="XbcLayoutRow">
-                                                                    <td className="XbcLayoutCell">
-                                                                        <div className="XbcChrome" style={{width: 950}}>
-                                                                            <div className="XbcWpFreeForm2" style={{margin: 0}}>
-                                                                                <div className="cms_3rdtiernavdefault"
-                                                                                     id="output"/>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                            <tr className="XbcLayoutRow">
+                                <td className="XbcLayoutCell">
+                                    <div className="XbcChrome" style={{width: 950}}>
+                                        <div className="XbcWpColumn" style={{marginLeft: 0}}>
+                                            <div className="XbcChrome" style={{width: 950}}>
+                                                <div className="XbcWpColumnGroup"
+                                                     style={{marginTop: 10, marginLeft: 0, marginBottom: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 950}}>
+                                                                    <div className="XbcWpFreeForm2" style={{margin: 0}}>
+                                                                        <div className="cms_3rdtiernavdefault"
+                                                                             id="output"/>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
-                                                <div className="XbcChrome" style={{width: 950, marginLeft: 10}}>
-                                                    <div className="XbcWpColumnGroup"
-                                                         style={{marginTop: 0, marginBottom: 0}}>
-                                                        <table className="XbcLayoutTable">
-                                                            <tbody>
-                                                                <tr className="XbcLayoutRow">
-                                                                    <td className="XbcLayoutCell">
-                                                                        <div className="XbcChrome" style={{width: 950}}>
-                                                                            <div className="XbcWpFreeForm2"
-                                                                                 style={{marginLeft: 0, marginBottom: 0, marginRight: 0}}>
-                                                                                <div className="cms_heroheadline40px"
-                                                                                     style={{height: 64, fontWeight: "lighter"}}>
-                                                                                    <p>join the social</p>
-                                                                                </div>
-                                                                            </div>
+                                            </div>
+                                            <div className="XbcChrome" style={{width: 950}}>
+                                                <div className="XbcWpColumnGroup"
+                                                     style={{marginTop: 0, marginBottom: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 950}}>
+                                                                    <div style={{
+                                                                             marginLeft: 0,
+                                                                             marginBottom: 0,
+                                                                             marginRight: 0
+                                                                         }}>
+                                                                        <div className="cms_heroheadline40px"
+                                                                             style={{
+                                                                                 height: 56,
+                                                                                 fontWeight: "lighter"
+                                                                             }}>
+                                                                            <p>join the social</p>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
-                                                <div className="XbcChrome" style={{width: 950}}>
-                                                    <div className="XbcWpColumnGroup"
-                                                         style={{marginTop: -7, marginLeft: 0}}>
-                                                        <table className="XbcLayoutTable">
-                                                            <tbody>
-                                                                <tr className="XbcLayoutRow">
-                                                                    <td className="XbcLayoutCell">
-                                                                        <div className="XbcChrome" style={{width: 790}}>
-                                                                            <div className="XbcWpFreeForm2"
-                                                                                 style={{marginTop: 0, marginLeft: 0, marginRight: 0}}>
-                                                                                <table style={{border: 0}} cellPadding="1"
-                                                                                       cellSpacing="4" width="950">
-                                                                                    <tbody>
-                                                                                        <tr style={{alignSelf: "left", verticalAlign: "top"}}>
-                                                                                            <td>
-                                                                                                <img alt="Image: Zune and Xbox"
-                                                                                                     height="250"
-                                                                                                     src={spacer}
-                                                                                                     width="630"/>
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <p className="hero-text"
-                                                                                                   style={{
-                                                                                                       height: 24,
-                                                                                                       width: 215,
-                                                                                                       display: "inline",
-                                                                                                       fontSize: 32
-                                                                                                   }}>
-                                                                                                    don't be anti-social
-                                                                                                </p>
-                                                                                                <div className="cms_textwhite13px">
-                                                                                                    <p>The Social is an online music
-                                                                                                        community powered by what
-                                                                                                        you and your friends are
-                                                                                                        listening to. Join today to
-                                                                                                        start exploring,
-                                                                                                        discovering, and sharing
-                                                                                                        music. </p></div>
-                                                                                                <p>
-                                                                                                    <a className="btn pink"
-                                                                                                       href="https://live.zune.net/account/accountMgmtHome"
-                                                                                                       title="Sign up for the Social">
-                                                                                                        <span className="btntip"/>
-                                                                                                        <span className="btntext">Sign up for the Social</span>
-                                                                                                    </a>
-                                                                                                </p>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                            </div>
+                                            <div className="XbcChrome" style={{width: 950}}>
+                                                <div className="XbcWpColumnGroup"
+                                                     style={{marginTop: -7, marginLeft: 0}}>
+                                                    <table className="XbcLayoutTable">
+                                                        <tbody>
+                                                        <tr className="XbcLayoutRow">
+                                                            <td className="XbcLayoutCell">
+                                                                <div className="XbcChrome" style={{width: 790}}>
+                                                                    <div className="XbcWpFreeForm2"
+                                                                         style={{
+                                                                             marginTop: 0,
+                                                                             marginLeft: 0,
+                                                                             marginRight: 0
+                                                                         }}>
+                                                                        <table style={{border: 0}} cellPadding="1"
+                                                                               cellSpacing="4" width="950">
+                                                                            <tbody>
+                                                                            <tr style={{
+                                                                                alignSelf: "left",
+                                                                                verticalAlign: "top"
+                                                                            }}>
+                                                                                <td>
+                                                                                    <img alt="Image: Zune and Xbox"
+                                                                                         height="250"
+                                                                                         src={spacer}
+                                                                                         width="630"/>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p className="hero-text"
+                                                                                       style={{
+                                                                                           height: 24,
+                                                                                           width: 215,
+                                                                                           display: "inline",
+                                                                                           fontSize: 28
+                                                                                       }}>
+                                                                                        don't be anti-social
+                                                                                    </p>
+                                                                                    <div className="cms_textwhite13px">
+                                                                                        <p>The Social is an online music
+                                                                                            community powered by what
+                                                                                            you and your friends are
+                                                                                            listening to. Join today to
+                                                                                            start exploring,
+                                                                                            discovering, and sharing
+                                                                                            music. </p></div>
+                                                                                    <p>
+                                                                                        <a className="btn pink"
+                                                                                           href="https://live.zune.net/account/accountMgmtHome"
+                                                                                           title="Sign up for the Social">
+                                                                                            <span className="btntip"/>
+                                                                                            <span className="btntext">Sign up for the Social</span>
+                                                                                        </a>
+                                                                                    </p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
                                             </div>
                                         </div>
-                                    </td>
-                                </tr>
+                                    </div>
+                                </td>
+                            </tr>
                             </tbody>
                         </table>
                     </div>
@@ -143,24 +174,6 @@ function JoinTheSocial_default() {
                                             <div className="XbcChrome">
                                                 <div className="XbcWpFreeForm2" style={{margin: 0}}>
                                                     <div className="cms_pagesubhead1gray">
-                                                        {/*<cufon className="cufon cufon-canvas" alt="on "
-                                                               style="width: 42px; height: 30px;">
-                                                            <canvas width="71" height="39"
-                                                                    style="width: 71px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>on</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="the "
-                                                               style="width: 50px; height: 30px;">
-                                                            <canvas width="79" height="39"
-                                                                    style="width: 79px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>the</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="web"
-                                                               style="width: 54px; height: 30px;">
-                                                            <canvas width="74" height="39"
-                                                                    style="width: 74px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>web</cufontext>
-                                                        </cufon>*/}
                                                         <p>on the web</p>
                                                     </div>
                                                     <p>The Zune Social features thousands of artist and album pages for
