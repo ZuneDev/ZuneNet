@@ -193,37 +193,13 @@ function JoinTheSocial_default() {
                                             <div className="XbcChrome">
                                                 <div className="XbcWpFreeForm2" style={{margin: 0}}>
                                                     <div className="cms_pagesubhead1gray">
-                                                        {/*<cufon className="cufon cufon-canvas" alt="in "
-                                                               style="width: 31px; height: 30px;">
-                                                            <canvas width="61" height="39"
-                                                                    style="width: 61px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>in</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="the "
-                                                               style="width: 50px; height: 30px;">
-                                                            <canvas width="79" height="39"
-                                                                    style="width: 79px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>the</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="zune "
-                                                               style="width: 71px; height: 30px;">
-                                                            <canvas width="100" height="39"
-                                                                    style="width: 100px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>zune</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="software"
-                                                               style="width: 107px; height: 30px;">
-                                                            <canvas width="130" height="39"
-                                                                    style="width: 130px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>software</cufontext>
-                                                        </cufon>*/}
                                                         <p>in the zune software</p>
                                                     </div>
                                                     <p>Explore what your friends are listening to, mark your favorite
                                                         songs, and send a message to your friends. </p>
                                                     <p>
                                                         <a className="btn pink"
-                                                           href="/products/software/download/default.htm"
+                                                           href="/en-US/products/software/download/default.htm"
                                                            title="Download the software">
                                                             <span className="btntip"/>
                                                             <span className="btntext">Download the software</span>
@@ -244,30 +220,6 @@ function JoinTheSocial_default() {
                                             <div className="XbcChrome">
                                                 <div className="XbcWpFreeForm2" style={{margin: 0}}>
                                                     <div className="cms_pagesubhead1gray">
-                                                        {/*<cufon className="cufon cufon-canvas" alt="on "
-                                                               style="width: 42px; height: 30px;">
-                                                            <canvas width="71" height="39"
-                                                                    style="width: 71px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>on</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="your "
-                                                               style="width: 66px; height: 30px;">
-                                                            <canvas width="95" height="39"
-                                                                    style="width: 95px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>your</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="zune "
-                                                               style="width: 71px; height: 30px;">
-                                                            <canvas width="100" height="39"
-                                                                    style="width: 100px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>zune</cufontext>
-                                                        </cufon>
-                                                        <cufon className="cufon cufon-canvas" alt="device"
-                                                               style="width: 82px; height: 30px;">
-                                                            <canvas width="104" height="39"
-                                                                    style="width: 104px; height: 39px; top: -7px; left: -4px;"></canvas>
-                                                            <cufontext>device</cufontext>
-                                                        </cufon>*/}
                                                         <p>on your zune device</p>
                                                     </div>
                                                     <p>Take your friends' music with you wherever you are. Their music
