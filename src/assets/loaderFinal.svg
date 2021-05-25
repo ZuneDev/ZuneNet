@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,7.4607e-14,16)">
+        <clipPath id="_clip1">
+            <path d="M20,-14.389C9.851,-14.389 1.611,-6.149 1.611,4C1.611,14.149 9.851,22.389 20,22.389C30.149,22.389 38.389,14.149 38.389,4C38.389,-6.149 30.149,-14.389 20,-14.389ZM20,-11.611C28.616,-11.611 35.611,-4.616 35.611,4C35.611,12.616 28.616,19.611 20,19.611C11.384,19.611 4.389,12.616 4.389,4C4.389,-4.616 11.384,-11.611 20,-11.611Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1,-0,-0,1,-7.4607e-14,-16)">
+                <use xlink:href="#_Image2" x="1.621" y="1.621" width="36.778px" height="36.778px" transform="matrix(0.993994,0,0,0.993994,0,0)"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image2" width="37px" height="37px" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAlACUDAREAAhEBAxEB/8QAGwAAAwACAwAAAAAAAAAAAAAABAUGAQIAAwf/xAAlEAACAQMCBQUAAAAAAAAAAAABAgADBAURIQYSMXOyEyI1UZH/xAAcAQABBQEBAQAAAAAAAAAAAAAHAgMEBQYBAAj/xAArEQACAQMCBAMJAAAAAAAAAAAAAQIDBBEFEgcxc7IGE8EUISIyNUNRcYH/2gAMAwEAAhEDEQA/AK4GDOUQvtHYhkWcRtokeN/lqXYHk0M/DX6VU6j7YAG4lR3a3T6a7piMTfNlLZWzaMxts0NK2+E9BDT5ylTDzg3RpFq0mIlEluNd8rS7A8mhc4cPbpVTqPtgBXx1ayr65Twvtx7piUCbmUhVlpbSWUZ0iHIvIWOFyLJrpRAUrZsKuAW5yy0VJ0B0kmlpjqvB3Zkk8hnKmQyDNVpoAgCJy69Ou/6YSPD9lDTrV0oP5nuf7wl6IptR0a3rVlcOOZYx/E2/U4tZTL3eV/sUI8kbCoJ7ce8iP4G1xckA7wX0qBrEhNkrklTvLq0oJMXFCFGPrMfszT0vdFHK0coOo1NuskJlXUphC1NovJFdMPuKhmGpQRfIU3rEgy3t4ocQsU+8y3hyOT5BVImPIg1EEKTpFEZo/9k="/>
+    </defs>
+</svg>

@@ -37,13 +37,21 @@
     color: var(--color-purple);
 }
 
-@keyframes App-logo-spin {
+@keyframes spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
+}
+
+.Loader {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .hero-text {
