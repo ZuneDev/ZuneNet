@@ -5,11 +5,13 @@ import {catalogBase} from "../api/constants";
 import onyourphone_rocky_us from '../assets/onyourphone_rocky_us.png';
 import pc_210x235 from '../assets/pc_210x235.png';
 import xbox_210x235 from '../assets/xbox_210x235.png';
+import subfeature_software from '../assets/230x110_subfeature_software.png';
 import spacer from "../assets/spacer.gif";
 import arrow_30 from "../assets/arrow_30_px.svg";
 import btn_circle1 from "../assets/btn_circle1.svg";
 import btn_circle2 from "../assets/btn_circle2.svg";
 import btn_circle3 from "../assets/btn_circle3.svg";
+
 import '../App.css';
 import '../assets/zune.css';
 import '../assets/zune_argo.css';
@@ -632,7 +634,7 @@ class Home extends React.Component {
                                                                         <div className="XbcWpFlash">
                                                                             <a href="en-us/products/software/default.htm">
                                                                                 <img
-                                                                                    src="230x110_subfeature_software.png"
+                                                                                    src={subfeature_software}
                                                                                     alt="Image: Zune software"/>
                                                                             </a>
                                                                         </div>
