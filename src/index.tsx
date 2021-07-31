@@ -26,8 +26,8 @@ ReactDOM.render(
                     <Route path={`/en-US/promotions/jointhesocial/:type`} component={JoinTheSocial_default}/>
                     {/*<Redirect exact from='/blog/' to="/tutorials/" />*/}
                     {/*<Route path="/tutorials/" component={About} />*/}
-                    <Route path="/en-US/products/software/download/:page" component={Software_download_default}/>
-                    <Route path="/en-US/products/software/:page" component={Software_default}/>
+                    <Route exact path="/en-US/products/software/download/:page" component={Software_download_default}/>
+                    <Route exact path="/en-US/products/software/:page" component={Software_default}/>
 
                     <Route path="/" component={PageNotFound}/>
                 </Switch>

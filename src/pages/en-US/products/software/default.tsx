@@ -182,7 +182,7 @@ function Software_default() {
                                                                                                 </p>
                                                                                                 <p>
                                                                                                     <a className="btn pink"
-                                                                                                       href="products/software/download/default.htm"
+                                                                                                       href="download/default.htm"
                                                                                                        title="Download now">
                                                                                                     <span
                                                                                                         className="btntip"/>
