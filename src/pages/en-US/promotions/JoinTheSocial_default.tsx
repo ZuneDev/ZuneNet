@@ -22,7 +22,7 @@ function JoinTheSocial_default() {
                  backgroundPositionY: -76
              }}>
             <Helmet>
-                <title>Join the Social | Zunes.tk</title>
+                <title>Join the Social | Zunes.me</title>
             </Helmet>
 
             <div id="XbcShellBody">

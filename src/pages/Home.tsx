@@ -80,10 +80,11 @@ class Home extends React.Component {
                 let evaluator = new XPathEvaluator();
                 let expression = evaluator.createExpression("//*[local-name()='entry']");
                 let result = expression.evaluate(feed.ownerDocument, XPathResult.ORDERED_NODE_ITERATOR_TYPE);
-                let item = result.iterateNext();this.setState({
+                let item = result.iterateNext();
+                this.setState({
                     musicEntry: this.xmlToJson(item)
                 })
-                /*while (item) {
+                while (item) {
                     let json = this.xmlToJson(item);
                     console.log(json);
                     this.setState({
@@ -91,7 +92,7 @@ class Home extends React.Component {
                     })
                     item = result.iterateNext();
                 }
-                console.log(this.state["items"]);*/
+                console.log(this.state["items"]);
             })
             .catch((error: any) => {
                 console.log(error);
@@ -102,7 +103,7 @@ class Home extends React.Component {
         return (
             <div className="XbcShellMainContent">
                 <Helmet>
-                    <title>Zune Music + Video | Zunes.tk</title>
+                    <title>Zune Music + Video | Zunes.me</title>
                 </Helmet>
 
                 <div id="XbcShellBody">

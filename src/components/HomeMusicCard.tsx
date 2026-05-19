@@ -1,4 +1,5 @@
 import React from 'react';
+import {socialBase, imageCatalogBase} from "../api/constants";
 
 function HomeMusicCard(entry) {
     console.log(entry);
@@ -9,17 +10,17 @@ function HomeMusicCard(entry) {
     return (
         <tr style={{textAlign: "left", verticalAlign: "top"}}>
             <td width="75">
-                <a href={"http://social.zune.net/album/" + e["primaryArtist"]["id"]["#text"]}>
+                <a href={socialBase + "/album/" + e["primaryArtist"]["id"]["#text"]}>
                     <img alt={"Image: " + e["primaryArtist"]["name"]["#text"]} height="70" width="70"
-                         src={"http://127.0.0.1/v3.2/en-US/image/" + e["primaryArtist"]["id"]["#text"]}/>
+                         src={imageCatalogBase + "/image/" + e["primaryArtist"]["id"]["#text"]}/>
                 </a>
             </td>
             <td>
-                <a className="linkgray" href={"http://social.zune.net/track/" + e["a:id"]["#text"]}>
+                <a className="linkgray" href={socialBase + "/track/" + e["a:id"]["#text"]}>
                     <strong>{e["primaryArtist"]["name"]["#text"]}</strong>
                 </a>
                 <br/>
-                <a className="linkgray" href={"http://social.zune.net/track/" + e["a:id"]["#text"]}>{e["a:title"]["#text"]}</a>
+                <a className="linkgray" href={socialBase + "/track/" + e["a:id"]["#text"]}>{e["a:title"]["#text"]}</a>
             </td>
         </tr>
     );
